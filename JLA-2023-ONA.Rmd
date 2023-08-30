@@ -673,7 +673,7 @@ summary(mod_x_agency)
 summary(mod_y_agency)
 ```
 
-check for interactions: (interactions are significant so we should use those modes)
+check for interactions: (interactions are significant so we should use those models)
 ```{r}
 mod_x_agency_2 = lm(SVD1 ~ as.factor(TimePhase) + Role + as.factor(TimePhase)*Role, data = reg_dat_agency)
 mod_y_agency_2 = lm(SVD2 ~ as.factor(TimePhase) + Role + as.factor(TimePhase)*Role, data = reg_dat_agency)
@@ -692,11 +692,10 @@ anova(mod_y_agency,mod_y_agency_2)
 ```{r}
 library(lmerTest)
 
-mod_y_agency_mixed = lmerTest::lmer(SVD2 ~ 1 + (1|Speaker) + as.factor(TimePhase)*Role ,data = reg_dat_agency)
+#mod_y_agency_mixed = lmerTest::lmer(SVD2 ~ 1 + (1|Speaker) + as.factor(TimePhase)*Role ,data = reg_dat_agency)
 
-summary(mod_y_agency_mixed)
+#summary(mod_y_agency_mixed)
 ```
-
 
 
 Marginal means x - RQ1
@@ -716,16 +715,29 @@ emmip(mod_x_agency_2, Role ~ TimePhase)
 Marginal means - x RQ2
 ```{r}
 emm_ag1 = emmeans(mod_x_agency_2, specs = pairwise ~ TimePhase|Role, weights = "proportional")
-emm_ag1$contrasts
+emm_ag1 = as_tibble(emm_ag1$contrasts)
 
 emm_ag2 = emmeans(mod_x_agency_2, specs = pairwise ~ Role|TimePhase, weights = "proportional")
-emm_ag2$contrasts
+emm_ag2 = as_tibble(emm_ag2$contrasts)
+
+emm_ag1 = emm_ag1 %>% filter(p.value < 0.05)
+emm_ag2 = emm_ag2 %>% filter(p.value < 0.05)
+                             
+emm_ag1
+emm_ag2
 
 ```
+
+Effect sizes
+```{r}
+#todo
+```
+
+
 Marginal means y - RQ1
 ```{r}
 emm_ag_y1 = emmeans(mod_y_agency_2, specs = pairwise ~ Role, weights = "proportional")
-print(emm_ag_y1$emmeans)
+
 print(emm_ag_y1$contrasts)
 ```
 
@@ -737,10 +749,16 @@ emmip(mod_y_agency_2, Role ~ TimePhase)
 Marginal means - y RQ2
 ```{r}
 emm_ag_y1 = emmeans(mod_y_agency_2, specs = pairwise ~ TimePhase|Role, weights = "proportional")
-emm_ag_y1$contrasts
+emm_ag_y1 = as_tibble(emm_ag_y1$contrasts)
 
 emm_ag_y2 = emmeans(mod_y_agency_2, specs = pairwise ~ Role|TimePhase, weights = "proportional")
-emm_ag_y2$contrasts
+emm_ag_y2 = as_tibble(emm_ag_y2$contrasts)
+
+emm_ag_y1 = emm_ag_y1 %>% filter(p.value < 0.05)
+emm_ag_y2 = emm_ag_y2 %>% filter(p.value < 0.05)
+
+emm_ag_y1
+emm_ag_y2
 ```
 
 Calculate eff sizes
@@ -754,7 +772,7 @@ Model diagnostics
 check_model(mod_x_agency_2)
 check_model(mod_y_agency_2)
 ```
-
+Looks ok
 
 Plot network subtractions
 ```{r}
