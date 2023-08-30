@@ -276,7 +276,6 @@ anova(mod_x,mod_x_2)
 mod_y_2 = lm(SVD2 ~ as.factor(TimePhase)*Role, data = reg_dat)
 anova(mod_y,mod_y_2)
 
-
 ```
 Interactions are significant, so we should use the interaction models. Let's view those models
 
@@ -357,10 +356,25 @@ emm_x2 = as_tibble(emm_x2$contrasts)
 
 #see here: https://cran.r-project.org/web/packages/emmeans/vignettes/interactions.html
 
-emm_x1a
-emm_x2
+emm_x1a %>% filter(p.value < 0.05)
+emm_x2 %>% filter(p.value < 0.05)
 
 ```
+Several contrasts are significant. Let's calculate the effect sizes
+```{r}
+cohensd_2 = function(diff_,g1,g2,dat,svd){
+   g1 = dat %>% filter(Role == .data[[g1]]) %>% select(.data[[svd]])
+  #g2 = dat %>% filter(Role == .data[[g2]]) %>% select(.data[[svd]])
+  
+  #d = diff_/(sqrt((sd(g1)^2 + sd(g2)^2)/2))
+  #return(d)
+   return(g1)
+}
+```
+
+
+
+
 
 Marginal means - y RQ1
 
