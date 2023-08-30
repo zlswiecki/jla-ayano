@@ -356,14 +356,19 @@ emm_x2 = as_tibble(emm_x2$contrasts)
 
 #see here: https://cran.r-project.org/web/packages/emmeans/vignettes/interactions.html
 
-emm_x1a %>% filter(p.value < 0.05)
-emm_x2 %>% filter(p.value < 0.05)
+emm_x1a = emm_x1a %>% filter(p.value < 0.05)
+emm_x2 = emm_x2 %>% filter(p.value < 0.05)
+
+emm_x1a
+emm_x2
 
 ```
 Several contrasts are significant. Let's calculate the effect sizes
 ```{r}
 cohensd_2 = function(diff_, sd1, sd2){
   cd = diff_/(sqrt((sd1^2 + sd2^2)/2))
+  #print(sqrt((sd1^2 + sd2^2)/2))
+  #print(diff_)
   return(cd)
 }
 
@@ -371,54 +376,77 @@ cohensd_2 = function(diff_, sd1, sd2){
 sds.x = reg_dat %>% group_by(Role, as.factor(TimePhase)) %>% summarise(stdev = sd(SVD1))
 
 #timephases w/n groups
-eng_t1t2 = cohensd_2(emm_x1a$estimate[1],sd1 = sds.x$stdev[1], sd2 = sds.x$stdev[2]). ###FIX
+eng_t1t2 = cohensd_2(emm_x1a$estimate[1],sd1 = sds.x$stdev[1], sd2 = sds.x$stdev[2]) ###FIX
 eng_t1t3 = cohensd_2(emm_x1a$estimate[2],sd1 = sds.x$stdev[1], sd2 = sds.x$stdev[3])
-sd_t1t2 = cohensd_2(emm_x1a$estimate[3],sd1 = sds.x$stdev[4], sd2 = sds.x$stdev[5])
-sd_t1t3 = cohensd_2(emm_x1a$estimate[4],sd1 = sds.x$stdev[4], sd2 = sds.x$stdev[6])
-pd_t1t3 = cohensd_2(emm_x1a$estimate[5],sd1 = sds.x$stdev[7], sd2 = sds.x$stdev[9])
-pd_t2t3 = cohensd_2(emm_x1a$estimate[6],sd1 = sds.x$stdev[8], sd2 = sds.x$stdev[9])
+pd_t1t2 = cohensd_2(emm_x1a$estimate[3],sd1 = sds.x$stdev[4], sd2 = sds.x$stdev[5])
+pd_t1t3 = cohensd_2(emm_x1a$estimate[4],sd1 = sds.x$stdev[4], sd2 = sds.x$stdev[6])
+sd_t1t3 = cohensd_2(emm_x1a$estimate[5],sd1 = sds.x$stdev[7], sd2 = sds.x$stdev[9])
+sd_t2t3 = cohensd_2(emm_x1a$estimate[6],sd1 = sds.x$stdev[8], sd2 = sds.x$stdev[9])
 
-print(list(eng_t1t2,eng_t1t3,sd_t1t3,sd_t1t3,pd_t1t3,pd_t2t3))
+print(list(eng_t1t2,eng_t1t3,pd_t1t2,pd_t1t3,sd_t1t3,sd_t2t3)) 
 
+
+#groups w/n timephas
+t1_evp = cohensd_2(emm_x2$estimate[1], sd1 = sds.x$stdev[1],sd2 = sds.x$stdev[4])
+t1_evs = cohensd_2(emm_x2$estimate[2], sd1 = sds.x$stdev[1],sd2 = sds.x$stdev[7])
+t2_evs = cohensd_2(emm_x2$estimate[3], sd1 = sds.x$stdev[2],sd2 = sds.x$stdev[8])
+t2_pvs = cohensd_2(emm_x2$estimate[4], sd1 = sds.x$stdev[5],sd2 = sds.x$stdev[8])
+
+print(list(t1_evp,t1_evs,t2_evs,t2_pvs))
 
 ```
-
-Marginal means - y RQ1
-
-```{r}
-library(emmeans)
-
-emm_y1= emmeans(mod_y_2, specs = pairwise ~ Role, weights = "proportional")
-#print(emm_y1$emmeans)
-print(emm_y1$contrasts)
-```
+Some of these are too large to be trusted. This is happening because some individuals are highly similar in the data. We will have to acknowledge this as it is likely due to small sample size
 
 
-Marginal means -Y RQ2 
+Marginal means -Y RQ2: Let's repeate what we did for X here
 ```{r}
 emm_y1 = emmeans(mod_y_2, specs = pairwise ~ TimePhase|Role, weights = "proportional")
-print(emm_y1$contrasts)
+emm_y1 = as_tibble(emm_y1$contrasts)
 
 emm_y2 = emmeans(mod_y_2, specs = pairwise ~ Role|TimePhase, weights = "proportional")
-print(emm_y2$contrasts)
-```
+emm_y2 = as_tibble(emm_y2$contrasts)
 
-Calculate eff sizes
+emm_y1 = emm_y1 %>% filter(p.value < 0.05)
+emm_y2 = emm_y2 %>% filter(p.value < 0.05)
+
+emm_y1
+emm_y2
+```
+Several contrasts are significant. Let's calculate the effect sizes
+
 ```{r}
-library(psych)
-```
+sds.y = reg_dat %>% group_by(Role, as.factor(TimePhase)) %>% summarise(stdev = sd(SVD2))
 
+#timephases w/n groups
+eng_t1t3_y = cohensd_2(emm_y1$estimate[1],sd1 = sds.y$stdev[1], sd2 = sds.y$stdev[3])
+eng_t2t3_y = cohensd_2(emm_y1$estimate[2],sd1 = sds.y$stdev[2], sd2 = sds.y$stdev[3])
+pd_t1t3_y = cohensd_2(emm_y1$estimate[3],sd1 = sds.y$stdev[4], sd2 = sds.y$stdev[6])
+pd_t2t3_y = cohensd_2(emm_y1$estimate[4],sd1 = sds.y$stdev[5], sd2 = sds.y$stdev[6])
+sd_t1t2_y = cohensd_2(emm_y1$estimate[5],sd1 = sds.y$stdev[7], sd2 = sds.y$stdev[8])
+sd_t1t3_y = cohensd_2(emm_y1$estimate[6],sd1 = sds.y$stdev[7], sd2 = sds.y$stdev[9])
+
+print(list(eng_t1t3_y,eng_t2t3_y,pd_t1t3_y,pd_t2t3_y,sd_t1t2_y,sd_t1t3_y)) 
+
+
+#groups w/n timephase
+t1_ep_y = cohensd_2(emm_y2$estimate[1],sd1 = sds.y$stdev[1], sd2 = sds.y$stdev[4])
+t1_es_y = cohensd_2(emm_y2$estimate[2],sd1 = sds.y$stdev[1], sd2 = sds.y$stdev[7])
+t2_ep_y = cohensd_2(emm_y2$estimate[3],sd1 = sds.y$stdev[2], sd2 = sds.y$stdev[5])
+t2_ps_y = cohensd_2(emm_y2$estimate[4],sd1 = sds.y$stdev[5], sd2 = sds.y$stdev[8])
+t3_es_y = cohensd_2(emm_y2$estimate[5],sd1 = sds.y$stdev[3], sd2 = sds.y$stdev[9])
+t3_ps_y = cohensd_2(emm_y2$estimate[6],sd1 = sds.y$stdev[6], sd2 = sds.y$stdev[9])
+
+print(list(t1_ep_y,t1_es_y,t2_ep_y,t2_ps_y,t3_es_y,t3_ps_y))
+```
 Model diagnostics
-
 ```{r}
-#todo
 library(performance)
 library(see)
 
 check_model(mod_x_2)
 check_model(mod_y_2)
 ```
-
+Things look ok for the most part
 
 Plot network subtractions (replace TimePhase and Role for different combinations)
 ```{r}
