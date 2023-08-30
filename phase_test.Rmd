@@ -1,0 +1,35 @@
+---
+title: "Phase-Test"
+author: "Zachari Swiecki"
+date: '2023-05-26'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+data <- read.csv("~/Rprojects/ayano/PES_010v6(selected).csv")
+```
+weighted kappa
+```{r}
+data %>% select(Phase,TimePhase) %>% irr::kappa2(.,weight = "equal")
+```
+By phase
+```{r}
+p1_s = ifelse(data$Phase == 1, 1, 0)
+p1_t = ifelse(data$TimePhase == 1, 1, 0)
+irr::kappa2(cbind(p1_s,p1_t))
+
+p2_s = ifelse(data$Phase == 2, 1, 0)
+p2_t = ifelse(data$TimePhase == 2, 1, 0)
+irr::kappa2(cbind(p2_s,p2_t))
+
+p3_s = ifelse(data$Phase == 3, 1, 0)
+p3_t = ifelse(data$TimePhase == 3, 1, 0)
+irr::kappa2(cbind(p3_s,p3_t))
+
+
+```
+

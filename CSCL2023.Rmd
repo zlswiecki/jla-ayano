@@ -1,0 +1,420 @@
+---
+title: "CSCL2023"
+author: "Yuanru"
+date: "2022-10-31"
+output:
+  html_document:
+    toc: yes
+    df_print: paged
+  html_notebook:
+    toc: yes
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+```{=html}
+<style>
+  table, th, td {border: 1px solid black; padding: 10px;background-color:#eeeeee}
+  table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+```
+
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Ayano: we need to install tma package too to use ona package
+```{r install ONA package}
+#install.packages("ona", repos = c("https://epistemic-analytics.gitlab.io/qe-packages/ona/cran/", "https://cran.rstudio.org"))
+#install.packages("tma", repos = c("https://epistemic-analytics.gitlab.io/qe-packages/tma/cran/", "https://cran.rstudio.org"))
+```
+
+
+```{r include=FALSE}
+library(ona)
+library(tma)
+library(magrittr)
+```
+
+most recent data Ayano shared
+```{r}
+data <- read.csv("PES_010v4(Selection)_20221024.csv")
+colnames(data)
+```
+
+update: Ayano suggested that we remove Product Designers lines from the data. nrow 1345 -> 910
+```{r}
+data = data[data$Role == "Engineer" | data$Role == "ServiceDesigner",]
+```
+
+
+```{r}
+units <- c("Speaker", "Role", "TimePhase")
+
+codes_1 <- c("Function", "Aesthetic", "User", "Vision", "Prototyping") # design actions codes
+codes_2 <- c("CA", "ALoK", "CSU", "GCA", "Projective","Regulative","Relational") # shared epistemic agency codes
+
+hoo_rules <- conversation_rules(
+  (TimePhase %in% UNIT$TimePhase & Role %in% UNIT$Role)
+)
+```
+
+notes for Ayano: accum_1 and set_1 are for design action codes; accum_2 and set_2 are for shared epistemic agency codes
+
+```{r}
+accum_1 <-
+  contexts(data, 
+           units_by = units, 
+           hoo_rules = hoo_rules) %>%
+  accumulate_contexts(codes = codes_1, 
+                      decay.function = decay(simple_window, window_size = 4),
+                      return.ena.set = FALSE, norm.by = NULL)
+```
+
+
+```{r}
+set_1 <-
+  model(accum_1,
+        rotate.using = "mean",
+        rotation.params = 
+          list(engineers=accum_1$meta.data$Role=="Engineer",
+               servicedesigners=accum_1$meta.data$Role=="ServiceDesigner"))
+```
+
+
+```{r}
+accum_2 <-
+  contexts(data, 
+           units_by = units, 
+           hoo_rules = hoo_rules) %>%
+  accumulate_contexts(codes = codes_2, 
+                      decay.function = decay(simple_window, window_size = 4),
+                      return.ena.set = FALSE, norm.by = NULL)
+```
+
+
+```{r}
+set_2 <-
+  model(accum_2,
+        rotate.using = "mean",
+        rotation.params = 
+          list(engineers=accum_2$meta.data$Role=="Engineer",
+               servicedesigners=accum_2$meta.data$Role=="ServiceDesigner"))
+```
+
+you can save set so you don't have to run lines above next time
+```{r}
+saveRDS(set_1, "ayano_set_1_design_codes.RDS")
+saveRDS(set_2, "ayano_set_2_epistemic_codes.RDS")
+```
+
+
+global visual parameter (let's make sure all the plots use the same level of multiplier)
+```{r}
+edge_arrow_saturation_multiplier = 1.5
+edge_size_multiplier = 1
+node_size_multiplier = 0.6
+point_position_multiplier = 1
+```
+
+
+Model 1: design action codes
+```{r}
+TimePhase <- as.list(unique(data$TimePhase))
+
+# individual networks
+# for (i in TimePhase) {
+  # print(i)
+  # print(
+  #   plot(set_1, title = paste0("Phase",i," Engineering team", "(design codes)")) %>%
+  #     edges(
+  #       weights = colMeans(set_1$line.weights[TimePhase == i & Role == 'Engineer' & ENA_DIRECTION == 'response']),
+  #       edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier, edge_size_multiplier = edge_size_multiplier, edge_color = c("blue")) %>%
+  #     units(
+  #       points=set_1$points[TimePhase == i & Role == 'Engineer'], 
+  #       points_color = "blue", point_position_multiplier = point_position_multiplier, 
+  #       show_mean = FALSE, show_points = FALSE, with_ci = TRUE) %>%
+  #     nodes(
+  #       node_labels = FALSE,
+  #       node_size_multiplier = node_size_multiplier,
+  #       self_connection_color = c("blue"))
+  # )
+  # print(
+  #   plot(set_1, title = paste0("Phase",i," Product design team", "(design codes)")) %>%
+  #     edges(
+  #       weights = colMeans(set_1$line.weights[TimePhase == i & Role == 'ProductDesigner' & ENA_DIRECTION == 'response']),
+  #       edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier, edge_size_multiplier = edge_size_multiplier, edge_color = c("red")) %>%
+  #     units(
+  #       points=set_1$points[TimePhase == i & Role == 'ProductDesigner'], 
+  #       points_color = "red", point_position_multiplier = point_position_multiplier, 
+  #       show_mean = TRUE, show_points = TRUE, with_ci = TRUE) %>%
+  #     nodes(self_connection_color = c("red"))
+  # )
+#   print(
+#     plot(set_1, title = paste0("Phase",i," Service designer team", "(design codes)")) %>%
+#       edges(
+#         weights = colMeans(set_1$line.weights[TimePhase == i & Role == 'ServiceDesigner' & ENA_DIRECTION == 'response']),
+#         edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier, edge_size_multiplier = edge_size_multiplier, edge_color = c("red")) %>%
+#       units(
+#         points=set_1$points[TimePhase == i & Role == 'ServiceDesigner'], 
+#         points_color = "red", point_position_multiplier = point_position_multiplier, 
+#         show_mean = FALSE, show_points = FALSE, with_ci = TRUE) %>%
+#       nodes(
+#         node_labels = FALSE,
+#         node_size_multiplier = node_size_multiplier,
+#         self_connection_color = c("red"))
+#   )
+# }
+
+# subtracted networks 
+for (i in TimePhase) {
+#   print(i)
+  # print(
+  #   plot(set_1, title = paste0("Phase",i," Engineers(blue) vs ProductDesigners(red)", "(design codes)")) %>%
+  #     edges(
+  #       weights = colMeans(set_1$line.weights[TimePhase == i & Role == 'Engineer' & ENA_DIRECTION == 'response']) -
+  #         colMeans(set_1$line.weights[TimePhase == i & Role == 'ProductDesigner' & ENA_DIRECTION == 'response']),
+  #       edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier, edge_size_multiplier = edge_size_multiplier, 
+  #       edge_color = c("blue", "red")) %>%
+  #     units(
+  #       points=set_1$points[TimePhase == i & Role == 'Engineer'], 
+  #       points_color = "blue", point_position_multiplier = point_position_multiplier, 
+  #       show_mean = TRUE, show_points = TRUE, with_ci = TRUE) %>%
+  #     units(
+  #       points=set_1$points[TimePhase == i & Role == 'ProductDesigner'], 
+  #       points_color = "red", point_position_multiplier = point_position_multiplier, 
+  #       show_mean = TRUE, show_points = TRUE, with_ci = TRUE) %>%
+  #     nodes(self_connection_color = c("blue", "red"))
+  # )
+  # 
+  print(
+    plot(set_1, title = paste0("Phase",i," Engineers(blue) vs ServiceDesigners(red)", "(design codes)")) %>%
+      edges(
+        weights = (colMeans(set_1$line.weights[TimePhase == i & Role == 'Engineer' & ENA_DIRECTION == 'response']) -
+          colMeans(set_1$line.weights[TimePhase == i & Role == 'ServiceDesigner' & ENA_DIRECTION == 'response'])),
+        edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier, edge_size_multiplier = edge_size_multiplier,
+        edge_color = c("blue", "red")) %>%
+      units(
+        points=set_1$points[TimePhase == i & Role == 'Engineer'],
+        points_color = "blue", point_position_multiplier = point_position_multiplier,
+        show_mean = FALSE, show_points = FALSE, with_ci = TRUE) %>%
+      units(
+        points=set_1$points[TimePhase == i & Role == 'ServiceDesigner'],
+        points_color = "red", point_position_multiplier = point_position_multiplier,
+        show_mean = FALSE, show_points = FALSE, with_ci = TRUE) %>%
+      nodes(
+        node_labels = FALSE,
+        node_size_multiplier = node_size_multiplier,
+        self_connection_color = c("blue", "red"))
+  )
+  
+  # print(
+  #   plot(set_1, title = paste0("Phase",i," ProductDesigners(red) vs ServiceDesigners(green)", "(design codes)")) %>%
+  #     edges(
+  #       weights = colMeans(set_1$line.weights[TimePhase == i & Role == 'ProductDesigner' & ENA_DIRECTION == 'response']) -
+  #         colMeans(set_1$line.weights[TimePhase == i & Role == 'ServiceDesigner' & ENA_DIRECTION == 'response']),
+  #       edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier, edge_size_multiplier = edge_size_multiplier, 
+  #       edge_color = c("red", "green")) %>%
+  #     units(
+  #       points=set_1$points[TimePhase == i & Role == 'ProductDesigner'], 
+  #       points_color = "red", point_position_multiplier = point_position_multiplier, 
+  #       show_mean = TRUE, show_points = TRUE, with_ci = TRUE) %>%
+  #     units(
+  #       points=set_1$points[TimePhase == i & Role == 'ServiceDesigner'], 
+  #       points_color = "green", point_position_multiplier = point_position_multiplier, 
+  #       show_mean = TRUE, show_points = TRUE, with_ci = TRUE) %>%
+  #     nodes(self_connection_color = c("red", "green"))
+  # )
+}
+```
+
+Model 2: shared epistemic agency codes
+```{r}
+TimePhase <- as.list(unique(data$TimePhase))
+
+# individual networks
+# for (i in TimePhase) {
+#   print(i)
+#   print(
+#     plot(set_2, title = paste0("Phase",i," Engineering team", "(epistemic codes)")) %>%
+#       edges(
+#         weights = colMeans(set_2$line.weights[TimePhase == i & Role == 'Engineer' & ENA_DIRECTION == 'response']),
+#         edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier, edge_size_multiplier = edge_size_multiplier, edge_color = c("blue")) %>%
+#       units(
+#         points=set_2$points[TimePhase == i & Role == 'Engineer'], 
+#         points_color = "blue", point_position_multiplier = point_position_multiplier, 
+#         show_mean = FALSE, show_points = FALSE, with_ci = TRUE) %>%
+#       nodes(
+#         node_labels = FALSE,
+#         node_size_multiplier = node_size_multiplier,
+#         self_connection_color = c("blue"))
+#   )
+  # print(
+  #   plot(set_2, title = paste0("Phase",i," Product design team", "(epistemic codes)")) %>%
+  #     edges(
+  #       weights = colMeans(set_2$line.weights[TimePhase == i & Role == 'ProductDesigner' & ENA_DIRECTION == 'response']),
+  #       edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier, edge_size_multiplier = edge_size_multiplier, edge_color = c("red")) %>%
+  #     units(
+  #       points=set_2$points[TimePhase == i & Role == 'ProductDesigner'], 
+  #       points_color = "red", point_position_multiplier = point_position_multiplier, 
+  #       show_mean = TRUE, show_points = TRUE, with_ci = TRUE) %>%
+  #     nodes(self_connection_color = c("red"))
+  # )
+#   print(
+#     plot(set_2, title = paste0("Phase",i," Service designer team", "(epistemic codes)")) %>%
+#       edges(
+#         weights = colMeans(set_2$line.weights[TimePhase == i & Role == 'ServiceDesigner' & ENA_DIRECTION == 'response']),
+#         edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier, edge_size_multiplier = edge_size_multiplier, edge_color = c("red")) %>%
+#       units(
+#         points=set_2$points[TimePhase == i & Role == 'ServiceDesigner'], 
+#         points_color = "red", point_position_multiplier = point_position_multiplier, 
+#         show_mean = FALSE, show_points = FALSE, with_ci = TRUE) %>%
+#       nodes(
+#         node_labels = FALSE,
+#         node_size_multiplier = node_size_multiplier,
+#         self_connection_color = c("red"))
+#   )
+# }
+
+# subtracted networks 
+for (i in TimePhase) {
+#   print(i)
+  # print(
+  #   plot(set_2, title = paste0("Phase",i," Engineers(blue) vs ProductDesigners(red)", "(epistemic codes)")) %>%
+  #     edges(
+  #       weights = colMeans(set_2$line.weights[TimePhase == i & Role == 'Engineer' & ENA_DIRECTION == 'response']) -
+  #         colMeans(set_2$line.weights[TimePhase == i & Role == 'ProductDesigner' & ENA_DIRECTION == 'response']),
+  #       edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier, edge_size_multiplier = edge_size_multiplier, 
+  #       edge_color = c("blue", "red")) %>%
+  #     units(
+  #       points=set_2$points[TimePhase == i & Role == 'Engineer'], 
+  #       points_color = "blue", point_position_multiplier = point_position_multiplier, 
+  #       show_mean = TRUE, show_points = TRUE, with_ci = TRUE) %>%
+  #     units(
+  #       points=set_2$points[TimePhase == i & Role == 'ProductDesigner'], 
+  #       points_color = "red", point_position_multiplier = point_position_multiplier, 
+  #       show_mean = TRUE, show_points = TRUE, with_ci = TRUE) %>%
+  #     nodes(self_connection_color = c("blue", "red"))
+  # )
+  
+  print(
+    plot(set_2, title = paste0("Phase",i," Engineers(blue) vs ServiceDesigners(green)", "(epistemic codes)")) %>%
+      edges(
+        weights = colMeans(set_2$line.weights[TimePhase == i & Role == 'Engineer' & ENA_DIRECTION == 'response']) -
+          colMeans(set_2$line.weights[TimePhase == i & Role == 'ServiceDesigner' & ENA_DIRECTION == 'response']),
+        edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier, edge_size_multiplier = edge_size_multiplier,
+        edge_color = c("blue", "red")) %>%
+      units(
+        points=set_2$points[TimePhase == i & Role == 'Engineer'],
+        points_color = "blue", point_position_multiplier = point_position_multiplier,
+        show_mean = FALSE, show_points = FALSE, with_ci = TRUE) %>%
+      units(
+        points=set_2$points[TimePhase == i & Role == 'ServiceDesigner'],
+        points_color = "red", point_position_multiplier = point_position_multiplier,
+        show_mean = FALSE, show_points = FALSE, with_ci = TRUE) %>%
+      nodes(
+        node_labels = FALSE,
+        node_size_multiplier = node_size_multiplier,
+        self_connection_color = c("blue", "red"))
+  )
+#   
+#   print(
+#     plot(set_2, title = paste0("Phase",i," ProductDesigners(red) vs ServiceDesigners(green)", "(epistemic codes)")) %>%
+#       edges(
+#         weights = colMeans(set_2$line.weights[TimePhase == i & Role == 'ProductDesigner' & ENA_DIRECTION == 'response']) -
+#           colMeans(set_2$line.weights[TimePhase == i & Role == 'ServiceDesigner' & ENA_DIRECTION == 'response']),
+#         edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier, edge_size_multiplier = edge_size_multiplier,
+#         edge_color = c("red", "green")) %>%
+#       units(
+#         points=set_2$points[TimePhase == i & Role == 'ProductDesigner'],
+#         points_color = "red", point_position_multiplier = point_position_multiplier,
+#         show_mean = TRUE, show_points = TRUE, with_ci = TRUE) %>%
+#       units(
+#         points=set_2$points[TimePhase == i & Role == 'ServiceDesigner'],
+#         points_color = "green", point_position_multiplier = point_position_multiplier,
+#         show_mean = TRUE, show_points = TRUE, with_ci = TRUE) %>%
+#       nodes(self_connection_color = c("red", "green"))
+#   )
+}
+```
+
+
+group comparison 
+```{r}
+# design code model
+eng = set_1$points[Role == 'Engineer'] 
+eng_response_points <- eng[seq_len(nrow(eng)) %% 2 == 0, ]
+
+# prod = set_1$points[Role == 'ProductDesigner'] 
+# prod_response_points <- prod[seq_len(nrow(prod)) %% 2 == 0, ]
+
+serv = set_1$points[Role == 'ServiceDesigner'] 
+serv_response_points <- serv[seq_len(nrow(serv)) %% 2 == 0, ]
+
+eng_points_d1 = as.matrix(eng_response_points)[,1]
+# prod_points_d1 = as.matrix(prod_response_points)[,1]
+serv_points_d1 = as.matrix(serv_response_points)[,1]
+
+eng_points_d2 = as.matrix(eng_response_points)[,2]
+# prod_points_d2 = as.matrix(prod_response_points)[,2]
+serv_points_d2 = as.matrix(serv_response_points)[,2]
+
+
+# test_d1_eng_prod = wilcox.test(eng_points_d1, prod_points_d1)
+test_d1_eng_serv = wilcox.test(eng_points_d1, serv_points_d1)
+# test_d1_prod_serv = wilcox.test(prod_points_d1, serv_points_d1)
+
+# test_d2_eng_prod = wilcox.test(eng_points_d2, prod_points_d2)
+test_d2_eng_serv = wilcox.test(eng_points_d2, serv_points_d2)
+# test_d2_prod_serv = wilcox.test(prod_points_d2, serv_points_d2)
+
+# test_d1_eng_prod 
+test_d1_eng_serv 
+# test_d1_prod_serv
+
+# test_d2_eng_prod
+test_d2_eng_serv
+# test_d2_prod_serv
+
+# esptemic code model
+eng = set_2$points[Role == 'Engineer'] 
+eng_response_points <- eng[seq_len(nrow(eng)) %% 2 == 0, ]
+
+# prod = set_2$points[Role == 'ProductDesigner'] 
+# prod_response_points <- prod[seq_len(nrow(prod)) %% 2 == 0, ]
+
+serv = set_2$points[Role == 'ServiceDesigner'] 
+serv_response_points <- serv[seq_len(nrow(serv)) %% 2 == 0, ]
+
+eng_points_d1 = as.matrix(eng_response_points)[,1]
+# prod_points_d1 = as.matrix(prod_response_points)[,1]
+serv_points_d1 = as.matrix(serv_response_points)[,1]
+
+eng_points_d2 = as.matrix(eng_response_points)[,2]
+# prod_points_d2 = as.matrix(prod_response_points)[,2]
+serv_points_d2 = as.matrix(serv_response_points)[,2]
+
+
+# test_d1_eng_prod = wilcox.test(eng_points_d1, prod_points_d1)
+test_d1_eng_serv = wilcox.test(eng_points_d1, serv_points_d1)
+# test_d1_prod_serv = wilcox.test(prod_points_d1, serv_points_d1)
+
+# test_d2_eng_prod = wilcox.test(eng_points_d2, prod_points_d2)
+test_d2_eng_serv = wilcox.test(eng_points_d2, serv_points_d2)
+# test_d2_prod_serv = wilcox.test(prod_points_d2, serv_points_d2)
+
+# test_d1_eng_prod 
+test_d1_eng_serv 
+# test_d1_prod_serv
+
+# test_d2_eng_prod
+test_d2_eng_serv
+# test_d2_prod_serv
+```
+
+

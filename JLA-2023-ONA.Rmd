@@ -1,0 +1,739 @@
+---
+title: "JLA-ONA-2023"
+author: "Zach & Yuanru"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: yes
+  html_notebook:
+    toc: yes
+  html_document:
+    toc: yes
+    df_print: paged
+editor_options:
+  markdown:
+    wrap: sentence
+---
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+rm(list = ls())
+```
+
+```{r}
+#install.packages("ona", repos = c("https://cran.qe-libs.org", "https://cran.rstudio.org")) # only run once
+#install.packages("tma", repos = c("https://cran.qe-libs.org", "https://cran.rstudio.org")) # only run once
+```
+
+```{r include=FALSE}
+library(ona)
+library(tma)
+library(magrittr)
+library(tidyverse)
+library(emmeans)
+library(performance)
+```
+
+most recent data Ayano shared
+```{r}
+data <- read.csv("~/Rprojects/ayano/PES_010v6(selected).csv")
+```
+
+```{r}
+units <- c("Speaker", "Role", "TimePhase")
+
+codes_1 <- c("Functions", "Aesthetics", "User", "Vision", "Prototyping") # design actions codes
+codes_2 <- c("CA", "ALoK", "CSU", "GCA", "Projective","Regulative","Relational") # shared epistemic agency codes
+
+hoo_rules <- conversation_rules(
+  (TimePhase %in% UNIT$TimePhase & Role %in% UNIT$Role)
+)
+```
+
+notes: accum_1 and set_1 are for design action codes; accum_2 and set_2 are for shared epistemic agency codes
+
+```{r}
+accum_1 <-
+  contexts(data, 
+           units_by = units, 
+           hoo_rules = hoo_rules) %>%
+  accumulate_contexts(codes = codes_1, 
+                      decay.function = decay(simple_window, window_size = 4),
+                      return.ena.set = FALSE, norm.by = NULL)
+```
+
+Note: Not doing means rotation so I can compare everything in the same space
+
+```{r}
+set_1 <-
+  # model(accum_1,
+  #       rotate.using = "mean",
+  #       rotation.params = 
+  #         list(engineers=accum_1$meta.data$Role=="Engineer",
+  #              servicedesigners=accum_1$meta.data$Role=="ServiceDesigner"))
+  
+  model(accum_1)
+```
+
+```{r}
+accum_2 <-
+  contexts(data, 
+           units_by = units, 
+           hoo_rules = hoo_rules) %>%
+  accumulate_contexts(codes = codes_2, 
+                      decay.function = decay(simple_window, window_size = 4),
+                      return.ena.set = FALSE, norm.by = NULL)
+```
+
+```{r}
+set_2 <-
+  # model(accum_2,
+  #       rotate.using = "mean",
+  #       rotation.params = 
+  #         list(engineers=accum_2$meta.data$Role=="Engineer",
+  #              servicedesigners=accum_2$meta.data$Role=="ServiceDesigner"))
+  
+  model(accum_2)
+```
+
+global visual parameter (let's make sure all the plots use the same level of multiplier)
+```{r}
+node_size_multiplier = 0.3 # scale up or down node sizes
+node_position_multiplier = 1 # zoom in or out node positions
+point_position_multiplier = 1 # zoom in or out the point positions
+edge_arrow_saturation_multiplier = 1.5 # adjust the chevron color lighter or darker
+edge_size_multiplier = 1 # scale up or down edge sizes
+```
+
+Model 1: design action codes
+
+Plot 1a: Overall Group Comparisons
+```{r}
+traces = c(2:10)
+plot(set_1, title = "Groups") |>
+  units(
+    points= set_1$points$Role$ProductDesigner, 
+    point_position_multiplier = point_position_multiplier,
+    points_color = c("red"),
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+   units(
+    points= set_1$points$Role$Engineer, 
+    point_position_multiplier = point_position_multiplier,
+    points_color = c("blue"),
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+   units(
+    points= set_1$points$Role$ServiceDesigner, 
+    point_position_multiplier = point_position_multiplier,
+    points_color = c("green"),
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  nodes(node_size_multiplier = 0.3,
+            node_position_multiplier = node_position_multiplier,
+            self_connection_color = c("black"))|>
+      plotly::layout(showlegend = TRUE, legend = list(x = 100, y = 0.9)) |>
+      plotly::style(name = "Product Designer", traces = traces[1]) |>
+      plotly::style(name = "Engineer", traces = traces[2]) |>
+      plotly::style(name = "Service Designer", traces = traces[3])
+  
+```
+Plot 1b: Group subtractions
+```{r}
+prod_pts = set_1$points$Role$ProductDesigner 
+eng_pts = set_1$points$Role$Engineer
+serv_pts = set_1$points$Role$ServiceDesigner
+
+prod_mean_net = set_1$line.weights %>% dplyr::filter(Role == "ProductDesigner") %>% colMeans()
+eng_mean_net = set_1$line.weights %>% dplyr::filter(Role == "Engineer") %>% colMeans()
+serv_mean_net = set_1$line.weights %>% dplyr::filter(Role == "ServiceDesigner") %>% colMeans()
+
+plot(set_1, title = "Product Designer vs Engineer") |>
+  units(
+    points = prod_pts, 
+    points_color = "red",
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  units(
+    points = eng_pts, 
+    points_color = "blue",
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  edges(
+    weights = prod_mean_net - eng_mean_net, # optional multiplier to adjust for readability
+    edge_size_multiplier = edge_size_multiplier,
+    edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    edge_color = c("red","blue")) |>
+  nodes(
+    node_size_multiplier = node_size_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    self_connection_color = c("red","blue"))
+
+plot(set_1, title = "Product Designer vs ServiceDesigner") |>
+  units(
+    points = prod_pts, 
+    points_color = "red",
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  units(
+    points =serv_pts, 
+    points_color = "green",
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  edges(
+    weights = prod_mean_net - serv_mean_net, # optional multiplier to adjust for readability
+    edge_size_multiplier = edge_size_multiplier,
+    edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    edge_color = c("red","green")) |>
+  nodes(
+    node_size_multiplier = node_size_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    self_connection_color = c("red","green"))
+
+plot(set_1, title = "Service Designer vs Engineer") |>
+  units(
+    points = serv_pts, 
+    points_color = "green",
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  units(
+    points = eng_pts, 
+    points_color = "blue",
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  edges(
+    weights = serv_mean_net - eng_mean_net, # optional multiplier to adjust for readability
+    edge_size_multiplier = edge_size_multiplier,
+    edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    edge_color = c("green","blue")) |>
+  nodes(
+    node_size_multiplier = node_size_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    self_connection_color = c("green","blue"))
+```
+Plot 2: All Means by phase
+```{r}
+
+#get list of time phases and groups loop over or use map function
+
+phases = unique(set_1$points$TimePhase)
+
+groups = unique(set_1$points$Role)
+
+col_list_2 = c("red",#phase 1
+              "blue", #phase 2
+              "green") #phase 3
+
+traces = c(2:10)
+
+x = plot(set_1, title = "Group Means by Phase")
+count = 1
+for (i in 1:length(phases)){
+  for (j in 1:length(groups)){
+    points = set_1$points %>% filter(TimePhase == phases[i], Role == groups[j])
+    x = x |>
+      units(
+        points = points,
+        point_position_multiplier = point_position_multiplier,
+        points_color = col_list_2[i],
+        show_mean = TRUE, show_points = F, with_ci = FALSE
+        ) |>
+      nodes(node_size_multiplier = 0.3,
+            node_position_multiplier = node_position_multiplier,
+            self_connection_color = c("black"))|>
+      plotly::layout(showlegend = TRUE, legend = list(x = 100, y = 0.9)) |>
+      plotly::style(name = paste0(phases[i]," - ",groups[j]), traces = traces[count])
+    count = count + 1
+  }
+}
+
+x
+
+```
+
+Statistical Tests:
+
+In these data, the observations are nested within participants, so we need to check if this nesting 
+has a significant effect. We do this by constructing a confidence interval
+around the intraclass correlation coefficient (https://en.wikipedia.org/wiki/Intraclass_correlation). If the interval contains zero, nesting is not significant.
+
+```{r}
+reg_dat = set_1$points %>% filter(ENA_DIRECTION == "response")
+
+ICC::ICCest(Speaker,SVD1,reg_dat) #not significant
+
+ICC::ICCest(Speaker,SVD2,reg_dat) #not significant
+
+
+```
+
+Nesting is not significant so we proceed with an OLS regression. Below we set up two models for each dimension and test whether including interaction effects in the analysis significantly improves the modes.
+
+```{r}
+mod_x = lm(SVD1 ~ as.factor(TimePhase) + Role, data = reg_dat)
+mod_y = lm(SVD2 ~ as.factor(TimePhase) + Role, data = reg_dat)
+
+mod_x_2 = lm(SVD1 ~ as.factor(TimePhase)*Role, data = reg_dat)
+anova(mod_x,mod_x_2)
+
+mod_y_2 = lm(SVD2 ~ as.factor(TimePhase)*Role, data = reg_dat)
+anova(mod_y,mod_y_2)
+
+
+```
+Interactions are significant, so we should use the interaction models. Let's view those models
+
+```{r}
+summary(mod_x_2)
+summary(mod_y_2)
+```
+Viewing interactions
+```{r}
+emmip(mod_x_2, Role ~ TimePhase)
+emmip(mod_y_2, Role ~ TimePhase)
+```
+When interactions are introduced, interpreting regression coefficients becomes more 
+difficult, so we calculated the marginal means and various contrasts (i.e., comparisons between groups of interest) to address our research questions.
+
+RQ1 (X dimension - Design Actions): Here we want to compare the "main effect" of Role on the x dimension---i.e., are there differences between the roles on the X dimension when averaging over TimePhases.
+
+```{r}
+emm_x1 = emmeans(mod_x_2, specs = pairwise ~ Role, weights = "proportional")
+print(emm_x1$contrasts)
+```
+Only significant difference on the X is between Engineer and Service designer. Let's calculate the effect size (difference in standard deviations) of that difference. We will use Cohen's d.
+
+```{r}
+cohensd = function(diff_,g1,g2){
+  diff_/(sqrt((sd(g1)^2 + sd(g2)^2)/2))
+}
+
+contrasts = as_tibble(emm_x1$contrasts)
+diff_ = contrasts$estimate[2]
+g1 = reg_dat %>% filter(Role == "Engineer") %>% select(SVD1)
+g2 = reg_dat %>% filter(Role == "ServiceDesigner") %>% select(SVD1)
+
+cohensd(diff_ = diff_,g1 = g1$SVD1,g2 = g2$SVD1)
+
+```
+
+RQ1 (Y dimension - Design Actions): Here we want to compare the "main effect" of Role on the y dimension---i.e., are there differences between the roles on the X dimension when averaging over TimePhases.
+
+```{r}
+emm_y1 = emmeans(mod_y_2, specs = pairwise ~ Role, weights = "proportional")
+print(emm_y1$contrasts)
+```
+Significant differences between engineer/product designer and productdesigner/servicedesigner. Let's get the effect sizes:
+
+```{r}
+contrasts = as_tibble(emm_y1$contrasts)
+
+diff_evp = contrasts$estimate[1]
+g1 = reg_dat %>% filter(Role == "Engineer") %>% select(SVD1)
+g2 = reg_dat %>% filter(Role == "ProductDesigner") %>% select(SVD1)
+
+d_evp = cohensd(diff_ = diff_,g1 = g1$SVD1,g2 = g2$SVD1)
+
+diff_pvs = contrasts$estimate[3]
+g1 = reg_dat %>% filter(Role == "ProductDesigner") %>% select(SVD1)
+g2 = reg_dat %>% filter(Role == "ServiceDesigner") %>% select(SVD1)
+
+d_pvs = cohensd(diff_ = diff_,g1 = g1$SVD1,g2 = g2$SVD1)
+
+d_evp
+d_pvs
+```
+
+Marginal means - x RQ2
+
+
+Here we use marginal means to test for differences between timephases within groups and groups within timephase and 
+
+```{r}
+library(emmeans)
+
+emm_x1a = emmeans(mod_x_2, specs = pairwise ~ TimePhase|Role, weights = "proportional") #timephases w/ groups
+emm_x1a = as_tibble(emm_x1a$contrasts)
+
+emm_x2 = emmeans(mod_x_2, specs = pairwise ~ Role|TimePhase, weights = "proportional") #groups within timephases
+emm_x2 = as_tibble(emm_x2$contrasts)
+
+#see here: https://cran.r-project.org/web/packages/emmeans/vignettes/interactions.html
+
+emm_x1a
+emm_x2
+
+```
+
+Marginal means - y RQ1
+
+```{r}
+library(emmeans)
+
+emm_y1= emmeans(mod_y_2, specs = pairwise ~ Role, weights = "proportional")
+#print(emm_y1$emmeans)
+print(emm_y1$contrasts)
+```
+
+
+Marginal means -Y RQ2 
+```{r}
+emm_y1 = emmeans(mod_y_2, specs = pairwise ~ TimePhase|Role, weights = "proportional")
+print(emm_y1$contrasts)
+
+emm_y2 = emmeans(mod_y_2, specs = pairwise ~ Role|TimePhase, weights = "proportional")
+print(emm_y2$contrasts)
+```
+
+Calculate eff sizes
+```{r}
+library(psych)
+```
+
+Model diagnostics
+
+```{r}
+#todo
+library(performance)
+library(see)
+
+check_model(mod_x_2)
+check_model(mod_y_2)
+```
+
+
+Plot network subtractions (replace TimePhase and Role for different combinations)
+```{r}
+mean1 = set_1$points %>% dplyr::filter(TimePhase == 1, Role == "Engineer") #update here
+mean2 = set_1$points %>% dplyr::filter(TimePhase == 1, Role == "ServiceDesigner") #update here
+
+mean1_net = set_1$line.weights %>% dplyr::filter(TimePhase == 1, Role == "Engineer") %>% colMeans()
+mean2_net = set_1$line.weights %>% dplyr::filter(TimePhase == 1, Role == "ServiceDesigner") %>% colMeans() #update here
+
+plot(set_1, title = "Network subtraction") |>
+  units(
+    points = mean1, 
+    points_color = "red",
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  units(
+    points = mean2, 
+    points_color = "blue",
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  edges(
+    weights = mean1_net - mean2_net, # optional multiplier to adjust for readability
+    edge_size_multiplier = edge_size_multiplier,
+    edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    edge_color = c("red","blue")) |>
+  nodes(
+    node_size_multiplier = node_size_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    self_connection_color = c("red","blue"))
+
+
+```
+
+Model 2: Epistemic Agency Codes
+
+Plot 1: Mean Network
+
+```{r}
+node_size_multiplier = 0.3 # scale up or down node sizes
+node_position_multiplier = 1 # zoom in or out node positions
+point_position_multiplier = 1 # zoom in or out the point positions
+edge_arrow_saturation_multiplier = 1.5 # adjust the chevron color lighter or darker
+edge_size_multiplier = 2 # scale up or down edge sizes
+```
+
+
+```{r}
+plot(set_2, title = "Overall Mean--Agency") |>
+  units(
+    points= set_2$points, 
+    point_position_multiplier = point_position_multiplier,
+    points_color = c("black"),
+    show_mean = TRUE, show_points = TRUE, with_ci = TRUE) |>
+  edges(
+    weights =set_2$line.weights,
+    edge_size_multiplier = edge_size_multiplier,
+    edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    edge_color = c("black")) |>
+  nodes(
+    node_size_multiplier = node_size_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    node_labels = TRUE, # change this to FALSE can remove node labels in case you want to add them back in a nicer font or size for your presentations or publications
+    self_connection_color = c("black"))
+```
+
+Plot 1b: Overall Group Comparisons
+```{r}
+plot(set_2, title = "Groups") |>
+  units(
+    points= set_2$points$Role$ProductDesigner, 
+    point_position_multiplier = point_position_multiplier,
+    points_color = c("red"),
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+   units(
+    points= set_2$points$Role$Engineer, 
+    point_position_multiplier = point_position_multiplier,
+    points_color = c("blue"),
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+   units(
+    points= set_2$points$Role$ServiceDesigner, 
+    point_position_multiplier = point_position_multiplier,
+    points_color = c("green"),
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  nodes(node_size_multiplier = 0.3,
+            node_position_multiplier = node_position_multiplier,
+            self_connection_color = c("black"))|>
+      plotly::layout(showlegend = TRUE, legend = list(x = 100, y = 0.9)) |>
+      plotly::style(name = "Product Designer", traces = traces[1]) |>
+      plotly::style(name = "Engineer", traces = traces[2]) |>
+      plotly::style(name = "Service Designer", traces = traces[3])
+  
+```
+Plot 1c: Group subtractions
+```{r}
+prod_pts = set_2$points$Role$ProductDesigner 
+eng_pts = set_2$points$Role$Engineer
+serv_pts = set_2$points$Role$ServiceDesigner
+
+prod_mean_net = set_2$line.weights %>% dplyr::filter(Role == "ProductDesigner") %>% colMeans()
+eng_mean_net = set_2$line.weights %>% dplyr::filter(Role == "Engineer") %>% colMeans()
+serv_mean_net = set_2$line.weights %>% dplyr::filter(Role == "ServiceDesigner") %>% colMeans()
+
+plot(set_2, title = "Product Designer vs Engineer") |>
+  units(
+    points = prod_pts, 
+    points_color = "red",
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  units(
+    points = eng_pts, 
+    points_color = "blue",
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  edges(
+    weights = prod_mean_net - eng_mean_net, # optional multiplier to adjust for readability
+    edge_size_multiplier = edge_size_multiplier,
+    edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    edge_color = c("red","blue")) |>
+  nodes(
+    node_size_multiplier = node_size_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    self_connection_color = c("red","blue"))
+
+plot(set_2, title = "Product Designer vs ServiceDesigner") |>
+  units(
+    points = prod_pts, 
+    points_color = "red",
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  units(
+    points =serv_pts, 
+    points_color = "green",
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  edges(
+    weights = prod_mean_net - serv_mean_net, # optional multiplier to adjust for readability
+    edge_size_multiplier = edge_size_multiplier,
+    edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    edge_color = c("red","green")) |>
+  nodes(
+    node_size_multiplier = node_size_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    self_connection_color = c("red","green"))
+
+plot(set_2, title = "Service Designer vs Engineer") |>
+  units(
+    points = serv_pts, 
+    points_color = "green",
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  units(
+    points = eng_pts, 
+    points_color = "blue",
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  edges(
+    weights = serv_mean_net - eng_mean_net, # optional multiplier to adjust for readability
+    edge_size_multiplier = 1,
+    edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    edge_color = c("green","blue")) |>
+  nodes(
+    node_size_multiplier = node_size_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    self_connection_color = c("green","blue"))
+```
+
+Plot 2: All Means
+```{r}
+
+#get list of time phases and groups loop over or use map function
+
+phases = unique(set_2$points$TimePhase)
+
+groups = unique(set_2$points$Role)
+
+
+col_list_2 = c("red",
+              "blue",
+              "green")
+
+traces = c(2:10)
+
+x_agency = plot(set_2, title = "Group Means by Phase -- Agency")
+count = 1
+
+for (i in 1:length(phases)){
+  for (j in 1:length(groups)){
+    points = set_2$points %>% filter(TimePhase == phases[i], Role == groups[j])
+    #print(head(points))
+    x_agency = x_agency |>
+      units(
+        points = points,
+        point_position_multiplier = point_position_multiplier,
+        points_color = col_list_2[i],
+        show_mean = TRUE, show_points = F, with_ci = FALSE
+        ) |>
+      nodes(node_size_multiplier = 0.3,
+            node_position_multiplier = node_position_multiplier,
+            self_connection_color = c("black"))|>
+      plotly::layout(showlegend = TRUE, legend = list(x = 100, y = 0.9)) |>
+      plotly::style(name = paste0(phases[i]," - ",groups[j]), traces = traces[count])
+    count = count + 1
+    
+  }
+}
+
+x_agency
+```
+
+Check nesting
+
+```{r}
+reg_dat_agency = set_2$points %>% filter(ENA_DIRECTION == "response")
+
+ICC::ICCest(Speaker,SVD1,reg_dat_agency) #not significant
+
+ICC::ICCest(Speaker,SVD2,reg_dat_agency) #significant we will need to include a variable for individual in the model
+```
+
+
+```{r}
+mod_x_agency = lm(SVD1 ~ as.factor(TimePhase) + Role, data = reg_dat_agency)
+mod_y_agency = lm(SVD2 ~ as.factor(TimePhase) + Role, data = reg_dat_agency)
+
+
+summary(mod_x_agency)
+summary(mod_y_agency)
+```
+
+check for interactions: (interactions are significant so we should use those modes)
+```{r}
+mod_x_agency_2 = lm(SVD1 ~ as.factor(TimePhase) + Role + as.factor(TimePhase)*Role, data = reg_dat_agency)
+mod_y_agency_2 = lm(SVD2 ~ as.factor(TimePhase) + Role + as.factor(TimePhase)*Role, data = reg_dat_agency)
+
+summary(mod_x_agency_2)
+summary(mod_y_agency_2)
+
+anova(mod_x_agency,mod_x_agency_2)
+anova(mod_y_agency,mod_y_agency_2)
+
+```
+
+#Need to run mixed model for Y
+##model is singular so stick with OLS
+
+```{r}
+library(lmerTest)
+
+mod_y_agency_mixed = lmerTest::lmer(SVD2 ~ 1 + (1|Speaker) + as.factor(TimePhase)*Role ,data = reg_dat_agency)
+
+summary(mod_y_agency_mixed)
+```
+
+
+
+Marginal means x - RQ1
+```{r}
+emm_ag1 = emmeans(mod_x_agency_2, specs = pairwise ~ Role, weights = "proportional")
+print(emm_ag1$emmeans)
+print(emm_ag1$contrasts)
+```
+
+Viewing interactions
+```{r}
+emmip(mod_x_agency_2, Role ~ TimePhase)
+
+```
+
+
+Marginal means - x RQ2
+```{r}
+emm_ag1 = emmeans(mod_x_agency_2, specs = pairwise ~ TimePhase|Role, weights = "proportional")
+emm_ag1$contrasts
+
+emm_ag2 = emmeans(mod_x_agency_2, specs = pairwise ~ Role|TimePhase, weights = "proportional")
+emm_ag2$contrasts
+
+```
+Marginal means y - RQ1
+```{r}
+emm_ag_y1 = emmeans(mod_y_agency_2, specs = pairwise ~ Role, weights = "proportional")
+print(emm_ag_y1$emmeans)
+print(emm_ag_y1$contrasts)
+```
+
+Viewing interactions
+```{r}
+emmip(mod_y_agency_2, Role ~ TimePhase)
+```
+
+Marginal means - y RQ2
+```{r}
+emm_ag_y1 = emmeans(mod_y_agency_2, specs = pairwise ~ TimePhase|Role, weights = "proportional")
+emm_ag_y1$contrasts
+
+emm_ag_y2 = emmeans(mod_y_agency_2, specs = pairwise ~ Role|TimePhase, weights = "proportional")
+emm_ag_y2$contrasts
+```
+
+Calculate eff sizes
+```{r}
+#to do
+```
+
+
+Model diagnostics
+```{r}
+check_model(mod_x_agency_2)
+check_model(mod_y_agency_2)
+```
+
+
+Plot network subtractions
+```{r}
+mean1 = set_2$points %>% dplyr::filter(TimePhase == 1, Role == "Engineer")
+mean2 = set_2$points %>% dplyr::filter(TimePhase == 1, Role == "ProductDesigner")
+
+mean1_net = set_2$line.weights %>% dplyr::filter(TimePhase == 1, Role == "Engineer") %>% colMeans()
+mean2_net = set_2$line.weights %>% dplyr::filter(TimePhase == 1, Role == "ProductDesigner") %>% colMeans()
+
+plot(set_2, title = "Network subtraction") |>
+  units(
+    points = mean1, 
+    points_color = "red",
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  units(
+    points = mean2, 
+    points_color = "blue",
+    show_mean = TRUE, show_points = FALSE, with_ci = TRUE) |>
+  edges(
+    weights = mean1_net - mean2_net, # optional multiplier to adjust for readability
+    edge_size_multiplier = edge_size_multiplier,
+    edge_arrow_saturation_multiplier = edge_arrow_saturation_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    edge_color = c("red","blue")) |>
+  nodes(
+    node_size_multiplier = node_size_multiplier,
+    node_position_multiplier = node_position_multiplier,
+    self_connection_color = c("red","blue"))
+```
+
+

@@ -1,0 +1,58 @@
+---
+title: "boots_two"
+author: "Zachari Swiecki"
+date: '2023-05-28'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+rm(list = ls())
+library(rENA)
+library(magrittr)
+library(tidyverse)
+source("~/Desktop/Downloads-2020-2023/gerald_sens/LAK_functions.R")
+```
+
+Load data
+```{r}
+data <- read.csv("~/Rprojects/ayano/PES_010v6(selected).csv")
+```
+
+Make ena set
+```{r}
+units <- c("Speaker", "Role", "Phase")
+
+codes_1 <- c("Functions", "Aesthetics", "User", "Vision", "Prototyping") # design actions codes
+codes_2 <- c("CA", "ALoK", "CSU", "GCA", "Projective","Regulative","Relational") # shared epistemic agency codes
+
+conversations = c("Role","Phase")
+
+set = ena.set(data = data,
+              units = units,
+              convo = conversations,
+              window.size = 4,
+              codes = codes_1)
+
+points = set$points
+
+
+```
+
+
+```{r}
+get_r_sq = function(data,outcome){
+  x = lm(outcome ~ Role + Phase,data)
+  return(summary(x$r.squared))}
+```
+
+Test function
+```{r}
+
+```
+
+

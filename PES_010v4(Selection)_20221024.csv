@@ -1,0 +1,1346 @@
+﻿Index,ID,Speaker,TimePhase,Role,Japanese,English,Function,Aesthetic,User,Vision,Prototyping,CA,ALoK,CSU,GCA,Projective,Regulative,Relational
+2,P2,PA,1,ProductDesigner,え、これ、ユーザーを、あのー、●質問とかしてもいいんですか。,"Well, is it okay if we, uh, ask the user, uh, ● a question or something?",0,0,1,0,0,1,0,0,0,0,0,0
+4,P4,PA,1,ProductDesigner,分かりました。,I understand.,0,0,1,0,0,0,1,0,0,0,0,0
+5,P5,User,1,ProductDesigner,〓User〓さんでいい●。,Please call me User-san.,0,0,1,0,0,0,1,0,0,0,0,0
+6,P6,PA,1,ProductDesigner,●分かりました。カッターマット1個でいっか。2個出しとく？,I understand. Shall I take a cutter mat out two?,0,0,0,0,1,0,1,0,0,1,0,1
+7,P7,PC,1,ProductDesigner,もし●取りあえず●出して●。,If you ● take it out and ● put it out for the time being.,0,0,0,0,1,0,1,0,0,1,0,0
+8,P8,PA,1,ProductDesigner,●Userさんはお幾つなんですか。,How old is the User?,0,0,1,0,0,0,1,0,0,0,0,0
+9,P9,User,1,ProductDesigner,35歳です。,35 years old.,0,0,1,0,0,0,1,0,0,0,0,0
+10,P10,PA,1,ProductDesigner,えー、何か若い。いや、何か、失礼かもしれないですけど、童顔かなって思います●。,"Well, something young. Well, I don't mean to be rude, but I think the user has a childish face.",0,0,1,0,0,0,1,0,0,0,0,0
+11,P11,User,1,ProductDesigner,あの、大学の事務局に行くときに、ちょっと入んないでくださいって●怒られたことが多々ある。,"You know, when I go to the university office, I've often been told ● not to go in there.",0,0,1,0,0,0,1,0,0,0,0,0
+12,P12,PA,1,ProductDesigner,えー、学生に。えー。やっぱ、じゃあ、ね、●。若いなと思って●。,"Eh, it looks like students. Eh. I knew it, then, you know, ●. I thought you were young, so ●.",0,0,1,0,0,0,1,0,0,0,0,0
+13,P13,PB,1,ProductDesigner,若い●。,Young ●.,0,0,1,0,0,0,1,0,0,0,0,0
+14,P14,User,1,ProductDesigner,ありがとうございます。,Thank you very much.,0,0,1,0,0,0,1,0,0,0,0,0
+15,P15,PB,1,ProductDesigner,いいな。,I like it.,0,0,1,0,0,0,1,0,0,0,0,0
+16,P16,PA,1,ProductDesigner,何か、何が好きとかあります？,"Do you have any, or what do you like?",0,0,1,0,0,0,1,0,0,0,0,0
+17,P17,User,1,ProductDesigner,何が好き？,"""What do you like?""",0,0,1,0,0,0,1,0,0,0,0,0
+18,P18,PA,1,ProductDesigner,何、何か音楽とか映画とか、どういうのを聞いたりとか見たりしますか。,What kind of music or movies do you listen to or watch?,0,0,1,0,0,0,1,0,0,0,0,0
+19,P19,User,1,ProductDesigner,何だろう。音楽は洋楽。,Well... Music is Western Music.,0,0,1,0,0,0,1,0,0,0,0,0
+20,P20,PA,1,ProductDesigner,洋楽聞くんじゃなかったですか。,I thought you listens to Western music.,0,0,1,0,0,0,1,0,0,0,0,1
+21,P21,PC,1,ProductDesigner,洋楽あんま聞かないよ、俺。,I don't listen to much Western music.,0,0,1,0,0,0,1,0,0,0,0,0
+22,P22,PA,1,ProductDesigner,あれ？ もう、私はもうミーハーなんで、エド・シーランとかしか分かんないですけど。,"Huh? I'm already a meek person, so I only know Ed Sheeran and the like.",0,0,1,0,0,0,1,0,0,0,0,0
+23,P23,User,1,ProductDesigner,あー、メジャー。メジャーなところですよね。,"Ah, major. It's a major music.",0,0,1,0,0,0,1,0,0,0,0,0
+24,P24,PA,1,ProductDesigner,メジャーな●。それしか知らない。,Major ●. That's all I know.,0,0,1,0,0,0,1,0,0,0,0,0
+25,P25,User,1,ProductDesigner,ま、でも、ケイティ・ペリーとか。,"Well, but Katy Perry, for example.",0,0,1,0,0,0,1,0,0,0,0,0
+26,P26,PA,1,ProductDesigner,あー、はいはい、はいはい。,"Uh, yes, yes, yes.",0,0,1,0,0,0,1,0,0,0,0,0
+27,P27,User,1,ProductDesigner,同様のメジャーどころだとテイラー・スウィフトとか。,A similar major player would be Taylor Swift.,0,0,1,0,0,0,1,0,0,0,0,0
+28,P28,PA,1,ProductDesigner,あー、いいですね。●雑誌とか読まれますか。,"Oh, that's nice. Do you read magazines or something?",0,0,1,0,0,0,1,0,0,0,0,0
+29,P29,User,1,ProductDesigner,雑誌。そうですね、読みます。,"Magazines. Yes, I read it.",0,0,1,0,0,0,1,0,0,0,0,0
+30,P30,PA,1,ProductDesigner,何を読みますか。,What do you read?,0,0,1,0,0,0,1,0,0,0,0,0
+31,P31,User,1,ProductDesigner,え、一番よく読むのは『PRESIDENT』とか。,"Eh, I read ""PRESIDENT"" most often.",0,0,1,0,0,0,1,0,0,0,0,0
+32,P32,PA,1,ProductDesigner,あー。へー、そっち。意外。ファッション雑誌とかは読む●。,"Ah. Oh, that way. Surprising. Do you read fashion magazines?",0,0,1,0,0,0,1,0,0,0,0,0
+33,P33,User,1,ProductDesigner,ファッション雑誌も読みます。,I also read fashion magazines.,0,0,1,0,0,0,1,0,0,0,0,0
+34,P34,PA,1,ProductDesigner,ファッション雑誌、どの辺読みますか●。,Which fashion magazines do you read?,0,0,1,0,0,0,1,0,0,0,0,0
+35,P35,User,1,ProductDesigner,ファッション雑誌……。あんまり雑誌の名前は覚えてないのと。何だっけ、何か、何だろう、何か、何だろう。,"Fashion magazine ....... I don't really remember the name of the magazine and. I don't know what it was, what it was, what it was, what it was.",0,0,1,0,0,0,1,0,0,0,0,0
+36,P36,PA,1,ProductDesigner,モデルは日本人ですか。,Is the model Japanese?,0,0,1,0,0,0,1,0,0,0,0,0
+37,P37,User,1,ProductDesigner,あ、はい。あの、日本人の人が表紙のモデルを。,"Ah, yes. Um, a Japanese person modeled for the cover.",0,0,1,0,0,0,1,0,0,0,0,0
+38,P38,PA,1,ProductDesigner,何だろう。『MORE』●とか『KELLy』●。,"What is it? MORE"" ● or ""KELLy"" ●.",0,0,1,0,0,0,1,0,0,0,0,0
+39,P39,PB,1,ProductDesigner,分かんない。,I'm not sure.,0,0,1,0,0,0,1,0,0,0,0,0
+40,P40,PA,1,ProductDesigner,●。そう。『FUDGE』とかでしょ？,"●. Yes. Like ""FUDGE,"" right?",0,0,1,0,0,0,1,0,0,0,0,0
+41,P41,PB,1,ProductDesigner,『FUDGE』とか●。,"FUDGE"" and so on.",0,0,1,0,0,0,1,0,0,0,0,0
+43,P43,PA,1,ProductDesigner,あ、はい、ありがとうございます。,"Ah, yes, thank you.",0,0,1,0,0,0,1,0,0,0,0,0
+44,P44,PC,1,ProductDesigner,ありがとうございます。,Thank you very much.,0,0,1,0,0,0,1,0,0,0,0,0
+45,P45,User,1,ProductDesigner,雑誌の名前。難しいな。,Name of magazine... It's difficult.,0,0,1,0,0,0,1,0,0,0,0,0
+46,P46,PA,1,ProductDesigner,好きな、何か、服のブランドとかは、ちなみにありますか。,Do you have a favorite brand of clothing?,0,0,1,0,0,0,1,0,0,0,0,0
+47,P47,User,1,ProductDesigner,好きな服のブランド……。,Favorite clothing brand: .......,0,0,1,0,0,0,1,0,0,0,0,0
+48,P48,PB,1,ProductDesigner,知りたいですね。,I would like to know.,0,0,1,0,0,1,1,0,0,0,0,0
+49,P49,PA,1,ProductDesigner,大事だよね。,It's important.,0,0,1,0,0,1,1,0,0,0,0,0
+50,P50,PB,1,ProductDesigner,大事●知りたい●。,Important ● I want to know ●.,0,0,1,0,0,1,1,0,0,0,0,0
+51,P51,User,1,ProductDesigner,最近、最近ZARAが。,"Recently, recently ZARA.",0,0,1,0,0,0,1,0,0,0,0,0
+52,P52,PB,1,ProductDesigner,ZARA。ああ。,ZARA. ah.,0,0,1,0,0,0,1,0,0,0,0,0
+53,P53,PA,1,ProductDesigner,なるほど。,I see.,0,0,1,0,0,0,1,0,0,0,0,0
+54,P54,PB,1,ProductDesigner,ZARAかっこいいですもんね。分かる。,"ZARA is cool, isn't it? I understand.",0,0,1,0,0,0,1,0,0,0,0,0
+55,P55,User,1,ProductDesigner,あのー、イギリスの、えーと、何だっけ、キャサリン妃？がZARAの服をよく着ていて。,"Well, the British, uh, what is it, Princess Catherine? was wearing ZARA clothes a lot.",0,0,1,0,0,0,1,0,0,0,0,0
+56,P56,PA,1,ProductDesigner,へー。,Heh.,0,0,1,0,0,0,1,0,0,0,0,0
+57,P57,PC,1,ProductDesigner,皇室が？ ファストファッション？,The Imperial Family? Do they use the fast fashon?,0,0,1,0,0,0,1,0,0,0,0,0
+58,P58,PA,1,ProductDesigner,へー。,Heh.,0,0,1,0,0,0,1,0,0,0,0,0
+59,P59,PB,1,ProductDesigner,すごい、そうなんだ。,"Wow, yes.",0,0,1,0,0,0,1,0,0,0,0,0
+60,P60,PA,1,ProductDesigner,意外。,Surprising.,0,0,1,0,0,0,1,0,0,0,0,0
+61,P61,PC,1,ProductDesigner,ちょっと好感持てたわ。,I kind of liked that.,0,0,1,0,0,0,1,0,0,0,0,0
+62,P62,PA,1,ProductDesigner,●ってた。確かに。,I was. Indeed.,0,0,1,0,0,0,1,0,0,0,0,0
+63,P63,PC,1,ProductDesigner,イギリス良い国だわ。,England is good.,0,0,1,0,0,0,1,0,0,0,0,0
+64,P64,PB,1,ProductDesigner,●何色が好きとかありますか。,Do you have a favorite color?,0,0,1,0,0,0,1,0,0,0,0,0
+65,P65,User,1,ProductDesigner,好きな色……。好きな色は、えっと、青が好きです。,"Favorite color: ....... My favorite color is, um, blue.",0,0,1,0,0,0,1,0,0,0,0,0
+66,P66,PB,1,ProductDesigner,青。,Blue.,0,0,1,0,0,0,1,0,0,0,0,0
+67,P67,PA,1,ProductDesigner,ふーん、なるほど。お部屋はどんな感じですか。きれいですか。,"Hmmm, I see. What are the rooms like? Is it clean?",0,0,1,0,0,0,1,0,0,0,0,0
+68,P68,PC,1,ProductDesigner,その聞きかたは．．．。,Your question is…,0,0,1,0,0,0,1,0,0,0,0,0
+69,P69,User,1,ProductDesigner,その質問すごい、あのー、核心を。,"That question is so, um, ...critical.",0,0,1,0,0,0,1,0,0,0,0,0
+70,P70,PA,1,ProductDesigner,私、だって、汚いからさ。,"Me, because, you know, (my room is) messy.",0,0,1,0,0,0,1,0,0,0,0,0
+71,P71,User,1,ProductDesigner,そう、何だろう、創造性にあふれた部屋だと思います。,"So, what I can say... my room looks like full of creativity.",0,0,1,0,0,0,1,0,0,0,0,0
+72,P72,PA,1,ProductDesigner,創造性にあふれた部屋。難しい回答だな。,A room full of creativity. Difficult answer.,0,0,1,0,0,0,1,0,0,0,0,0
+73,P73,User,1,ProductDesigner,ま、ぐちゃぐちゃしてるって●。,"Well, they say it's messy.",0,0,1,0,0,0,1,0,0,0,0,0
+74,P74,PA,1,ProductDesigner,あの、いつも持つものって多いほうですか、少ないですか。,"Um, do you always have more or less?",0,0,1,0,0,0,1,0,0,0,0,0
+75,P75,User,1,ProductDesigner,えっとー、少なくしてます。,"Well, less.",0,0,1,0,0,0,1,0,0,0,0,0
+76,P76,PA,1,ProductDesigner,あー、なるほど。すごい。いいな。私もそうしたい。,"Oh, I see. That's great. I like it. I wish I could do that too.",0,0,1,0,0,0,1,0,0,0,0,0
+78,P78,PA,1,ProductDesigner,あ、入らないですか。,"Oh, you don't want to go in?",0,0,0,0,0,0,1,0,0,0,0,0
+80,P80,PA,1,ProductDesigner,あ、大丈夫、大丈夫●。置いとこう。よいしょ。じゃあ、話し合おっか。今で得た情報を。よいしょ。,"Oh, it's okay, it's okay. Let's put it down. There we go. Well, let's talk, about the information we just got.",0,0,1,0,0,0,0,1,0,1,0,1
+81,P81,PB,1,ProductDesigner,〓見る〓？,See it?,0,0,0,0,0,0,0,1,0,0,0,1
+82,P82,PA,1,ProductDesigner,いや、取りあえずはいいや。,"No, not for now.",0,0,0,0,0,0,0,1,0,1,0,0
+83,P83,PC,1,ProductDesigner,●一番無難なのZARA●ZARAで取り扱ってる製品調べてみることだよね。,The safest place to start is ZARA - Check out the products ZARA carries.,0,0,0,1,0,1,0,0,0,1,0,0
+84,P84,PA,1,ProductDesigner,うん。うち、ちょっと、あのー、まとめてみる、プロフィル画面から。,"Yeah, I'll start with the profile screen.",0,0,1,0,0,1,0,1,0,1,0,0
+85,P85,PB,1,ProductDesigner,●物は少ないみたいだから。,It seems that there are not so many ● things.,0,0,1,1,0,0,0,1,0,0,0,0
+86,P86,PA,1,ProductDesigner,うん。,Yeah.,0,0,1,1,0,0,0,1,0,0,0,0
+87,P87,PB,1,ProductDesigner,あんま長財布よりは小さい。,Not...It is smaller than the long wallet.,0,1,1,1,0,0,0,1,0,0,0,0
+88,P88,PA,1,ProductDesigner,うん、そうだね。思った、うちも。,"Yeah, I know. I thought so, too.",0,1,1,1,0,0,0,1,0,0,0,0
+89,P89,PB,1,ProductDesigner,それ●。,It●.,0,1,0,1,0,0,0,1,0,0,0,0
+90,P90,PC,1,ProductDesigner,ちくしょう．昨日，ZARA アプリ消しちゃったんだよな。,"Woops, I deleted ZARA app yesterday.",0,0,1,0,0,0,1,0,0,0,0,0
+91,P91,PC,1,ProductDesigner,ZARAって基本モード系のイメージあるんだよね。,I imagine that ZARA is is basically a mode type.,0,0,1,1,0,0,0,1,0,0,0,0
+92,P92,PB,1,ProductDesigner,うん、シックな感じ。,"Yeah, it's chic.",0,0,0,1,0,0,0,1,0,0,0,0
+93,P93,PA,1,ProductDesigner,シックで洗練されたって感じが。,It feels chic and sophisticated.,0,0,0,1,0,0,0,1,0,0,0,0
+94,P94,PB,1,ProductDesigner,あー、革。白、黒。,"Uh, leather. White, black.",0,1,0,0,0,0,0,1,0,0,0,0
+95,P95,PC,1,ProductDesigner,うん。〓パンパン〓●。,"Yup. Pan, pan●.",0,1,0,0,0,0,0,1,0,0,0,0
+96,P96,PB,1,ProductDesigner,〓パン〓。ブラウン。白。,Pan. Brown. White.,0,1,0,0,0,0,0,1,0,0,0,0
+97,P97,PA,1,ProductDesigner,ま、色はね、もう流行色だからね、ZARAも。白、黒なイメージある、うちも。,"Well, colors are already in vogue, and so ZARA is. I have an image of black and white.",0,1,0,1,0,0,0,1,0,0,0,0
+98,P98,PC,1,ProductDesigner,"あとちょっと，これ,なんだか今週の新商品ってのを選んだんだけど，●も作っているし，柄物とか，レディｰスだったらけっこうガーリーなやつ？もやってるっぽい。","On the page of this week's new items, they have some patterned and quite girly items.",0,0,0,0,0,0,1,0,0,0,0,0
+99,P99,PA,1,ProductDesigner,でも、多分、ズボンを履いてらっしゃる限りオトナなんだよね、ZARAの中では。,"But the user are wearing pants, so the user might be a adult, in ZARA.",0,0,1,1,0,0,0,1,0,0,0,0
+100,P100,PB,1,ProductDesigner,ガーリー。,Girly,0,0,0,0,0,0,0,1,0,0,0,0
+101,P101,PC,1,ProductDesigner,ふん，ふん，ふん，ふん。,"Hum, hum, hum, hum,",0,0,0,0,0,0,0,1,0,0,0,0
+102,P102,PB,1,ProductDesigner,この辺の……。もうちょっと色あるな。,"There's a little bit more. The color is...,",0,0,0,0,0,0,1,0,0,0,0,0
+103,P103,PA,1,ProductDesigner,色が●あれだね．ごめん，イケメンが出てきた。,"The color is - that's it ... . Sorry, a handsome man came out.",0,0,0,1,0,0,1,0,0,0,0,0
+104,P104,PC,1,ProductDesigner,これ，レディ−スだから，たぶん女性やで。,There may be woman because this page is for ladies.,0,0,0,0,0,0,1,0,0,0,0,0
+105,P105,PA,1,ProductDesigner,あ、女性なんだ。イケメンかと思った。,"Oh, that was a woman. I thought there is a handsome man.",0,0,0,0,0,0,1,0,0,0,0,0
+107,P107,PC,1,ProductDesigner,でも、色味は〓持って〓いいと思うんですよね。,But I think it's okay to have color.,0,1,0,1,0,0,0,1,0,0,0,0
+108,P108,PA,1,ProductDesigner,うん。これっぽい感じ●。スカートでも。何かね、動作だよね、あとは。,"Yeah, it's like this. Even in a skirt. It's something about the action, you know?",1,1,0,1,0,0,0,1,0,0,0,0
+109,P109,PB,1,ProductDesigner,あー。,Ah.,1,1,0,0,0,0,0,1,0,0,0,0
+110,P110,PA,1,ProductDesigner,財布を開くとか、そういう系の動作。,Opening a wallet or some other type of action.,1,1,0,1,0,0,0,1,0,0,0,0
+111,P111,PB,1,ProductDesigner,動作。,Action.,1,1,0,1,0,0,0,1,0,0,0,0
+112,P112,PA,1,ProductDesigner,今、ちなみに、使ってるお財布はどういう形ですか。,"By the way, what shape is the wallet you are using right now?",0,1,1,0,0,0,1,0,0,0,0,0
+113,P113,User,1,ProductDesigner,あ、えーと、どういう形？,"Oh, um, ""what form""?",0,1,1,0,0,0,1,0,0,0,0,0
+114,P114,PA,1,ProductDesigner,何か、がま口とかいろいろあるじゃないですか。長財布とか。,There are various kinds of wallets like Gamaguchi. Or long wallets.,0,1,1,0,0,0,1,0,0,0,0,0
+115,P115,User,1,ProductDesigner,えっとー、二つ折りの。,"Let's see, it is bifold...",0,1,1,0,0,0,1,0,0,0,0,0
+116,P116,PB,1,ProductDesigner,二つ折り。,Bifold.,0,1,1,0,0,0,1,0,0,0,0,0
+117,P117,User,1,ProductDesigner,んと、こういう形。,The form is like this one.,0,1,1,0,0,0,1,0,0,0,0,0
+118,P118,PA,1,ProductDesigner,短い、なるほど。やっぱ小さめな。,"Short, I see. I knew it was small.",0,1,1,0,0,0,1,0,0,0,0,0
+119,P119,PB,1,ProductDesigner,小さめの。カード、ポイントカードとか多いですか。,"Small. Do you have many cards, loyalty cards, etc.?",0,1,1,0,0,0,1,0,0,0,0,0
+120,P120,User,1,ProductDesigner,ポイントカード持たないです。,I don't have a loyalty card.,0,0,1,0,0,0,1,0,0,0,0,0
+121,P121,PB,1,ProductDesigner,持たない。ってことは。,You don't have it. Which means.,0,0,1,1,0,0,0,1,0,0,0,0
+122,P122,PA,1,ProductDesigner,うん、じゃあ。,"Yeah, then.",0,0,1,1,0,0,0,1,0,0,0,0
+123,P123,PB,1,ProductDesigner,薄くていいんじゃない？ ミニマリストっぽい感じ●。,"Thin is also good, right? Minimalist-like feeling ●.",0,1,1,1,0,0,0,1,0,0,0,1
+124,P124,PC,1,ProductDesigner,そうだよね。,That's right.,0,1,1,1,0,0,0,1,0,0,0,0
+125,P125,PA,1,ProductDesigner,そうだね。,"Yes, it is.",0,1,1,1,0,0,0,1,0,0,0,0
+126,P126,PC,2,ProductDesigner,だったら，だったらあれじゃないかな？なんかあったな。,"Then, then, isn't that it? I've got something....",0,0,0,1,0,1,0,0,0,0,0,0
+127,P127,PB,2,ProductDesigner,30分でしょ？,"30 minutes, right?",0,0,0,0,0,1,0,0,0,1,0,1
+128,P128,PA,2,ProductDesigner,今どこら辺？ 10分か。,Where are you? Ten minutes.,0,0,0,0,0,1,0,0,0,0,1,1
+131,P131,PB,2,ProductDesigner,●10分。,● 10 minutes.,0,0,0,0,0,0,0,1,0,0,1,0
+132,P132,PA,2,ProductDesigner,40分開始●。,40 minutes start ●.,0,0,0,0,0,0,0,1,0,0,1,0
+134,P134,PA,2,ProductDesigner,はい。,Yes.,0,0,0,0,0,0,1,0,0,1,0,0
+135,P135,PB,2,ProductDesigner,はい。,Yes.,0,0,0,0,0,0,1,0,0,1,0,0
+136,P136,PA,2,ProductDesigner,いや、もう時間ないよ。,"No, I don't have time for this.",0,0,0,1,0,0,0,1,0,0,1,0
+137,P137,PC,2,ProductDesigner,そうだね。,"Yes, it is.",0,0,0,1,0,0,0,1,0,0,1,0
+138,P138,PA,2,ProductDesigner,●作ってみたら●。えー、ちょっと待って。うちね、●近い●。どうしよう。●お金入れてますか。キャッシュレスですか。,"Why don't you make it? Oh, wait a minute. I am... It close... What should I do? Do you put money in a wallet? Do you prefer cashless?",0,0,1,1,1,0,1,0,0,1,0,0
+139,P139,User,2,ProductDesigner,お金は少ないけど入れてます。,"The money is small, but I put it in.",0,0,1,0,0,0,1,0,0,0,0,0
+140,P140,PA,2,ProductDesigner,入れて、キャッシュレスも使ってますか。,Do you put it in and use cashless as well?,0,0,1,0,0,0,1,0,0,0,0,0
+141,P141,User,2,ProductDesigner,キャッシュレスも使います。,Cashless is also used.,0,0,1,0,0,0,1,0,0,0,0,0
+142,P142,PA,2,ProductDesigner,あー、なるほど。,"Ah, I see.",0,0,1,0,0,0,1,0,0,0,0,0
+143,P143,PB,2,ProductDesigner,小銭は●。5円以下は持ちたくないとかありますか？,Coins. don't want to carry less than 5 yen?,0,0,1,0,0,0,1,0,0,0,0,0
+144,P144,User,2,ProductDesigner,5円以下は持ちたくないけど、持たざるを得ない●。,"I don't want to carry less than 5 yen, but I have to ●.",0,0,1,0,0,0,1,0,0,0,0,0
+145,P145,PA,2,ProductDesigner,お財布別に分けてないですよね？小銭と。●。,"You don't have separate wallets, do you? With coins. ●.",0,0,1,0,0,0,1,0,0,0,0,0
+146,P146,User,2,ProductDesigner,うん、分けてない。,"Yes, I don't separate them.",0,0,1,0,0,0,1,0,0,0,0,0
+147,P147,PA,2,ProductDesigner,そうですよね，一緒ですよね。,"I see, these are in the same (place).",0,0,1,0,0,0,1,0,0,0,0,0
+148,P148,PC,2,ProductDesigner,ファーストプロトタイプでどこまで作れば良いんだろうね．中の．●．はさすがに無理しょ．側，そうだね．色味的に，●のニュアンス的に，これも入れて良いかもしれない．そこまで色パンのやつはいらないとして。,"I wonder how far I should go with the first prototype .................... We can't create inside.... The side, well... It might be good to put this in, too, in terms of color and the nuance of the ●. I don't need vivid colors.",0,1,0,1,1,1,0,1,0,1,0,1
+149,P149,PB,2,ProductDesigner,外．色味この辺かな．．。,Outside. The Colors are like these.,0,1,0,1,1,0,0,1,0,0,0,0
+150,P150,PB,2,ProductDesigner,外これ，中これ，って感じ。,"Outside this, inside that.",0,1,0,1,1,0,0,1,0,0,0,0
+151,P151,PC,2,ProductDesigner,あー，そうね．時間的にここから要素絞った方がいい気がする。,"Ah, yes. I think it's better to focus on the elements from here in terms of time.",0,1,0,1,1,0,0,1,0,1,0,0
+152,P152,PA,2,ProductDesigner,ちなみに、今のお財布は何でそのお財布選んだんですか。,"By the way, why did you choose the current wallet?",0,0,1,0,0,0,1,0,0,0,0,0
+153,P153,User,2,ProductDesigner,えっと、デザインがすてきだから。,"Well, because the appearance design is nice.",0,1,1,0,0,0,1,0,0,0,0,0
+154,P154,PA,2,ProductDesigner,あー、なるほど。何か、がま口とかあったりするじゃないですか。がま口とか持ったことありますか？。,"Ah, I see. There are some things like ""Gamaguchi,"" aren't there? Have you ever held a Gamaguchi?",0,0,1,0,0,0,1,0,0,0,0,0
+155,P155,User,2,ProductDesigner,あります。,"Yes, I had.",0,0,1,0,0,0,1,0,0,0,0,0
+156,P156,PA,2,ProductDesigner,かわいいかったからがま口ってことですか？,You mean you have a Gamaguchi because it was cute?,0,1,1,0,0,0,1,0,0,0,0,0
+157,P157,User,2,ProductDesigner,がばって開くのがいいかなって思って●。,I thought it would be good to open widley.,1,0,1,0,0,0,1,0,0,0,0,0
+158,P158,PA,2,ProductDesigner,ああ、機能性的にってことですか。なるほど。,"Oh, you mean functionally? I see.",1,0,1,0,0,0,1,0,0,0,0,0
+159,P159,PC,2,ProductDesigner,作るの１個でいいんでしょう？,"We only need one to make it, right?",0,0,0,0,0,1,0,0,0,1,0,1
+160,P160,PB,2,ProductDesigner,1個で。,1 piece.,0,0,0,0,0,0,0,1,0,1,0,0
+161,P161,PC,2,ProductDesigner,じゃあ、この段階で4色ぐらいに絞って。で，PAも含めて色を決定しよう．あ，じゃあ，今PAいるなら，この段階で色を決めちゃおう。,"Then narrow it down to about four colors at this stage. Then, let's decide on the colors, with PA. Oh, well, if PA joins now, let's decide on the colors at this stage.",0,1,0,1,1,0,0,1,0,1,0,1
+162,P162,PA,2,ProductDesigner,作りたいやつ？,The one you want to make?,0,1,0,0,1,0,0,1,0,0,0,1
+163,P163,PB,2,ProductDesigner,とりあえず．ZARA，ZARA的イメージで色を絞ってみたの。,We are narrowing colors with a ZARA-like image.,0,1,0,1,1,0,0,1,0,0,0,0
+164,P164,PA,2,ProductDesigner,ああ。えっと、こっち？,"Oh. Uh, this way?",0,1,0,0,1,0,0,1,0,0,0,1
+165,P165,PC,2,ProductDesigner,で、そっから。でも、プロトに落とすのは1つだから。,And so on. But it's one for the prototype.,0,0,0,0,1,0,0,1,0,0,0,0
+166,P166,PA,2,ProductDesigner,なんか微妙な感じ．．．これは、でも、いっか。試作で作ればいっか。,"It's kind of subtle ... This is, but okay. But, okay for creating as a prototype.",0,0,0,1,1,0,0,1,0,0,0,0
+167,P167,PC,2,ProductDesigner,まあね。,Oh well.,0,0,0,0,1,0,0,1,0,0,0,0
+168,P168,PA,2,ProductDesigner,あー、色？ ね、黒かな。黒か、ま、白は持っときたい。え、あとは何だろう。え、でも、全然ありそうだけどね。でも、紺はうち、あんま見ない感じするけど、どう？ ま、でも女性だからありかなとは思うけど。,"Uh, color? Hey, maybe black. Black, well, I'd like to have white. Eh, what else? Well, I'm sure there are a lot of them. But I feel like I don’t see much navy blue, do you? Well, I think it is possible because the user is a woman.",0,1,1,1,1,0,0,1,0,0,0,1
+169,P169,PB,2,ProductDesigner,〓こう思う〓。こう。,I think this. This.,0,1,0,1,1,0,0,1,0,0,0,1
+170,P170,PC,2,ProductDesigner,うん。っていうか、この●ちょっと主張強過ぎる●。,"Right, by the way, I mean, this one is a little too assertive.",0,1,0,1,1,0,0,1,0,0,0,0
+171,P171,PA,2,ProductDesigner,それね、思った。,That's what I thought.,0,1,0,1,1,0,0,1,0,0,0,0
+172,P172,PB,2,ProductDesigner,●よね。,"I know, right?",0,1,0,1,1,0,0,1,0,0,0,1
+173,P173,PA,2,ProductDesigner,これいいよね。,This is nice.,0,1,0,1,1,0,0,1,0,0,0,0
+174,P174,PB,2,ProductDesigner,うん。,Yeah.,0,1,0,1,1,0,0,1,0,0,0,0
+175,P175,PC,2,ProductDesigner,こいつは省いていい気がする●。,I feel like we can leave this one out●.,0,1,0,1,1,0,0,1,0,0,0,0
+176,P176,PA,2,ProductDesigner,うち、個人的にこの茶色もあんま好きじゃない。,I personally don't like this brown color much either.,0,1,0,1,1,0,0,1,0,0,0,0
+177,P177,PC,2,ProductDesigner,あー。,Ah.,0,1,0,0,1,0,0,1,0,0,0,0
+178,P178,PB,2,ProductDesigner,ちょっとおばさんチック。,It's old-fashioned.,0,1,0,1,1,0,0,1,0,0,0,0
+179,P179,PA,2,ProductDesigner,何か、土の色感がすごいよね。これだったら、まあ、全然あれだ、あれ。これ●。,"There's something about the color of the dirt that's just amazing. If it is this, well, it's totally that, that. This one.",0,1,0,1,1,0,0,1,0,0,0,0
+180,P180,PB,2,ProductDesigner,これ、何か普通過ぎない？何か。,Isn't this something too normal? Something.,0,1,0,1,1,0,0,1,0,0,0,1
+181,P181,PA,2,ProductDesigner,もう、だって、一見オレンジじゃん。,"Already, because, at first glance, it's orange.",0,1,0,1,1,0,0,1,0,0,0,0
+182,P182,PC,2,ProductDesigner,じゃあ，省く？,Do you want to remove this color?,0,1,0,0,1,0,0,1,0,0,0,1
+183,P183,PA,2,ProductDesigner,どう思う？ＰＣ？,"What do you think, PC?",0,1,0,0,1,0,0,1,0,0,0,1
+184,P184,PB,2,ProductDesigner,あー、微妙だね、何か、こう。,"Oh, it's subtle, something like this.",0,1,0,1,1,0,0,1,0,0,0,0
+185,P185,PC,2,ProductDesigner,うーん、でも、何かな。要素的にこれは外し難いところはあるんだよね。,"Hmmm, but what. There's something elemental about this that makes it hard to remove.",0,1,0,1,1,0,0,1,0,0,0,0
+186,P186,PB,2,ProductDesigner,そうなんだよね。,That's right.,0,1,0,1,1,0,0,1,0,0,0,0
+187,P187,PA,2,ProductDesigner,ただ、もしワンポイント色入れるとしたら、これは、まあ、色入れれるけど。これなかったら、ほんとにこのシックな感じで終わるんだよね。だ、もしワンポイント入れるとしたらこれかこれ使えるっていうので、取っとくのもあり。これ、別に全面に使わなくてもみたいな。分かんない。,"But if I were to put in one point of color, this, well, I could put in color. Without this, it would really end up with this chic look. So, if you want to put one point of color, you can keep this one or this one because you can use it. I don't think it's necessary to use this for the whole surface. I don't know.",0,1,0,1,1,0,0,1,0,0,0,0
+188,P188,PB,2,ProductDesigner,こう？,Like this?,0,1,0,0,1,0,0,1,0,0,0,1
+189,P189,PA,2,ProductDesigner,うん。,Yeah.,0,1,0,1,1,0,0,1,0,0,0,0
+190,P190,PC,2,ProductDesigner,あー、いいね。,"Oh, that's nice.",0,1,0,1,1,0,0,1,0,0,0,0
+191,P191,PB,2,ProductDesigner,ちょっと、何か、オリジナル感ない？,"Hey, what's not a little, you know, original?",0,1,0,1,1,0,0,1,0,0,0,1
+192,P192,PC,2,ProductDesigner,うん、うん。,"Yeah, yeah.",0,1,0,1,1,0,0,1,0,0,0,0
+193,P193,PA,2,ProductDesigner,うん。,Yeah.,0,1,0,1,1,0,0,1,0,0,0,0
+194,P194,PB,2,ProductDesigner,このカラーバリエーションは。こうする？,This color variation. Do you want to do this?,0,1,0,1,1,0,0,1,0,0,0,1
+195,P195,PC,2,ProductDesigner,そうしよっか。,Shall we do that?,0,1,0,1,1,0,0,1,0,0,0,0
+196,P196,PB,2,ProductDesigner,いいね、OK。,"Great, OK.",0,1,0,1,1,0,0,1,0,0,0,0
+197,P197,PC,2,ProductDesigner,サイズ感をどうしたかだよね。もう作っていかないといけないから。,It's what we do with the size. Because we have to make it right now.,0,1,0,1,1,0,0,1,0,1,0,0
+198,P198,PA,2,ProductDesigner,●もう、ね、多分小さいので機能的なので。,"● Yeah, you know, probably it shoul be small and functional.",1,1,0,1,0,0,0,1,0,0,0,0
+199,P199,PC,2,ProductDesigner,そう、だから、イメージ的には●ちっちゃいやつ。,"Yes, so, in our image, ● a small one.",0,1,0,1,0,0,0,1,0,0,0,0
+200,P200,PB,2,ProductDesigner,●こう、パタッてなって、お札が何枚？10枚？と。,It's to flap. How many bills? Ten bills? and...,1,0,0,1,1,0,0,1,0,0,0,0
+201,P201,PC,2,ProductDesigner,と、小銭ちょろっと●。あと、カードも多分●。,And a little coins. And maybe some cards.,1,0,0,1,0,0,0,1,0,0,0,0
+202,P202,PB,2,ProductDesigner,2～3枚しか入んない。,Only two or three cards will fit.,1,0,0,0,0,0,0,1,0,0,0,0
+203,P203,PA,2,ProductDesigner,へー。,Heh.,1,0,0,0,0,0,0,1,0,0,0,0
+204,P204,PC,2,ProductDesigner,だからね、多分。,"So, maybe.",1,0,0,0,0,0,0,1,0,0,0,0
+205,P205,PA,2,ProductDesigner,え、それ、誰かスケッチで描いてくれない？,"Eh, can someone draw that in a sketch?",0,0,0,0,1,0,0,1,0,0,0,1
+206,P206,PC,2,ProductDesigner,違うの、何かね、商品名忘れたんよ。,"No, something like, I forgot the name of the product.",0,0,0,0,0,1,0,1,0,0,0,0
+207,P207,PB,2,ProductDesigner,〓PZ〓ちゃんが持ってたんだよね。,PZ-chan had it.,0,0,0,0,0,0,0,1,0,0,0,0
+208,P208,PC,2,ProductDesigner,そう。〓PY〓も持って●。,Yes. PY also has it ●.,0,0,0,0,0,0,0,1,0,0,0,0
+210,P210,PA,2,ProductDesigner,それは何で作られてんの？,What's that made of?,0,1,0,0,0,1,0,0,0,0,0,1
+211,P211,PB,2,ProductDesigner,それはね。,It is.,0,1,0,0,0,0,0,1,0,0,0,0
+212,P212,PA,2,ProductDesigner,革？,Leather?,0,1,0,0,0,0,0,1,0,0,0,1
+213,P213,PB,2,ProductDesigner,革？,Leather?,0,1,0,0,0,0,0,1,0,0,0,1
+214,P214,PC,2,ProductDesigner,革だと思う。,I think it's leather.,0,1,0,0,0,0,0,1,0,0,0,0
+215,P215,PA,2,ProductDesigner,TAKEO KIKUCHIか？ 何だ。,TAKEO KIKUCHI? What is it?,0,0,0,0,0,0,0,1,0,0,0,0
+219,P219,PB,2,ProductDesigner,多分ああいうニュアンスだよね。,Maybe it's that kind of nuance.,0,0,0,1,0,0,0,1,0,0,0,0
+220,P220,PC,2,ProductDesigner,うん。,Yeah.,0,0,0,1,0,0,0,1,0,0,0,0
+221,P221,PA,2,ProductDesigner,ちょっと教えて。誰かスケッチで描いて。スケッチで〓描けんよ〓って？,"Tell me a little about it. Please, somebody draw it in a sketch. You can't draw on a sketch?",0,0,0,0,1,0,0,1,0,0,0,1
+222,P222,PA,2,ProductDesigner,重い物のせときたいな．うん。●これの下に乗せる？,I'd like to put something hevy to keep it. Yeah. Do you wanna put it under this?,0,0,0,0,0,0,0,1,0,0,0,1
+223,P223,PB,2,ProductDesigner,うん。,Yeah.,0,0,0,0,0,0,0,1,0,0,0,0
+224,P224,PC,2,ProductDesigner,●多分サイズ感、こんな感じだよね。,"● Maybe the size, it's like this.",0,1,0,1,1,0,0,1,0,0,0,1
+225,P225,PB,2,ProductDesigner,うん、そんな感じ。,"Yeah, something like that.",0,1,0,1,1,0,0,1,0,0,0,0
+226,P226,PC,2,ProductDesigner,サイズ感●。,Size ●.,0,1,0,1,1,0,0,1,0,0,0,0
+227,P227,PB,2,ProductDesigner,三つ折りなんだけど。,It's a trifold.,0,1,0,1,1,0,0,1,0,0,0,0
+228,P228,PA,2,ProductDesigner,へー。,Heh.,0,1,0,1,1,0,0,1,0,0,0,0
+229,P229,PC,2,ProductDesigner,あれは三つ折りだね。,That's a trifold.,0,1,0,1,0,0,0,1,0,0,0,0
+231,P231,PA,2,ProductDesigner,三つ折りがいいのかね。二折りがいいのかね。でも、使ってらっしゃるのは二折りだよ。,Does the user prefer trifolds? Does the user prefer the biofold? But the one the user is using is a biofold.,0,1,1,0,0,0,0,1,0,0,0,1
+232,P232,PC,2,ProductDesigner,うーん。,Hmmm.,0,1,1,0,0,0,0,1,0,0,0,0
+233,P233,PA,2,ProductDesigner,いや、分かんない。,"No, I don't know.",0,1,1,0,0,0,0,1,0,0,0,0
+234,P234,PC,2,ProductDesigner,まあね。,Oh well.,0,1,1,0,0,0,0,1,0,0,0,0
+235,P235,PA,2,ProductDesigner,でも、そこはあんま関係ないのかな。もう、だって、あとちょっとしかない。どうしよっか。取りあえずそれぞれで作ってみる？ で……。,"But I guess that's not really the point. Already, we have only a few (minutes). What should we do? Should we make one for each of us for the time being?",0,1,1,0,1,0,0,1,0,1,0,1
+236,P236,PC,2,ProductDesigner,いや、それはやめたほうがいい●。,"No, we shouldn't do that●.",0,0,0,1,1,0,0,1,0,1,0,0
+237,P237,PA,2,ProductDesigner,みんなで作る？,Do you want to make it together?,0,0,0,0,1,0,0,1,0,1,0,1
+238,P238,PB,2,ProductDesigner,二折りか三つ折りか。,Bifold or trifold?,0,1,0,0,0,0,0,1,0,0,0,0
+239,P239,PC,2,ProductDesigner,でも、カード入れないんだったら三つ折りで〓よくない？って〓気もするよ。,But I think it would be better to use a trifold if the user doesn't want to put cards in it.,1,1,0,1,0,0,0,1,0,0,0,0
+240,P240,PA,2,ProductDesigner,うーん、いいよ。,"Hmmm, okay.",1,1,0,1,0,0,0,1,0,0,0,0
+241,P241,PB,2,ProductDesigner,え？,Huh?,0,1,0,0,0,0,0,1,0,0,0,0
+242,P242,PA,2,ProductDesigner,二折り？,Bifold?,0,1,0,0,0,0,0,1,0,0,0,1
+243,P243,PB,2,ProductDesigner,二折り。二折りにして。,Bifold. It'll be buifold.,0,1,0,0,0,0,0,1,0,0,0,0
+244,P244,PA,2,ProductDesigner,いいんじゃない？,"That's good, isn't it?",0,1,0,1,0,0,0,1,0,0,0,1
+245,P245,PC,2,ProductDesigner,うん。,Yeah.,0,1,0,1,0,0,0,1,0,0,0,0
+246,P246,PA,2,ProductDesigner,〓お財布感〓がね、お財布のが、何かすてきな感じするけどな。分かんない。〓本〓みたいな。いや、サイズ的にはあれだけど。,"The wallet-like... The wallet is... I feel something good. I don't know. It's like book. Well, it is not for the size.",1,1,0,1,0,0,0,1,0,0,0,0
+247,P247,PC,2,ProductDesigner,あー，なるほど。結構●しいと思うんだよ。,Ah ●. I think it's pretty ●....,1,1,0,1,0,0,0,1,0,0,0,0
+248,P248,PC,2,ProductDesigner,●〓サイズ感〓●、持ったときのサイズ感。,"Size..., the size when the user holds it.",0,1,0,0,0,0,0,1,0,0,0,0
+249,P249,PA,2,ProductDesigner,あー、間違いない。,"Oh, no doubt.",0,1,0,1,0,0,0,1,0,0,0,0
+250,P250,PC,2,ProductDesigner,ちょうどいいぐらい●。これちょっと切るくらいが。これに革張って完成じゃねえ？もう。〓って感じはあるけど〓。,"It seems just fit if we will cut it a little bit. Put some leather on it and it's done, isn't it? I know it looks like a ....",0,1,0,1,1,0,0,1,0,0,0,0
+251,P251,PA,2,ProductDesigner,いやさ、正直さ、それ作ってもさ、多分既製品とおんなじよ。別にそれでもいい。,"No, to be honest, even if you made it, it would probably be the same as a ready-made product. That's fine.",0,0,0,1,1,0,0,1,0,0,1,0
+253,P253,PA,2,ProductDesigner,何かある？ 分かんない。,Anything else? I don't know.,0,0,0,0,0,0,0,1,0,0,0,1
+254,P254,PB,2,ProductDesigner,それなら、重なり方が今までのと違うみたいな。重なることで形が見えるみたいな。,"Well then, how about that the overlap is different from the previous ones. The overlapping of the layers makes the specific shape visible.",0,1,0,1,0,0,0,1,0,0,0,0
+255,P255,PC,2,ProductDesigner,例えば〓ファーストでそこまで出る〓？,For example? Can we make it as the farst (prototype)?,0,0,0,1,1,0,0,1,0,1,0,1
+256,P256,PB,2,ProductDesigner,出ないね。ファーストだよね？,"We cannot it. It's the first (prototype), right?",0,0,0,1,1,0,0,1,0,1,0,1
+257,P257,PC,2,ProductDesigner,ファーストでしょ。,The first (prototype).,0,0,0,0,1,0,0,1,0,1,0,0
+258,P258,PB,2,ProductDesigner,ファーストなら出ないわ、そんな●。,"We cannot do that for the first (prototype), that kind of ●.",0,0,0,1,1,0,0,1,0,1,0,0
+259,P259,PC,2,ProductDesigner,ラピッドにする？,Will we do Rapid (prototype)?,0,0,0,1,1,0,0,1,0,1,0,1
+260,P260,PB,2,ProductDesigner,ラピッドにしよう。,Let's do Rapid (prototype).,0,0,0,1,1,0,0,1,0,1,0,0
+261,P261,PC,2,ProductDesigner,これってどこまで、どれぐらいまで落とし込めばいいですか。,How complete should we...?,0,0,0,0,1,0,1,0,0,1,0,0
+263,P263,PC,2,ProductDesigner,えっとー、サイズ感とかまででいいのか、それとも、その、機能とか見せ方とかまで落とし込んだらいいのかとか。,"Let's see...is it enough to show the size and so on, or should we get down to the function and the way it is presented?",1,1,0,0,1,0,1,0,0,1,0,0
+265,P265,PC,2,ProductDesigner,あー。,Ah.,0,0,0,0,1,0,1,0,0,1,0,0
+266,P266,PB,2,ProductDesigner,あー。,Ah.,0,0,0,0,1,0,1,0,0,1,0,0
+268,P268,PB,2,ProductDesigner,どうしよう，サイズでいく？,I don't know what to do ...Do you want to meke a size (model)?,0,1,0,0,1,0,0,1,0,1,0,1
+269,P269,PC,2,ProductDesigner,うん。機能面●説明でいいじゃん。,"Yeah, I'm sure that's fine. It is OK that just explain the function..",1,0,0,1,1,0,0,1,0,1,0,0
+270,P270,PA,2,ProductDesigner,うん。,Yeah.,1,1,0,0,1,0,0,1,0,1,0,0
+271,P271,PB,2,ProductDesigner,うん。,Yeah.,1,1,0,0,1,0,0,1,0,1,0,0
+272,P272,PC,2,ProductDesigner,そこまで詰めると●。,"When packed that tight, ●.",1,1,0,0,1,0,0,1,0,1,0,0
+273,P273,PB,2,ProductDesigner,そうね。片手でパッて●。,"Yes, it is. Open in one hand.",1,0,0,1,1,0,0,1,0,1,0,0
+274,P274,PC,2,ProductDesigner,あー、いいね。,"Oh, that's nice.",1,0,0,0,1,0,0,1,0,0,0,0
+275,P275,PB,2,ProductDesigner,機能だったらね。,If it's about function.,1,0,0,0,1,0,0,1,0,0,0,0
+276,P276,PA,2,ProductDesigner,確かに。でも……。,Indeed. But .......,1,0,0,0,1,0,0,1,0,0,0,0
+277,P277,PA,2,ProductDesigner,え、どうしたらいい？ これどうやって進めたらいい？ 個人？ やだ？ みんなで進めたい？,"Well, what should I do? How do I proceed with this? Private? No? Do you want to proceed together?",0,0,0,0,1,0,0,1,0,1,0,1
+278,P278,PB,2,ProductDesigner,形決めよ、形。,"Let's decide shape, shape.",0,1,0,0,1,0,0,1,0,1,0,1
+279,P279,PC,2,ProductDesigner,多分形これ●ほうがいい●。,Perhaps the shape of this one is better.,0,1,0,0,1,0,0,1,0,0,0,0
+280,P280,PA,2,ProductDesigner,これ、これの。,"This, of this.",0,0,0,0,1,0,0,1,0,0,0,0
+281,P281,PC,2,ProductDesigner,ああ●。,Ah ●.,0,0,0,0,1,0,0,1,0,0,0,0
+282,P282,PA,2,ProductDesigner,うん。,Yeah.,0,0,0,0,1,0,0,1,0,0,0,0
+286,P286,PA,2,ProductDesigner,ありがとうございます。,Thank you very much.,0,0,0,0,0,0,0,0,0,0,0,0
+288,P288,PA,2,ProductDesigner,はい。,Yes.,0,0,0,0,0,0,0,0,0,0,0,0
+290,P290,PA,2,ProductDesigner,何か、どうなんだろう。所作とか気にしちゃうんだけど、私だったら。,"Something. I don't know, I'd be concerned about action, if I were you.",0,0,0,1,0,0,0,1,0,0,0,0
+291,P291,PC,2,ProductDesigner,やばい、俺も気にする。,"Oh man, me too.",0,0,0,1,0,0,0,1,0,0,0,0
+292,P292,PB,2,ProductDesigner,分かる。,I understand.,0,0,0,1,0,0,0,1,0,0,0,0
+294,P294,PA,2,ProductDesigner,何か、その、あのUserさんが……。でも、多分似てる。何か、似てるっていうか、私とちょっと似てるかなって思ったんだけど、個人的に。何か、あのー、家ではちょっとずぼらじゃないけど、お部屋の感じでいうとね、創造性あふれる部屋っつってたから。,"Something like, well, that User is ....... But maybe similar. I mean, I thought we were a little bit like each other, personally. I mean, you know, I'm not a little sloppy at home, but in terms of your room, you know, you said it was a room full of creativity.",0,0,1,1,0,0,0,1,0,0,0,0
+295,P295,PC,2,ProductDesigner,逆かもしれん。めっちゃくちゃきれいかもしんない。,Maybe it's the other way around. It might be very beautiful.,0,0,1,1,0,0,0,1,0,0,0,0
+296,P296,PA,2,ProductDesigner,いやー、ま、まあ分かんないけど。で、外ではすごいきっちりしてたいみたいなタイプだったら、やっぱ外で使うものだから、何か、所作もきれいなものがいいのかなって思った、私は。デザインとかフォルムとか、分かんないけど。,"Well, I’m not sure. If she’s (the user’s) the type of a person who wanna be very neat and tidy on the outside, I thought that since it is something the user use on the outside, it would be better to have something with beautiful moving, I thought. I don’t know about design and form.",1,1,1,1,0,0,0,1,0,0,0,0
+297,P297,PC,2,ProductDesigner,女性が使うんだったら、片手で開けんのはまずくね？片手で開けるような●確かに便利っちゃ便利だけど。,"If a woman uses it, it (the wallet) should not be opened with one hand. It’s convenient to open with one hand... It’s certainly convenient, but…",1,1,1,1,1,0,0,1,0,0,0,0
+298,P298,PA,2,ProductDesigner,うん、何か、美しさっていったら、両手でこうやって開けて、お金を取るしぐさもきれいな感じのほうが、分からない、うちはいいかなと思ったけど。どういう形がいいんだろうね。,"Right, (but) I thought it would be better for us to open it like this with both hands and take the money in a beautiful moving. I don’t know. I thought it would be better for us, but I wonder what form it should take.",1,1,1,1,1,0,0,1,0,0,0,1
+299,P299,PB,2,ProductDesigner,所作だったら、こう、所作の回>>数が〓多いと〓きれいに見えるよね。,"Regarding moving, it looks better when there are a lot of movements, right?",1,1,1,1,1,0,0,1,0,0,0,0
+300,P300,PA,2,ProductDesigner,いやー、何ともいえない●。,Well… I’m not sure.,1,1,1,1,1,0,0,1,0,0,0,0
+302,P302,PA,2,ProductDesigner,ありがとうございます。,Thank you very much.,0,0,0,0,0,0,0,0,0,0,0,0
+303,P303,PC,2,ProductDesigner,ざいます。●〓キセイ〓のお札のサイズかもしれない。,Thank you. It may be the size of ●ordinary bills.,0,1,0,0,1,0,1,0,0,0,0,0
+304,P304,PA,2,ProductDesigner,あー、確かに。,"Uh, sure.",0,1,0,0,1,0,1,0,0,0,0,0
+305,P305,PC,2,ProductDesigner,よかった，お金おろしといて。,"Good, I had withdrewed the cash.",0,0,0,0,1,0,1,0,0,0,0,0
+306,P306,PA,2,ProductDesigner,いやー。,Well…,0,0,0,0,1,0,1,0,0,0,0,0
+307,P307,PA,2,ProductDesigner,これ、ちょっと一瞬借りていい？,Can I borrow this for a moment?,0,0,0,0,1,0,1,0,0,0,0,1
+308,P308,PC,2,ProductDesigner,いいよ。返してね。,All right. Give it back.,0,0,0,0,1,0,1,0,0,0,0,1
+309,P309,PA,2,ProductDesigner,返してよって（笑）。返すけどね。,"""Give it back"" (laughs). I'll give it back.",0,0,0,0,1,0,1,0,0,0,0,0
+310,P310,PC,2,ProductDesigner,●。ベースのサイズ感だったら〓札も入る〓から●。でも、●。,"●. If it were the size of the base, bills would also fit into it so ●. But ●.",1,1,0,1,1,0,0,1,0,0,0,0
+311,P311,PA,2,ProductDesigner,あと10分もない。,We have less than 10 minutes.,0,0,0,0,0,0,0,1,0,0,1,0
+312,P312,PC,2,ProductDesigner,多分僕★。それ考えたときに、〓お札取り出すとしたら〓、今までさ、こっち側にあったじゃん。それだと★あれじゃん。●。,"Maybe, I.... When I think about it, if I take out a bill, it has been on this side until nowadays, right? But, it is that...",0,1,0,1,1,0,0,1,0,0,0,0
+314,P314,PC,2,ProductDesigner,そうだね、入れ方とか取り出し方なんじゃないかっていう気はする。でも、あれかも。●こっちのほうに●ないと、札入れれないわ。こうは無理だからね●。それだったら、ちょっとこっちのほうを広くして、すって取り出せるように。入れるときはもうやむなしでこうやって入れるけど。,"Right, I am feeling it might be the action they put it in or take it out. But maybe it's that. I can't put bills in unless I put them in this way. It's impossible to do it this way. If that's the case, make this side a little wider so that you can slide it in and take it out. When I put them in, I have no choice but to put them in like this.",1,1,0,1,1,0,0,1,0,0,0,0
+315,P315,PB,2,ProductDesigner,ここを、ここはこうだけど、ここだけこうなる●。,"Here, this is how it is here, but only here it is like this●.",1,1,0,0,1,0,0,1,0,0,0,0
+316,P316,PC,2,ProductDesigner,そうそう、そうそう。,"Right, so, so.",1,1,0,0,1,0,0,1,0,0,0,0
+317,P317,PA,2,ProductDesigner,見えるようにってこと？何円か。,Do you mean as someone can see? How many yen.,1,1,0,0,1,0,0,1,0,0,0,1
+318,P318,PC,2,ProductDesigner,うん。で、すって引っ張り出せるように。じゃない？ こうじゃない？,Yeah. So that the user can pull it out. Right? Isn't it like this?,1,1,0,1,1,0,0,1,0,0,0,1
+319,P319,PB,2,ProductDesigner,あ、はいはいはい、そうだね。,"Oh, yes, yes, yes, yes.",1,1,0,0,1,0,0,1,0,0,0,0
+320,P320,PA,2,ProductDesigner,それかさ、え、全然分かんないけど、何か、これだったら、え、今ほんと思い付いたやつね、何か、本みたいにして、何か、お札が、こう、入ってたら面白いなって思った。何でもないです。,"Or, I don't know at all, but, I just thought that it would be interesting to make it like a book of bills in it. It's nothing.",1,1,0,1,1,0,0,1,0,0,0,0
+321,P321,PC,2,ProductDesigner,あー●。,Ah ●.,0,1,0,0,1,0,0,1,0,0,0,0
+322,P322,PB,2,ProductDesigner,あー、分かるよ。,"Oh, I know what you mean.",0,1,0,0,1,0,0,1,0,0,0,0
+323,P323,PA,2,ProductDesigner,何でもないです。,It's nothing (It might be not good idea.),0,1,0,0,1,0,0,1,0,0,0,0
+324,P324,PB,2,ProductDesigner,お札●。,Bills ●.,0,1,0,0,1,0,0,1,0,0,0,0
+325,P325,PC,2,ProductDesigner,でもそれって，財布でそれやる意味あるのかな．．．。,But what's the point of doing that with a wallet ...?,0,1,0,1,0,0,0,1,0,0,0,0
+326,P326,PA,2,ProductDesigner,いや、ないけど。所作的にはかわいいなって思った。●ちょっとユーザーと離れちゃうから、ちょっとあれだけど。,"No, it doesn't have possibilities but I thought it was cute in terms of action. However, it was a little too far away from the user, so it was a bit of....",1,1,1,1,0,0,0,1,0,0,0,1
+327,P327,PC,2,ProductDesigner,ま、今回はね。,"Well, for this time.",0,1,1,0,0,0,0,1,0,0,0,1
+328,P328,PA,2,ProductDesigner,うん。,Yeah.,0,1,1,0,1,0,0,1,0,0,0,0
+329,P329,PC,2,ProductDesigner,多分二つ折りにしたら，ここ開いてても落ちることはないからさ、ぽろって。●じゃ●小銭●半分に。,"Maybe if you fold it in two, it won't fall out. Then, I'll just use half ● for the coins.",1,0,0,1,1,0,0,1,0,0,0,0
+330,P330,PB,2,ProductDesigner,小銭を、〓中かを半分にして〓。,"Coins, medium or half.",1,1,0,1,1,0,0,1,0,0,0,0
+331,P331,PC,2,ProductDesigner,ちょろっと作って、カードを半分にちょろっと作れば。多分カード●このサイズ感●。,If we make it a little bit and make a card a little bit in half. Maybe a card ● this size ●.,0,1,0,1,1,0,0,1,0,0,0,0
+332,P332,PB,2,ProductDesigner,小銭。●。,Coins. ●.,0,1,0,0,1,0,0,1,0,0,0,0
+333,P333,PC,2,ProductDesigner,もうちょっと幅●。,A little more width.,0,1,0,1,1,0,0,1,0,0,0,0
+334,P334,PB,2,ProductDesigner,そうだね。のがいいかな。,"Yes, I think so. I think it is better.",0,1,0,1,1,0,0,1,0,0,1,0
+335,P335,PB,2,ProductDesigner,うん。いま，いくら？30●。,"Um, Now, how much…30…",0,1,0,1,1,0,0,1,0,0,1,1
+336,P336,PC,2,ProductDesigner,ちょっと〓学生証は〓★。,"Hey, the student ID card is...",0,1,0,0,1,0,0,1,0,0,0,0
+337,P337,PA,2,ProductDesigner,もうちょっと？,A little more?,0,1,0,0,1,0,0,1,0,0,0,1
+338,P338,PC,2,ProductDesigner,うん。●こんなもんじゃない？,Yeah. I think it's like this.,0,1,0,1,1,0,0,1,0,0,0,1
+339,P339,PB,2,ProductDesigner,うん、だね。,"Yeah, right.",0,1,0,1,1,0,0,1,0,0,0,0
+340,P340,PC,2,ProductDesigner,取りあえず★。,"For now, ...",0,0,0,0,1,0,0,1,0,0,0,0
+341,P341,PA,2,ProductDesigner,これ、たくさん作ったほうがいいの？●。そんなことはない？ たくさん作ったものの中の1個ですのがいいんじゃない？ 分かんない。そんな時間はないか。,Should we make a lot of these? ●. Is that not true? Isn't it better to make one out of many? I don't know. I don't have time for that.,0,0,0,1,1,0,0,1,0,1,1,1
+342,P342,PC,2,ProductDesigner,●時間が●。〓残りの〓30分でもう1個作って、残りの時間があればカラーバリエーション考えれば●。,"The time is ●. If you make another one in the remaining 30 minutes and do ● it in the remaining time, you can think other colors.",0,1,0,1,1,0,0,1,0,1,0,0
+343,P343,PB,2,ProductDesigner,色決めよ。,Decide on a color.,0,1,0,0,1,0,0,1,0,1,0,1
+344,P344,PA,2,ProductDesigner,黒かな。いや、分かんない、うちが黒好きなだけなんだよな。,"Black, maybe. No, I don't know, I just like black.",0,1,0,1,1,0,0,1,0,0,0,0
+345,P345,PC,2,ProductDesigner,いや、分かるよ。ZARAだったら黒も一応ある●。,"No, I know what you mean. There are black (product) in ZARA, tentatively.",0,1,0,1,1,0,0,1,0,0,0,0
+346,P346,PB,2,ProductDesigner,黒●。,Black ●.,0,1,0,0,1,0,0,1,0,0,0,0
+347,P347,PA,2,ProductDesigner,で、中がこれか。,And this is in inside?,0,1,0,0,1,0,0,1,0,0,0,0
+348,P348,PC,2,ProductDesigner,ああ、いいんじゃない？,"Oh, that's good, isn't it?",0,1,0,1,1,0,0,1,0,0,1,1
+349,P349,PB,2,ProductDesigner,ああ、いいね。うん、いいじゃんね。,"Yeah, that's nice. Yeah, it's nice, isn't it?",0,1,0,1,1,0,0,1,0,0,1,0
+350,P350,PA,2,ProductDesigner,どう？,How's it going?,0,1,0,0,1,0,0,1,0,0,1,1
+351,P351,PC,2,ProductDesigner,いいよ。,Good.,0,1,0,1,1,0,0,1,0,0,1,0
+352,P352,PB,2,ProductDesigner,いいんじゃない？,"That's good, isn't it?",0,1,0,1,1,0,0,1,0,0,1,1
+353,P353,PA,2,ProductDesigner,ただ、汚れるってなっちゃうかな。そんなことない？,"But, will it just turn out to be dirty? Is that not true?",0,1,0,1,1,0,0,0,1,0,1,1
+354,P354,PC,2,ProductDesigner,あー、でも割とちゃんと二つの●てる人だったら。,"Ah, but if the user is a person who has two ●s rather properly.",0,1,1,1,1,0,0,0,1,0,0,0
+355,P355,PB,2,ProductDesigner,所作ちゃんとしてるなら。,If the user's action is right.,0,1,1,1,1,0,0,0,1,0,0,0
+356,P356,PC,2,ProductDesigner,汚れないでしょ●。,It won't get dirty.,0,1,1,1,1,0,0,0,1,0,0,0
+357,P357,PA,2,ProductDesigner,いっか。で、ワンポイントそれ入れても別に、まあ、ありっちゃありだと思うけど。ま、それだけでも完成じゃない？ そしたらどうする？ どうやってつくる？,"Fine. I think it is possible to add one-point (of color, mark, or logo) . Well, it's complete by itself, isn't it? What should we do next? How will we create it?",0,1,0,1,1,0,0,0,1,1,0,1
+359,P359,PA,2,ProductDesigner,17分。,17 min,0,0,0,0,0,0,0,1,0,0,1,0
+360,P360,PB,2,ProductDesigner,つくろ。,Let's make it.,0,0,0,0,1,0,0,1,0,1,0,1
+361,P361,PA,2,ProductDesigner,うん。,Yeah.,0,0,0,0,1,0,0,1,0,1,0,0
+362,P362,PB,2,ProductDesigner,サイズ感さ、これでさ。,"Size, you know, this is it.",0,1,0,0,1,0,0,1,0,0,0,0
+363,P363,PC,2,ProductDesigner,うん。,Yeah.,0,1,0,0,1,0,0,1,0,0,0,0
+364,P364,PB,3,ProductDesigner,10●？ 30●。9.5．．．。,10 ●? 30●. 9.5…,0,1,0,0,1,0,0,1,0,0,0,0
+365,P365,PA,3,ProductDesigner,そうだね、9.5？,"Yes, 9.5?",0,1,0,0,1,0,0,1,0,0,0,1
+366,P366,PC,3,ProductDesigner,●9.5でいいんじゃ●。,9.5 is fine.,0,1,0,1,1,0,0,1,0,0,0,0
+367,P367,PB,3,ProductDesigner,うん。,Yeah.,0,1,0,0,1,0,0,1,0,0,0,0
+368,P368,PA,3,ProductDesigner,で，きて．．．。,"And, then",0,1,0,0,1,0,0,1,0,0,0,0
+369,P369,PC,3,ProductDesigner,それだったらさ、機能的な話になるけど、ここL字で開けるとするじゃん。そこの境目が分かるようなワンポイント，ここに，例えば●。,"Then, let's talk about functionality, but let's say you open the wallet in an L-shape. It is a one-point (of color, mark, or logo) that shows the boundary between the two.",1,1,0,1,1,0,0,1,0,0,0,0
+370,P370,PB,3,ProductDesigner,あー。,Ah.,1,1,0,0,1,0,0,1,0,0,0,0
+371,P371,PA,3,ProductDesigner,ありだと思う。,I think it is good.,1,1,0,1,1,0,0,1,0,0,0,0
+372,P372,PB,3,ProductDesigner,かわいい。,Cute.,1,1,0,1,1,0,0,1,0,0,0,0
+373,P373,PC,3,ProductDesigner,それのがしかも，分かりやすい●。,"Also, It's better for understanding ●.",1,1,0,1,1,0,0,1,0,0,0,0
+374,P374,PA,3,ProductDesigner,うん。いんじゃない？,Yeah. Isn't that good?,0,1,0,1,1,0,0,1,0,0,0,1
+375,P375,PB,3,ProductDesigner,それを何センチ？,How many centimeters is that?,0,1,0,0,1,0,0,1,0,0,0,1
+376,P376,PA,3,ProductDesigner,ここの幅ってこと？,You mean the width here?,0,1,0,0,1,0,0,1,0,0,0,1
+377,P377,PC,3,ProductDesigner,うん、ここの幅と、多分ほんとに1センチ、2センチちょっとくらい、ぐらいでいいとは思うから。,"Yes, because I think the width and maybe really just a centimeter or two or so would be fine.",0,1,0,1,1,0,0,1,0,0,0,0
+378,P378,PA,3,ProductDesigner,それに合わせて切る？,Cutting to it?,0,1,0,0,1,0,0,1,0,0,0,1
+379,P379,PC,3,ProductDesigner,でも、色味が問題だな。どっちが●。それ，どっちが内側にくるんだっけ？。,But the color is a problem. Which is ●. Which one goes inside?,0,1,0,0,1,0,0,1,0,0,0,1
+380,P380,PB,3,ProductDesigner,どっちかな。,Which is.,0,1,0,0,1,0,0,1,0,0,0,0
+381,P381,PC,3,ProductDesigner,白のが●。,The white one is ●.,0,1,0,0,1,0,0,1,0,0,0,0
+382,P382,PB,3,ProductDesigner,内側、こっちが内側。,"Inside, this way is inside.",0,1,0,0,1,0,0,1,0,0,0,0
+383,P383,PB,3,ProductDesigner,こっちよろしく。,Please do it.,0,1,0,0,1,0,0,1,0,0,0,1
+384,P384,PA,3,ProductDesigner,●これどうしたらいいの？,What should I do with this?,0,1,0,0,1,0,0,1,0,0,0,1
+385,P385,PB,3,ProductDesigner,●95で。,● At 95.,0,1,0,0,1,0,0,1,0,0,0,1
+386,P386,PA,3,ProductDesigner,印は付いてない●。,Not marked ●.,0,1,0,0,1,0,0,1,0,0,1,0
+387,P387,PB,3,ProductDesigner,付いてない。まだ付けてない。,Not marked. Not marked yet.,0,1,0,0,1,0,0,1,0,0,1,0
+388,P388,PC,3,ProductDesigner,どっちがいい？,Which one do you prefer?,0,1,0,0,1,0,0,1,0,0,0,1
+389,P389,PB,3,ProductDesigner,いやー、オレンジかなー？ どっちだろう。,"Well, orange? I wonder which one.",0,1,0,0,1,0,0,1,0,0,0,0
+390,P390,PA,3,ProductDesigner,黒は？ 黒持ってるの，うちだわ。,Black? I have black one.,0,1,0,0,1,0,0,1,0,0,0,0
+391,P391,PC,3,ProductDesigner,●。え、でも、黒、黒は外側でしょ。,"●. Eh, but black, black is outside ●.",0,1,0,0,1,0,0,1,0,0,0,0
+392,P392,PB,3,ProductDesigner,黒外側。,Black is outside.,0,1,0,0,1,0,0,1,0,0,0,0
+393,P393,PA,3,ProductDesigner,そうだよ．白ちょうだい，ここに。,That's right. Please pass me white. Ah.,0,1,0,0,1,0,0,1,0,0,0,1
+394,P394,PC,3,ProductDesigner,あー。,Ah.,0,1,0,0,1,0,0,1,0,0,0,0
+395,P395,PB,3,ProductDesigner,あー。,Ah.,0,1,0,0,1,0,0,1,0,0,0,0
+396,P396,PC,3,ProductDesigner,こっちのが見え方はいいかもね。,Maybe this one looks better.,0,1,0,1,1,0,0,1,0,0,1,0
+397,P397,PB,3,ProductDesigner,うん。,Yeah.,0,1,0,1,1,0,0,1,0,0,1,0
+398,P398,PA,3,ProductDesigner,ね。と思いました。,Yeah. I thought.,0,1,0,1,1,0,0,1,0,0,1,0
+399,P399,PC,3,ProductDesigner,こっちのがかわいい。こっちのがかわいいわ。,This one is more cute. This one's more cute.,0,1,0,1,1,0,0,1,0,0,1,0
+400,P400,PB,3,ProductDesigner,うん、だね。,"Yeah, right.",0,1,0,1,1,0,0,1,0,0,1,0
+401,P401,PA,3,ProductDesigner,と思いました。,I thought.,0,1,0,1,1,0,0,1,0,0,1,0
+402,P402,PC,3,ProductDesigner,じゃあ、どうする？ これを内側にする？,So what should we do? Do you want this inside?,0,1,0,0,1,0,0,1,0,0,0,1
+403,P403,PB,3,ProductDesigner,うん。,Yeah.,0,1,0,0,1,0,0,1,0,0,0,0
+404,P404,PC,3,ProductDesigner,で、これをこの●のところに●てっていい？,"And, may I ● this from the side to this (other) side?",0,1,0,0,1,0,0,1,0,0,0,1
+405,P405,PB,3,ProductDesigner,うん。,"Yes,.",0,1,0,0,1,0,0,1,0,0,0,0
+406,P406,PA,3,ProductDesigner,あれ？ 何か違うんだけど。,Huh? Something's different.,0,1,0,0,1,0,0,1,0,0,0,0
+407,P407,PC,3,ProductDesigner,ええっ？,Eh?,0,1,0,0,1,0,0,1,0,0,0,0
+408,P408,PA,3,ProductDesigner,あ、それがそっちか。事件？,"Oh, that's that way. Is it an accident?",0,1,0,0,1,0,0,1,0,0,0,1
+409,P409,PC,3,ProductDesigner,いや、違う、違う。こっちで印付けたらやべえわと思う。,"No, no, no. I think it's a bad idea to mark it over here.",0,1,0,0,1,0,0,1,0,0,0,0
+410,P410,PB,3,ProductDesigner,そうだね。,"Yes, it is.",0,1,0,0,1,0,0,1,0,0,0,0
+412,P412,PC,3,ProductDesigner,2センチ●いい？,2 cm. Right?,0,1,0,0,1,0,0,1,0,0,0,1
+413,P413,PA,3,ProductDesigner,何が？,What?,0,1,0,0,1,0,0,1,0,0,0,1
+414,P414,PB,3,ProductDesigner,上、上でしょ。,"Up, upside. Isn't it?",0,1,0,0,1,0,0,1,0,0,0,0
+415,P415,PC,3,ProductDesigner,うん。これどんくらい見せる？,"Yeah, How much of this do you want to show?",0,1,0,0,1,0,0,1,0,0,0,1
+416,P416,PA,3,ProductDesigner,あー。,Ah.,0,1,0,0,1,0,0,1,0,0,0,0
+417,P417,PC,3,ProductDesigner,1センチ見せれば〓よくね〓？ かみ合わせも考えて2センチで取ろうか。,"1 centimeter, isn't it enough? Shall we take it at 2 cm, considering the overlap width?",0,1,0,1,1,0,0,1,0,0,0,1
+418,P418,PA,3,ProductDesigner,あと3分ぐらい。,About 3 more minutes.,0,0,0,0,1,0,0,1,0,0,1,1
+419,P419,PC,3,ProductDesigner,まじかよ。,Seriously.,0,0,0,0,1,0,0,1,0,0,1,0
+420,P420,PA,3,ProductDesigner,はい。,Yes.,0,0,0,0,1,0,0,1,0,0,1,0
+421,P421,PC,3,ProductDesigner,あんませかさないで。,Don't be too hasty.,0,0,0,0,1,0,0,1,0,1,0,0
+422,P422,PB,3,ProductDesigner,両面、両面で付ける？,"Attach on both sides (tape), both sides (tape)?",0,1,0,0,1,0,0,1,0,0,0,1
+423,P423,PA,3,ProductDesigner,え、これ、これを挟むの？,"Oh, you're going to pinch this?",0,1,0,0,1,0,0,1,0,0,0,1
+424,P424,PB,3,ProductDesigner,それは挟まない。,It doesn't pinch it.,0,1,0,1,1,0,0,1,0,0,0,1
+425,P425,PA,3,ProductDesigner,よね。,I guess.,0,1,0,1,1,0,0,1,0,0,0,0
+426,P426,PB,3,ProductDesigner,うん。,Yeah.,0,1,0,1,1,0,0,1,0,0,0,0
+427,P427,PA,3,ProductDesigner,貼るだけでしょ？,"You just put it up, right?",0,1,0,0,1,0,0,1,0,0,0,1
+428,P428,PB,3,ProductDesigner,貼るだけ。,Just put it up.,0,1,0,0,1,0,0,1,0,0,0,1
+429,P429,PA,3,ProductDesigner,はい。これ貼っとき。,"Yes, sir. When you put this on.",0,1,0,0,1,0,0,1,0,0,0,1
+430,P430,PB,3,ProductDesigner,うん。,Yeah.,0,1,0,0,1,0,0,1,0,0,0,0
+431,P431,PC,3,ProductDesigner,これ幾つだったっけ、寸法。9.5？,"How many is this, dimensions. 9.5?",0,1,0,0,1,0,0,1,0,0,0,1
+432,P432,PB,3,ProductDesigner,うん、そう。,"Yeah, yeah.",0,1,0,1,1,0,0,1,0,0,0,0
+433,P433,PA,3,ProductDesigner,そのオレンジは？,How about this orange?,0,1,0,0,1,0,0,1,0,0,0,1
+434,P434,PC,3,ProductDesigner,オレンジは多分使わない？,Orange is probably not used?,0,1,0,0,1,0,0,1,0,0,0,1
+435,P435,PA,3,ProductDesigner,あ、紺は？ あ、紺ってどこに使うの？,"Oh, what about navy blue? Oh, where do you use navy blue?",0,1,0,0,1,0,0,1,0,0,0,1
+436,P436,PB,3,ProductDesigner,紺はあれを貼った上●。,Dark blue is put over that pasting it.,0,1,0,1,1,0,0,1,0,0,0,1
+437,P437,PA,3,ProductDesigner,あ、上か。,"Oh, upside.",0,1,0,0,1,0,0,1,0,0,1,0
+439,P439,PC,3,ProductDesigner,もう，革とかを貼るだけ？,So will we finish because of just paste leather?,0,1,0,0,1,0,0,1,0,0,1,1
+440,P440,PA,3,ProductDesigner,うん。,Right.,0,1,0,0,1,0,0,1,0,0,1,0
+441,P441,PB,3,ProductDesigner,うん。,Yeah.,0,1,0,0,1,0,0,1,0,0,1,0
+442,P442,PA,3,ProductDesigner,もう，シール＝入って待機しております．あと2分。,I am ready to ●. 2 minutes left.,0,0,0,0,1,0,0,1,0,1,1,1
+443,P443,PC,3,ProductDesigner,せかさないでくれよ。,Don't rush me.,0,0,0,0,1,0,0,1,0,1,0,0
+444,P444,PC,3,ProductDesigner,これでサイズ間違っていたらどうしよう。,I am worried if the size is wrong.,0,1,0,0,1,0,0,1,0,0,0,0
+445,P445,PA,3,ProductDesigner,はい．んで？,"OK, And?",0,0,0,0,1,0,0,1,0,0,0,0
+446,P446,PB,3,ProductDesigner,それ貼って。,Please paste it.,0,1,0,0,1,0,0,1,0,0,0,1
+447,P447,PA,3,ProductDesigner,ん，ここってこと？,Uh? Is it heret?,0,1,0,0,1,0,0,1,0,0,0,1
+448,P448,PB,3,ProductDesigner,そうそうそうそう。,"Right, so, so.",0,1,0,1,1,0,0,1,0,0,0,0
+449,P449,PA,3,ProductDesigner,いや，これ．．．あの．．．。,Well…this is … that…,0,1,0,0,1,0,0,1,0,0,0,0
+450,P450,PC,3,ProductDesigner,長い方から。,From the long side.,0,1,0,0,1,0,0,1,0,0,0,1
+451,P451,PA,3,ProductDesigner,うん．片方合わせて。,Yeah. align both sides.,0,0,0,1,1,0,0,1,0,0,0,1
+452,P452,PC,3,ProductDesigner,最悪，＝＝できればいい。,"In the worst case, it is oK to make..",0,0,0,0,1,0,0,1,0,0,0,0
+453,P453,PA,3,ProductDesigner,うん．んで？,"Right, and?",0,0,0,0,1,0,0,1,0,0,0,0
+454,P454,PB,3,ProductDesigner,これを，ちょっとずらすんだよね？,"And then we shift it a little bit, right?",0,1,0,0,1,0,0,1,0,0,0,1
+455,P455,PC,3,ProductDesigner,そうだね。,Right.,0,1,0,0,1,0,0,1,0,0,0,0
+456,P456,PB,3,ProductDesigner,このへん？このへん？,Around here? This side?,0,1,0,0,1,0,0,1,0,0,0,1
+457,P457,PC,3,ProductDesigner,４辺にちょっとずれて．．．もう，これを，こっちか。,"A little off on all four sides... Here, this one, this one, this one.",0,1,0,0,1,0,0,1,0,0,0,0
+458,P458,PB,3,ProductDesigner,これ，ずれたところ切るよ。,I'm going to cut this off.,0,1,0,0,1,0,0,1,0,0,0,0
+459,P459,PA,3,ProductDesigner,うん。,OK.,0,0,0,0,1,0,0,1,0,0,0,0
+460,P460,PA,3,ProductDesigner,切って，やった。,Cut. Done.,0,1,0,0,1,0,0,1,0,0,1,0
+461,P461,PA,3,ProductDesigner,どう。,How about it?,0,1,0,0,1,0,0,1,0,0,1,0
+462,P462,PB,3,ProductDesigner,はい．Ok。,OK.,0,0,0,1,1,0,0,1,0,0,1,0
+463,P463,PA,3,ProductDesigner,18分です。,18 minutes.,0,0,0,0,1,0,0,1,0,0,1,0
+464,P464,PA,3,ProductDesigner,はい。,OK.,0,0,0,0,1,0,0,1,0,0,1,0
+466,E2,EB,1,Engineer,じゃあ、〓EA〓さん、インタビュアー。,"Okay, =EA=-san, you are interviewer.",0,0,1,0,0,0,1,0,0,1,0,1
+467,E3,EC,1,Engineer,はい、インタビュアーシートからお願いします。,Right. Please start interview following the intervier sheet.,0,0,1,0,0,0,1,0,0,1,0,1
+468,E4,EB,1,Engineer,どうしようかな。これ見せたほうがいいんじゃないですか。これ見せて、説明しながら。,"Well…Why don't we show this? I show this one, and explain..",0,0,1,0,0,0,1,0,0,1,0,1
+469,E5,EA,1,Engineer,えっと。,Well.,0,0,1,0,0,0,1,0,0,0,0,0
+470,E6,User,1,Engineer,座ったほうがいい？ 立ったほうがいい？ 何でもいい。どうしたらいいですか。,Should I have a seat? Stand up? Anything OK. What should I do?,0,0,1,0,0,0,1,0,0,0,0,0
+471,E7,EA,1,Engineer,今、使っている財布で物足りないって思ってることってありますか。,Is there anything you think is not enough for your current wallet?,0,0,1,0,0,0,1,0,0,0,0,0
+472,E8,User,1,Engineer,今、使っている財布で物足りない。物足りない。物足りない。難しいですね。難しいなあ。物足りなくない。,"""Not enough for your current wallet,"" ""not enough,” ""not enough"". It is difficult (to answer), difficult. It's not not enough.",0,0,1,0,0,0,1,0,0,0,0,0
+473,E9,EA,1,Engineer,今ので、もう物足りている？,Are you surtisfied about your current wallet?,0,0,1,0,0,0,1,0,0,0,0,0
+474,E10,User,1,Engineer,今のはすごく満足感が今ある。,"I am very satisfied with my current wallet, now.",0,0,1,0,0,0,1,0,0,0,0,0
+475,E11,EB,1,Engineer,なるほど。機能とデザインと、どちらから選びます？,"I see. Which would you choose, function or apprearamce design?",1,1,1,0,0,0,1,0,0,0,0,0
+476,E12,User,1,Engineer,機能とデザイン、どちらか。どちらかと聞かれたら？,Function or apprearamce design? What if I had to choose one?,1,1,1,0,0,0,1,0,0,0,0,0
+477,E13,EB,1,Engineer,そうです。,Right.,0,0,1,0,0,0,1,0,0,0,0,0
+478,E14,User,1,Engineer,機能ですね。,Function.,1,0,1,0,0,0,1,0,0,0,0,0
+479,E15,EA,1,Engineer,何を一番重視しているんですか。,What do you value most?,0,0,1,0,0,0,1,0,0,0,0,0
+480,E16,User,1,Engineer,何を一番重視していますか。何を一番重視してますか。,"""What do you value most?"",'What do you value most?'",0,0,1,0,0,0,1,0,0,0,0,0
+481,E17,EA,1,Engineer,例えば、僕、現金よりもカードとかで支払いたいんで、現金たくさん入るよりも、カードたくさん、カード入れやすい財布のほうがいい。,"For example, I prefer to pay with cards rather than cash, so I prefer a wallet with lots of cards and easy access to cards rather than one with lots of cash.",1,0,1,1,0,0,1,0,0,0,0,0
+482,E18,User,1,Engineer,なるほど、なるほど、そういうのに近いところだと、現金もある程度、はい。,"I see, I see. In close proximity to that kind of thing, there is a certain amount of cash, yes.",1,0,1,0,0,0,1,0,0,0,0,0
+483,E19,EA,1,Engineer,現金も、ああ、バランスよく。,"Cash, too, oh. Good balance.",1,0,1,0,0,0,1,0,0,0,0,0
+484,E20,User,1,Engineer,はい。,Right.,1,0,1,0,0,0,1,0,0,0,0,0
+485,E21,EB,1,Engineer,財布はポケットに入れたりですか。それとも何かバッグに入れたりですか。,Do you carry your wallet in your pocket? Or do you carry it in a bag?,1,0,1,0,0,0,1,0,0,0,0,0
+486,E22,User,1,Engineer,ポケットに入れたいけど、ですね。入れたい。,"I want to put it in my pocket, but.... I want to put it in (my pocket).",1,0,1,0,0,0,1,0,0,0,0,0
+487,E23,EB,1,Engineer,小さくないといけないですね。,It has to be small.,1,1,1,1,0,0,1,0,0,0,0,0
+488,E24,EC,1,Engineer,今、使っている財布に満足されているということなんですが、その財布を見せていただけませんか。,I understand that you are satisfied with the wallet you are using now. Could you show me the wallet?,0,0,1,0,0,0,1,0,0,0,0,0
+489,E25,User,1,Engineer,はい。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+490,E26,EA,1,Engineer,僕もなんかそれ言いたかったんですけど、言いづらかったんで。でも、それ以上の物をつくらないといけないんですね、われわれ。,"I wanted to say something like that, but it was hard for me. But we have to make something better than that, don't we?",0,0,1,0,0,1,1,0,0,0,0,0
+491,E27,EB,1,Engineer,ああ、いいですね。カードもいっぱい入る。,"Oh, that's nice. It can hold a lot of cards.",1,0,1,1,0,0,1,0,0,0,0,0
+492,E28,EA,1,Engineer,ちょうどいい大きさですね。,It's just the right size.,1,1,1,1,0,0,1,0,0,0,0,0
+493,E29,EC,1,Engineer,これは財布ですか。,Is this a wallet?,0,0,1,0,0,0,1,0,0,0,0,0
+494,E30,User,1,Engineer,財布です。,It is a wallet.,0,0,1,0,0,0,1,0,0,0,0,0
+495,E31,EB,1,Engineer,小銭もちゃんと入るんですね、もちろん。小銭ともちろん分かれていますよね。お財布、もちろん。,"It can hold coins, of course. Of course, it (cards) is separate from coins, isn't it? A wallet, of course.",1,0,1,0,0,0,1,0,0,0,0,0
+496,E32,EC,1,Engineer,小銭も入る。,"It can hold coins, too.",1,0,1,0,0,0,1,0,0,0,0,0
+497,E33,EB,1,Engineer,●入るなあ。,It can hold a lot of coins.,1,0,1,0,0,0,1,0,0,0,0,0
+498,E34,EA,1,Engineer,小銭もカードって感じですね。,"It's not only for cards, but also coins.",1,0,1,0,0,0,1,0,0,0,0,0
+499,E35,EB,1,Engineer,そうですね。あ、その程度まではOKなんですね。ポケットに入るってレベルなんですね。,"Yes, that's right. Oh, so you are OK up to that level. So that's the level of being able to put it in your pocket?",1,1,1,0,0,0,1,0,0,0,0,0
+500,E36,User,1,Engineer,ポケット入れてないです。,I don't put it in my pocket.,1,1,1,0,0,0,1,0,0,0,0,0
+501,E37,EB,1,Engineer,あ、入れてないんですね。あ、ポケットに入るのはもうちょっと小さい●といけない。,"Oh, you don't put it in your pocket. Oh, it has to be a little one ● to fit in your pocket.",1,1,1,0,0,0,1,0,0,0,0,0
+502,E38,EC,1,Engineer,この財布を選んだきっかけとか理由はありますか。,Is there any reason why you chose this wallet?,0,0,1,0,0,0,1,0,0,0,0,0
+503,E39,User,1,Engineer,この財布を選んだきっかけとか理由、きっかけはお店で見かけて、一目ぼれしました。,"""Why you chose this wallet"", the trigger was that I saw it in a store and fell in love with it at first sight.",0,1,1,0,0,0,1,0,0,0,0,0
+504,E40,EA,1,Engineer,見た感じ、なんかデザインとか色が良さそうなんですけど、さっき機能と言われたんで、あれ？と思っちゃったんですけど。,"It looked like it had a nice appearance design and color, but you said you prioritized function earlier, so I thought, ""Huh?""",1,1,1,1,0,0,1,0,0,0,0,0
+505,E41,User,1,Engineer,この財布、そうですね。デザインがすごくいいです。,"This wallet, yes. The appearance design is very nice.",0,1,1,0,0,0,1,0,0,0,0,0
+506,E42,EA,1,Engineer,ですね。,I think so.,0,1,1,1,0,0,1,0,0,0,0,0
+507,E43,User,1,Engineer,はい。,Yes it is.,0,1,1,0,0,0,1,0,0,0,0,0
+508,E44,EC,1,Engineer,値段は重視していますか。,Do you think the price is important?,0,0,1,0,0,0,1,0,0,0,0,0
+509,E45,User,1,Engineer,ほどほどです。,Not too.,0,0,1,0,0,0,1,0,0,0,0,0
+510,E46,EC,1,Engineer,ほどほどですか。,Not too…,0,0,1,0,0,0,1,0,0,0,0,0
+511,E47,User,1,Engineer,言い過ぎないようにするのが難しい。うまく聞いてください。,It is difficult not to say too much. Please interview well.,0,0,1,0,0,0,1,0,0,0,0,0
+512,E48,EC,1,Engineer,そういえば、今、RFIDという非接触IＤのタグを離れたところからスキミングするという、そういう情報セキュリティー上の問題が話題になっていますが、それに対する不安というのはありますか。,"Speaking of which, there is now talk of RFID (contactless ID tag) skimming from a distance, which is an information security issue. Do you have any concern?",1,0,1,1,0,0,1,0,0,0,0,0
+513,E49,User,1,Engineer,あります。,"Yes, I do.",1,0,1,0,0,0,1,0,0,0,0,0
+514,E50,EC,1,Engineer,ありますか。財布は、その財布はいつも使っていますか。それともシチュエーションが変わると、別の財布を使うことはありますか。,You do. Do you use your wallet all the time or do you use a different one when the situation changes?,0,0,1,0,0,0,1,0,0,0,0,0
+515,E51,User,1,Engineer,シチュエーションが変わると、別の財布を使うこともあります。,I use different wallets for different situations.,0,0,1,0,0,0,1,0,0,0,0,0
+516,E52,EA,1,Engineer,じゃあ、あの、使いたいシチュエーションというのはどういう状況なんですか。,"Then, what kind of situation is it that you want to use the wallet?",0,0,1,0,0,0,1,0,0,0,0,0
+517,E53,User,1,Engineer,使いたい、シチュエーション。,"""situation is it that you want to use the wallet""",0,0,1,0,0,0,1,0,0,0,0,0
+518,E54,EA,1,Engineer,例えば、普段使うのか、ちょっと街に行くときに使うのか、例えば、冠婚葬祭みたいに使うのかとか言うと、例えば、スーツ着て。,"For example, do you want to use it on a daily basis, or when you go out for a short trip to the city, or for a wedding or a funeral, for example, wearing a suit?",0,0,1,0,0,0,1,0,0,0,0,0
+519,E55,User,1,Engineer,ああ、それは、考えたことがあまりなかったですけど、冠婚葬祭にこれ持っていったら、ひんしゅく●ですかね。,"Oh, I haven't really thought about that, but if I took this to a wedding or funeral, would it be a disaster?",0,0,1,0,0,0,1,0,0,0,0,0
+520,E56,EA,1,Engineer,いや、分かんないですけど。オーダーメイドなので、どういう財布が欲しいかというのをお伺いしたいんですけど。,"Well, I don't know. Since it is custom-made, I would like to ask you what kind of wallet you would like.",0,0,1,0,0,0,1,0,0,0,0,0
+521,E57,User,1,Engineer,どういう財布。,"""What kind of wallet""",0,0,1,0,0,0,1,0,0,0,0,0
+522,E58,EA,1,Engineer,どういうシチュエーションのときに使いたい財布。,"What kind of wallet, what kind of situation would you like to use it in?",0,0,1,0,0,0,1,0,0,0,0,0
+523,E59,User,1,Engineer,これですか。,Is this it?,0,0,1,0,0,0,1,0,0,0,0,0
+524,E60,EA,1,Engineer,今回、われわれがつくる。,"This time, we will make it for you.",0,0,1,0,0,0,1,0,0,0,0,0
+525,E61,User,1,Engineer,ああ、どういうシチュエーションのときに使いたい財布が欲しいか。,"Oh, what kind of situation do you want a wallet that you want to use?",0,0,1,0,0,0,1,0,0,0,0,0
+526,E62,EA,1,Engineer,はい。,Right.,0,0,1,0,0,0,1,0,0,0,0,0
+527,E63,User,1,Engineer,新たに買うとしたら。,If I buy a new wallet.,0,0,1,0,0,0,1,0,0,0,0,0
+528,E64,EA,1,Engineer,はい。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+529,E65,User,1,Engineer,海外で使う財布。,A wallet for overseas.,0,0,1,0,0,0,1,0,0,0,0,0
+530,E66,EB,1,Engineer,おお、そうですね。そうすると、ハードル上がったな。海外か。,"Oh, so…Then, a hurdle became bigger. Overseas…",0,0,1,0,0,0,1,0,0,0,0,0
+531,E67,EA,1,Engineer,長財布よりもちょっとちっちゃいほうがいいんですね。,I guess you'd rather have a little tiny one than a long wallet.,0,1,1,0,0,0,1,0,0,0,0,0
+532,E68,User,1,Engineer,買い換えたばっかりなんで。前は長財布でした。,I just bought a new one. It used to be a long wallet.,0,0,1,0,0,0,1,0,0,0,0,0
+533,E69,EA,1,Engineer,嫌だった。,Did you hate it?,0,0,1,0,0,0,1,0,0,0,0,0
+534,E70,EB,1,Engineer,海外とかセキュリティーとか盗まれないように●大切ですね、きっと。すりも多いし。,"It's important to keep it safe from being stolen when you go abroad or for security reasons. Maybe. Also, there are a lot of pickpockets.",1,0,1,1,0,0,1,0,0,0,0,0
+535,E71,EC,1,Engineer,Suicaとかの交通系ICカードをその財布に入れたまま改札通りますか。,Do you go through ticket gates with your Suica or other transportation system IC cards in that wallet?,1,0,1,0,0,0,1,0,0,0,0,0
+536,E72,User,1,Engineer,通らないです。,I don't.,1,0,1,0,0,0,1,0,0,0,0,0
+537,E73,EC,1,Engineer,通らないですか。,You don't…,1,0,1,0,0,0,1,0,0,0,0,0
+538,E74,User,1,Engineer,Suica別にしてます。,I keep my Suica card in a separate wallet.,0,0,1,0,0,0,1,0,0,0,0,0
+539,E75,EC,1,Engineer,なるほど。,I see.,0,0,1,0,0,0,1,0,0,0,0,0
+540,E76,User,1,Engineer,言い過ぎた。おまけです。,I've said too much. It's an extra.,0,0,1,0,0,0,1,0,0,0,0,0
+541,E77,EC,1,Engineer,はい。じゃあ、そろそろ。,"OK, I'd better get going.",0,0,1,0,0,0,1,0,0,1,0,0
+542,E78,EA,1,Engineer,はい。,OK.,0,0,1,0,0,0,1,0,0,0,0,0
+543,E79,EC,1,Engineer,インタビューに関してはそろそろ。ありがとうございました。,"As for the interview, it's about time. Thank you very much.",0,0,1,0,0,0,1,0,0,1,0,0
+544,E80,User,1,Engineer,ありがとうございました。,Thank you very much.,0,0,1,0,0,0,1,0,0,0,0,0
+545,E81,EB,1,Engineer,設計ですね。5分で設計。,Design. Design in 5 minutes.,0,0,0,0,0,0,1,0,0,1,0,0
+546,E82,EC,1,Engineer,5分で設計ですね。それなりにいろいろな情報が得られたわけですよ。,Design in 5 minutes. We’ve got a lot of information (in the interview).,0,0,0,0,0,0,0,1,0,1,1,0
+547,E83,EA,1,Engineer,はい。,Yes.,0,0,0,0,0,0,0,1,0,1,1,0
+548,E84,EB,1,Engineer,あの，あそこの場所で，なんか，設計やっちゃいます？ 一緒に。設計しながらつくっちゃいます？ 前、聞いたことだと、まず、スキミングが嫌だというので、スキミング防止用のシートを1枚付けましょう。スキミング防止。これでいいですか。スキミング防止用シート。,"Why don't we design (a wallet) at that place? Together. Why don't we make it while designing? I heard that the user doesn't like (is afraid) skimming, so let's put an anti-skimming sheet on it. Anti-skimming. Is this okay? Anti-skimming sheet.",1,0,1,1,1,0,0,1,0,1,0,1
+549,E85,EC,1,Engineer,ああ、それにしましょう。,"Oh, let's use that.",1,0,0,1,1,0,0,1,0,0,0,0
+550,E86,EB,1,Engineer,スキミング防止シート、できました。スキミング防止シート、できました。,"Anti-skimming sheet, done. Anti-skimming sheet, done.",1,0,0,1,1,0,0,1,0,0,0,0
+551,E87,EC,1,Engineer,これ何か分かります？,Do you know what this is?,0,0,0,0,1,0,1,0,0,0,0,1
+552,E88,EB,1,Engineer,これ何でしょう。粘土、紙粘土じゃないですか。,"What is this? Clay, isn't it paper clay?",0,0,0,0,1,0,1,0,0,0,0,0
+553,E89,EC,1,Engineer,紙粘土。,Paper clay.,0,0,0,0,1,0,1,0,0,0,0,0
+554,E90,EB,1,Engineer,こっちにもあります。,"I have some here, too.",0,0,0,0,1,0,1,0,0,0,0,0
+556,E92,EC,1,Engineer,ああ、そうですね。,Oh yes.,0,0,0,0,1,0,1,0,0,0,0,0
+558,E94,EB,1,Engineer,財布って、ポケットに入って、海外ですよね。僕ね、こういうやつ持っているんですよ。最近、ボケだから落とさないように。こういうのが付いたほうがいいのかなと思って、海外に行ったら。どうでしょう？,"Wallets in the pocket, and for overseas, aren't they? I have one like this. Lately, I don't want to drop it (wallet). I wondered if it would be better to have one like this (chain) when someone goes abroad. What do you think about it?",1,1,0,1,0,0,0,1,0,0,0,1
+559,E95,EC,1,Engineer,あー。,Ahm!,1,1,0,0,0,0,0,1,0,0,0,0
+560,E96,EA,1,Engineer,あー。,Ahm!,1,1,0,0,0,0,0,1,0,0,0,0
+561,E97,EC,1,Engineer,なるほど。機能重視なので、いいんじゃないんでしょうか。,"I see. I think it's a good idea, because the user prefer a function-oriented.",1,0,1,1,0,0,0,1,0,0,0,0
+562,E98,EA,1,Engineer,うん。,Yes (I agree with it).,1,0,0,1,0,0,0,1,0,0,0,0
+563,E99,EB,1,Engineer,はい．了解です．ってことは，これに付けましょうか。,"OK, I understand it. Shall we put it on this?",1,0,0,1,1,0,0,1,0,0,0,1
+564,E100,EC,1,Engineer,はい。,Yes.,1,0,0,1,1,0,0,1,0,0,0,0
+565,E101,EB,1,Engineer,ピンクがいいですね。やっぱりね。かわいい。,Pink is good. I knew it. Cute.,0,1,0,1,1,0,0,1,0,0,0,0
+566,E102,EC,1,Engineer,はい。ピンク。,Right. Pink.,0,1,0,0,1,0,0,1,0,0,0,0
+567,E103,EB,1,Engineer,ピンクじゃ、はさみあります？これで，ぱちっと切って。,"Pink, so… Do you have scissors? And, I'm cutting …",0,1,0,0,1,0,1,1,0,0,0,1
+568,E104,EA,1,Engineer,財布、どうやって形づくればいいんですかね。,"Wallet..., how can we shape it?",0,1,0,0,1,0,0,1,0,0,0,1
+569,E105,EB,1,Engineer,あー，それはねー．まずは四角でいいんじゃないですか？形四角で。,"Well… That is…, First, it is OK for tetragon, right? tetragon.",0,1,0,1,1,1,0,0,0,0,0,0
+570,E106,EA,1,Engineer,これとか開けちゃって大丈夫ですか。,Is it okay if I open this or something else? (*Asking to the Instructor.),0,0,0,0,1,0,0,1,0,0,0,0
+572,E108,EA,1,Engineer,財布の色自体としては、ちょっと抑え目な色で、ところどころちょっとおしゃれな感じのやつが。,"As for the color of the wallet, it's a bit subdued, and in places, a bit stylish.",0,1,0,1,1,0,0,1,0,0,0,0
+573,E109,EC,1,Engineer,うーん。,Hmmm.,0,1,0,0,1,0,0,1,0,0,0,0
+574,E110,EB,1,Engineer,あ、こんなやつもありますよ。何かこんなやつが。色千代。,Oh we have a such marterials. Something that… Iro-chiyogami.,0,0,0,0,1,0,1,0,0,0,0,0
+575,E111,EA,1,Engineer,ああ、いいですね。,"Oh, that’s nice.",0,0,0,1,1,0,1,0,0,0,0,0
+576,E112,EA,1,Engineer,〓EC〓さんの財布、ちょっと見せてください。,"EC, let me see your wallet.",0,0,0,0,1,0,1,0,0,0,0,1
+577,E113,EC,1,Engineer,はい。,OK (*He pass his wallet.),0,0,0,0,1,0,1,0,0,0,0,0
+578,E114,EA,1,Engineer,形的にはこれをつくれば、ですね。,"Formally, if you make this.",0,1,0,0,1,0,1,0,0,0,1,0
+579,E115,EC,1,Engineer,最終的にはそれ．Userさんのはもうちょっと大きかった。,"Finally, yes. User's was much larger.",0,1,1,1,1,0,0,1,0,0,1,0
+580,E116,EA,1,Engineer,そうですね。もうちょっと大きいですね。,"Yes, it is. It's a little bit bigger.",0,1,1,0,1,0,0,1,0,0,1,0
+581,E117,EC,1,Engineer,はい。,Right.,0,1,0,0,1,0,0,1,0,0,1,0
+582,E118,EA,1,Engineer,横のサイズ的にはこんな感じなのか。,Is this what it looks like in terms of horizontal size?,0,1,0,0,1,0,1,0,0,0,1,0
+583,E119,EC,1,Engineer,うーん、そうですね。,"Hmmm, right.",0,1,0,0,1,0,1,0,0,0,1,0
+584,E120,EA,1,Engineer,●これですね。ポケットとかどうやって付ければいいのか。,This is it. How can I add pockets or something?,1,1,0,0,1,1,0,0,0,0,0,1
+585,E121,EB,1,Engineer,●これ，これで付けるんですよ．うわ．堅い。,This is the way to put it on. Wow. It's hard.,1,1,0,0,1,0,0,1,0,0,0,0
+586,E122,EA,1,Engineer,これで，ポケットとかどうやって作ればいいんだろう。,How am I going to make a pocket with this?,1,1,0,0,1,1,0,0,0,0,0,1
+587,E123,EC,1,Engineer,ああ、ポケットはこれを貼り付ければいいんじゃないかな。,"Oh, we can create pockets by pasted on these (materials).",1,1,0,1,1,0,0,1,0,0,0,0
+588,E124,EB,1,Engineer,ああ、なるほど。,"Oh, I see.",1,1,0,0,1,0,0,1,0,0,0,0
+589,E125,EA,1,Engineer,ああ，なるほど。,"Oh, I see.",1,1,0,0,1,0,0,1,0,0,0,0
+590,E126,EC,1,Engineer,これをまあ分かんないけど、サイズを適当につくって、両面テープで貼り付けたら、ポケットになる。,"I don't know, but if I make it the right size (of a pocket) and attach it with double-sided tape, it will become a pocket.",1,1,0,1,1,0,0,1,0,0,0,0
+591,E127,EB,1,Engineer,それ、逆だ。こっちだ。,It's the other way around. It's this way.,0,0,0,1,1,0,0,1,0,0,1,0
+592,E128,EC,1,Engineer,これも。ホッチキスがあるといいかも。,Also this. A stapler would be nice.,0,0,0,1,1,0,0,1,0,0,1,0
+593,E129,EB,1,Engineer,あ，でも，これで付けても良いんじゃないですか？ペって．．．。,"Oh, can we paste it by that? Such as ""Pe (*sounds of paste)"".",0,0,0,1,1,0,0,1,0,0,0,1
+594,E130,EC,1,Engineer,それでもいい。＊Instractorさん＊すいません、ホッチキスはありますか。,"Still, that's fine. Instractor-san, excuse me, do you have a stapler?",0,0,0,0,1,0,1,0,0,0,0,0
+596,E132,EC,1,Engineer,お借りします。,I borrow it.,0,0,0,0,1,0,1,0,0,0,0,0
+598,E134,EC,1,Engineer,ここをこれだ、これですね。ありました。,"Here it is, here it is. There it is.",0,0,0,0,1,0,1,0,0,0,0,0
+599,E135,EA,1,Engineer,えー，難しい．，なんか，財布の本体つくるのが難しいですね。,"Well, difficult...It is difficult to make the body of a wallet.",0,0,0,0,1,0,0,1,0,0,0,0
+600,E136,EB,1,Engineer,確かに。,Indeed.,0,0,0,0,1,0,0,1,0,0,0,0
+601,E137,EC,1,Engineer,針も入ってます。,It also contains a needle.,0,0,0,0,1,0,0,1,0,0,0,0
+602,E138,EA,2,Engineer,どうすれば、こうなるんだろうか。札入れるところがあって。,How can I do this? There is a place to put bills.,1,0,0,0,1,0,0,1,0,0,0,1
+603,E139,EC,2,Engineer,はい。,Yeah.,1,0,0,0,1,0,0,1,0,0,0,0
+604,E140,EA,2,Engineer,ポケット的なところがあるから、それなんかこうやってくっつけて丸めたらこういうふうにならないですかね。,"There are pockets, so if you put them together like this and roll them up, wouldn't they look like this?",1,1,0,1,1,0,0,1,0,0,0,1
+605,E141,EC,2,Engineer,うーん、なりますね。,Hmmm...it will be.,1,1,0,1,1,0,0,1,0,0,0,0
+606,E142,EA,2,Engineer,なりますね。それで、いいですか。,"It will be. So, okay?",1,1,0,1,1,0,0,1,0,0,0,1
+607,E143,EB,2,Engineer,いいですよ。,All right.,1,1,0,1,1,0,0,1,0,0,0,0
+608,E144,EC,2,Engineer,設計としては、これをベースにします？ それとも？,"As for the design, would you base it on this? Or?",0,0,0,0,1,0,0,1,0,1,1,1
+609,E145,EA,2,Engineer,これでいいんじゃないですか。,This (prototype) is fine (for us).,0,0,0,1,1,0,0,1,0,0,1,0
+610,E146,EC,2,Engineer,これでいい。あの財布の特徴はカードがいっぱい入って、紙幣もある程度入って、小銭が入るというのが、特徴があるんですね。,"This is fine. That (user's) wallet has the unique feature of being able to hold a lot of cards, some bills, and coins.",1,0,1,1,1,0,0,1,0,0,1,0
+611,E147,EA,2,Engineer,そうでしたね。,"Yes, it was.",1,0,1,0,1,0,0,1,0,0,1,0
+612,E148,EC,2,Engineer,色使いが鮮やか。外側はそうでもないけども、内側が鮮やかであると。,"The coloring is vivid. Not so much on the outside, but that the inside is vivid.",0,1,1,1,1,0,0,1,0,0,1,0
+613,E149,EA,2,Engineer,はい。,Right.,0,1,1,1,1,0,0,1,0,0,1,0
+614,E150,EC,2,Engineer,それを参考にすると、それと●しかできないんです。,"If we refer to that, we can only do that and ●.",0,1,0,1,1,0,0,1,0,0,1,0
+615,E151,EA,2,Engineer,ああ、そうですね。ちょっとそこにプラスして。,"Oh, exactly. Add to that…",0,1,0,0,1,0,0,1,0,0,1,0
+616,E152,EC,2,Engineer,5分で設計するっていう。,We should design it in 5 minutes.,0,0,0,0,1,0,0,1,0,1,0,0
+617,E153,EB,2,Engineer,それプラスして、スキミング防止シートを貼り付けて、それから紐で止められるようにして。これをこっちに付けて、とりあえず、こんな感じで。,"And then we put an anti-skimming sheet on it, and then we put a string on it, and then we put a string (chain) on it. Put this over here, and that's how it looks for the time being.",1,0,0,1,1,0,0,1,0,0,1,0
+618,E154,EA,2,Engineer,18分．これ内側の色、これでいいですかね。やりすぎかな。,18 min. Is the color for the inside the right? Is it too much?,0,1,0,0,1,0,0,1,0,0,1,1
+619,E155,EC,2,Engineer,いいと思います。,I think it is good.,0,1,0,1,1,0,0,1,0,0,1,0
+620,E156,EB,2,Engineer,進みます。,Proceed.,0,0,0,0,1,0,0,1,0,1,0,0
+621,E157,EA,2,Engineer,そんなことで悩んでたら，終わらないか．うぃっす。,"If we worry about such things, we can't finish (creating prototype.). Roger.",0,0,0,0,1,0,0,1,0,1,0,0
+622,E158,EB,2,Engineer,とりあえず。次は。持ってようか。はい。,For now. Next step. Shall I hold it? OK.,0,0,0,0,1,0,0,0,1,1,0,1
+623,E159,EA,2,Engineer,あ，真ん中も止めたいっす．ほい。,"Oh, I want to fasten at the centre, too. Hi.",0,0,0,0,1,0,0,0,1,0,0,1
+624,E160,EB,2,Engineer,はい。,OK,0,0,0,0,1,0,0,0,1,0,0,0
+625,E161,EA,2,Engineer,こっちもお願いしまーす。,Please (help) at this side.,0,0,0,0,1,0,0,0,1,0,0,1
+626,E162,EB,2,Engineer,はい、了解。ちょっとずれてるけど、まあ、いいや。大丈夫？,"Yes, I got it. It's a little off, but, uh, okay. Are you okay?",0,1,0,0,1,0,0,0,1,0,1,1
+627,E163,EA,2,Engineer,あらよ。,Hey.,0,0,0,0,1,0,0,0,1,0,1,1
+628,E164,EB,2,Engineer,はい。,Hi.,0,0,0,0,1,0,0,0,1,0,0,0
+629,E165,EA,2,Engineer,あらよ。,Hey.,0,0,0,0,1,0,0,0,1,0,0,1
+630,E166,EB,2,Engineer,あらよ。,Hey.,0,0,0,0,1,0,0,0,1,0,0,0
+631,E167,EA,2,Engineer,あらよ。,Hey.,0,0,0,0,1,0,0,0,1,0,0,1
+632,E168,EB,2,Engineer,あらよ。,Hey.,0,0,0,0,1,0,0,0,1,0,0,0
+633,E169,EC,2,Engineer,はい。,Hi.,0,0,0,0,1,0,0,0,1,0,0,0
+634,E170,EA,2,Engineer,で，こう，か．．．なんか高いですよね。,And. It is. It seems a little high.,0,1,0,0,1,0,0,0,1,0,1,0
+635,E171,EB,2,Engineer,プロトタイプなので、とりあえず。,"It is a prototype, for now.",0,1,0,0,1,0,0,0,1,0,1,0
+636,E172,EC,2,Engineer,サイズはもういいですよね。ここら辺で切っちゃう。,The size is already good. I'll cut it off around here.,1,1,0,0,1,0,0,0,1,0,1,1
+637,E173,EA,2,Engineer,切ります。,Cutting.,1,1,0,0,1,0,0,0,1,0,0,0
+638,E174,EC,2,Engineer,それとも、大きくして手帳型にする？,Or do you want to go bigger and make it a notebook?,1,1,0,0,0,0,0,0,1,0,0,1
+639,E175,EA,2,Engineer,いや、長財布嫌だつって。．．．これくらいか．．．。,"No, the user said the user didn't like long wallets. It's may be enough to…",1,1,1,1,1,0,0,0,1,0,1,0
+640,E176,EC,2,Engineer,いいですね。さらに内側にこういうカードが入る部分があったりとか、札を入れるところが2つあったりとか、小銭を入れるところがあったりとか。で、向こうは、ここにもう1つこういうのを付けて。,"It's nice. It also has a place for cards on the inside, two places to put bills, and a place to put coins. And on the other side, another one like this is attached here.",1,1,0,1,1,0,0,0,1,0,0,0
+641,E177,EA,2,Engineer,それいいですね。,That's good.,1,1,0,1,1,0,0,0,1,0,0,0
+642,E178,EC,2,Engineer,うん、色鮮やかにするといいかなと思っていて、で、どうしようかな。2つに分けて、こういうふうに小銭、これまるっきり同じになっちゃうんだけど、どうしましょう。それか、外側に小銭入れるところをこうやって付けるか。,"I was thinking that it would be good to make it colorful, so what I can do... Divide it into two parts and put the coins like this.. but it might be completely same (as the user's wallet).What should we do? Or, we could put a coin purse on the outside like this.",1,1,1,1,1,0,0,0,1,0,0,1
+643,E179,EA,2,Engineer,外側。,Outside.,1,1,0,0,1,0,0,0,1,0,0,0
+644,E180,EC,2,Engineer,とか。,Or.,1,1,0,0,1,0,0,0,1,0,0,0
+645,E181,EB,2,Engineer,外側ね、いいかもしれない。これも結構外側にこうあるんですよ。こんな感じで、外側あるとパッと出せることは出せる。,"Outside, yeah, that might be good. This one also (has coin purse) on the much outside. If there is like this, it (coins) can be taken out in a flash.",1,1,0,1,1,0,0,0,1,0,0,0
+646,E182,EC,2,Engineer,いったん、ここの長さで切っちゃいますね。,"Once, I'm going to cut it at this length.",0,1,0,1,1,0,0,0,1,1,0,0
+647,E183,EB,2,Engineer,内側と外側になんか、チャック式のやつがなんか外側で、内側にこういうやつがあると非常に便利かもしれないっす．外はね。チャックって書けばいいですよ。,"It is inside and outside, something… If Zipper style something is in outside and this one is inside, would be so convenience. On outside… Just write ""zipper.""",1,1,0,1,1,0,0,0,1,0,0,1
+648,E184,EA,2,Engineer,チャック式ですね。,Zipper style.,1,1,0,0,1,0,0,0,1,0,0,0
+649,E185,EC,2,Engineer,なんか、こういうので。,Something like this.,0,1,0,0,1,0,0,0,1,0,0,0
+650,E186,EB,2,Engineer,持ってますよ。いいですか。,I have it. May I?,0,0,0,0,1,0,0,0,1,0,0,0
+651,E187,EC,2,Engineer,意外とそういうふうなので。,It is surprisingly that way.,0,0,0,0,1,0,0,0,1,0,0,0
+652,E188,EB,2,Engineer,スキミングシートをもう1枚付けて。,Add another skimming sheet.,1,0,0,1,1,0,0,0,1,0,0,0
+653,E189,EC,2,Engineer,はい。,Yes.,1,0,0,0,1,0,0,0,1,0,0,0
+654,E190,EB,2,Engineer,スキミング防止シート。,Anti-skimming sheet.,1,0,0,0,1,0,0,0,1,0,0,0
+655,E191,EC,2,Engineer,両面テープは。,Double-sided tape is…,0,0,0,0,1,0,0,0,1,0,0,0
+656,E192,EA,2,Engineer,両面テープ。これでいいんじゃないですか。,Double-sided tape. This is fine.,0,0,0,0,1,0,0,0,1,0,0,0
+657,E193,EC,2,Engineer,それでいいんですけど。なんで、今、あったものがなくなった。ここにあった。はい、ありました。,"That's fine. Why, what was there just now is gone. It was here. Yes, it was there.",0,0,0,1,1,0,0,0,1,0,1,0
+658,E194,EA,2,Engineer,両面テープ●。よかった。,Double-sided tape is… That's good.,0,0,0,0,1,0,0,0,1,0,0,0
+659,E195,EA,2,Engineer,どうしよう．あ，そっか、ここにメモしといたんだった．あざーっす．ポケットに入れたい．現金もカードも。でもデザインも欲しい、RFID，値段はほどほど，海外でも使える財布。,"What to do.. Oh, I see. I wrote it down, here. Thanks. The user wants to put it on the pocket. Cash and cards. But, it is well apperance designed. RFID. The price is not so expensive. And it can be used abroad.",1,1,1,0,0,0,1,0,0,0,1,0
+660,E196,EB,2,Engineer,海外で使える財布なので、スキミング防止があって。,It is a wallet that can be used overseas and has anti-skimming protection.,1,0,1,0,0,0,0,0,1,0,1,0
+661,E197,EA,2,Engineer,日本で使う財布と海外で使う財布って差があるんですか。,Is there a difference between wallets used in Japan and those used overseas?,1,1,0,0,0,1,0,0,0,0,0,1
+662,E198,EB,2,Engineer,だから、やっぱりセキュリティー。落としたり●じゃないですか、海外で。だから、こういうふうに紐付けました。,"So, security, after all. (We don't want to) just drop (wallet) in a foreign country. So I added strings (chain) like this.",1,1,0,1,0,0,0,0,1,0,0,0
+663,E199,EA,2,Engineer,なるほど。チェーンですね。,I see. A chain.,1,1,0,0,0,0,0,0,1,0,0,0
+664,E200,EC,2,Engineer,これ小銭入れで、これチャックです。内側でも外側でも好きなところ、付けてみてください。,"Here's the coin purse, here's the zipper. You can attach it anywhere you like, inside or outside.",1,1,0,0,1,0,0,0,1,0,0,1
+665,E201,EA,2,Engineer,小銭入れ。中にこうやって付けていいですか。違います？考え方。,Coin purse. Can I put it inside like this? Is my understanding a difference?,1,1,0,0,1,0,0,0,1,0,0,1
+666,E202,EC,2,Engineer,いいと思ったほうに付けてください。,Put it on the one you think is better.,1,1,0,0,1,0,0,0,1,0,0,1
+667,E203,EB,2,Engineer,これ、貼ります？ スキミング防止シート。,Do you want to put this on? Anti-skimming sheet.,1,0,0,0,1,0,0,0,1,0,0,1
+668,E204,EC,2,Engineer,そうなんですよね。,That's right.,1,0,0,0,1,0,0,0,1,0,0,0
+669,E205,EA,2,Engineer,スキミング防止シートって透明なんですか。それは分からないですか。,Is the anti-skimming sheet transparent? Don't you know that?,1,1,0,0,1,1,0,0,1,0,0,1
+670,E206,EB,2,Engineer,いや．．．分かんないけど，知らないですけど。,Well… I'm not sure. I don't know.,1,1,0,0,1,1,0,0,1,0,0,0
+671,E207,EA,2,Engineer,スキミングってデータが奪われることを言うんですか？,"Does the word ""skimming"" meam having data stolen.",1,0,0,0,0,1,0,0,1,0,0,1
+672,E208,EC,2,Engineer,そうそう。,"Yes, yes.",1,0,0,0,0,0,0,0,1,0,0,0
+673,E209,EA,2,Engineer,あの、あれですね。,"You know, that one.",1,0,0,0,0,0,0,0,1,0,0,0
+674,E210,EC,2,Engineer,あ、違う。中なんだけど。,"Oh, no. It's inside.",1,1,0,0,1,0,0,0,1,0,0,0
+675,E211,EA,2,Engineer,それって、財布の外側に貼るんですか。,Will we put it on the outside of the wallet?,1,1,0,0,1,0,0,0,1,0,0,1
+676,E212,EB,2,Engineer,外側というか、内側でもいいんだけど、●からカードを守るように。,"The outside, or even the inside, is fine, but make sure to protect the card from ●.",1,1,0,0,1,0,0,0,1,0,0,0
+677,E213,EA,2,Engineer,もうちょっと格好いいやつ●。,A little more cool.,1,1,0,1,1,0,0,0,1,0,1,0
+678,E214,EB,2,Engineer,格好いいやつにしますか。,Do you want a cool one?,1,1,0,0,1,0,0,0,1,0,1,1
+679,E215,EA,2,Engineer,チオリ(千代紙）、何色がいいですか。,"Chiori (Chiyogami), what color do you prefer?",1,1,0,0,1,0,0,0,1,0,1,1
+680,E216,EB,2,Engineer,スキミングだからなあ。微妙な色の●か。,It's skimming... A subtle color.,1,1,0,1,1,0,0,0,1,0,0,0
+681,E217,EA,2,Engineer,微妙な．．．。,A subtle (color).,1,1,0,0,1,0,0,0,1,0,0,0
+682,E218,EA,2,Engineer,あー，うまくとり出せない．．．。,"Uhm, I cannot take it.",0,0,0,0,1,0,0,0,1,0,0,0
+683,E219,EB,2,Engineer,こんなふうになってるんだ。ああ、すごいきれいな色。スキミング防止シート、つくります。,"It's like this. Oh, it's so beautiful. I will make anti-skimming sheets.",1,1,0,0,1,0,1,0,1,0,1,1
+684,E220,EA,2,Engineer,お願いします。,Please.,1,1,0,0,1,0,0,0,1,0,0,1
+685,E221,EC,2,Engineer,はい。,Ya.,1,1,0,0,1,0,0,0,1,0,0,0
+686,E222,EB,2,Engineer,大きさカードぐらいにしたらいいんですね。,"Its size should be about cards, right?",1,1,0,1,1,0,0,0,1,0,0,1
+687,E223,EC,2,Engineer,財布の大きさじゃないのかな。,Maybe it's not the size of the wallet.,1,1,0,1,1,0,0,0,1,0,0,0
+688,E224,EB,2,Engineer,財布の大きさですか。,The wallet size is.,1,1,0,0,1,0,0,0,1,0,0,1
+689,E225,EC,2,Engineer,はい。,Yes.,1,1,0,0,1,0,0,0,1,0,0,0
+690,E226,EB,2,Engineer,じゃあ、丸々。,"Then, the whole thing.",1,1,0,0,1,0,0,0,1,0,0,0
+691,E227,EC,2,Engineer,ホッチキスは。,The stapler is.,0,0,0,0,1,0,0,0,1,0,0,0
+692,E228,EA,2,Engineer,横の長さ，これで測ってください．何探してますか？,Please measure horizontal length by it. What are you looking for?,1,1,0,0,1,0,0,0,1,0,0,1
+693,E229,EC,2,Engineer,ホッチキス、持ってる？,Do you have a stapler?,0,0,0,0,1,0,0,0,1,0,0,1
+694,E230,EA,2,Engineer,はい。,Yes.,0,0,0,0,1,0,0,0,1,0,0,0
+695,E231,EC,2,Engineer,これ、カード入れのつもりなんですが、どうしよう。これをそっくりにつくったほうがいい？ それとも、何か工夫しましょうか。ちょっと厚さを持たせるとか。,"This is meant to be a cardholder, but what should I do with it? Should I make it exactly like this one? Or should I do something creative with it? Or make it a little thicker?",1,1,0,1,1,0,0,0,1,0,1,1
+696,E232,EA,2,Engineer,厚さ、ああ、いいですね。,"Thickness, oh, that’s good.",1,1,0,1,1,0,0,0,1,0,1,0
+697,E233,EC,2,Engineer,マチを付けるか。,Add a gusset...,1,1,0,1,1,0,0,0,1,0,1,0
+698,E234,EA,2,Engineer,付ければ。〓EC〓さん、器用ですね。,"Add… EC-san, You're skillful with your hands.",1,1,0,0,1,0,0,0,1,0,1,1
+699,E235,EC,2,Engineer,Aさん、お世辞がうまいからなあ。,"EA-san, you’re so good at flattery.",0,0,0,0,0,0,0,0,0,0,0,0
+700,E236,EC,2,Engineer,褒めてるんだよ。,I am complimenting.,0,0,0,0,0,0,0,0,0,0,0,0
+701,E237,EC,2,Engineer,こんな感じですかね。,I guess it’s like this.,1,1,0,0,1,0,0,0,0,0,1,0
+702,E238,EA,2,Engineer,両面テープで貼ったほうが，楽なんじゃないですか？,"It might be easier to use double-sided tape, right?",0,0,0,0,1,0,0,0,1,0,1,0
+703,E239,EC,2,Engineer,両面テープで貼ろうか。,Use double-sided tape…,0,0,0,0,1,0,0,0,1,0,1,0
+704,E240,EA,2,Engineer,確かに、ちょっと立体感が増していいですね。,"Sure, it’s nice by giving it a little more 3-D effect.",1,1,0,1,1,0,0,0,1,0,1,0
+705,E241,EB,2,Engineer,ですね。,Sure.,1,1,0,1,1,0,0,0,1,0,1,0
+706,E242,EA,2,Engineer,ちょっと財布らしくなってきた。,It's becoming a bit like a wallet.,0,1,0,1,1,0,0,0,1,0,1,0
+707,E243,EB,2,Engineer,スキミング防止フィルム，シート貼ります？ これ。中に。,Anti-skimming film …sheet. Do you want to put it on? This. Inside.,1,1,0,1,1,0,0,0,1,0,1,1
+708,E244,EC,2,Engineer,それがね、どこに。,"That's it, where.",1,1,0,0,1,0,0,0,1,0,1,0
+709,E245,EB,2,Engineer,ここがあってもいいですよ。,You can have this place.,1,1,0,1,1,0,0,0,1,0,1,1
+710,E246,EC,2,Engineer,そうですね。そこがいいかな。,"Yes, I think so. I think that's a good place.",1,1,0,1,1,0,0,0,1,0,1,0
+711,E247,EA,2,Engineer,スキミング防止シート，いいですね。,Anti-skimming sheet is nice.,1,0,0,1,1,0,0,0,1,0,1,0
+712,E248,EC,2,Engineer,うーん、アメリカではやりなんだね。スキミング防止シート。あそこのとこがさ。そんなにあれいいとは思ってないんだけど、はやりなんで一応付けておいたっていう。,"Hmmm...I guess it's popular in the U.S., anti-skimming sheets. You know, that part. I don't think it's that good, but I put it on just in case because it is popular.",1,0,0,1,0,0,0,1,0,0,0,0
+713,E249,EB,2,Engineer,USB入れる何かポケット要りますか。,Do you need something… (a kind of) pocket for USB?,1,0,0,1,1,0,0,0,1,0,0,1
+714,E250,EC,2,Engineer,うん？,Hm?,1,0,0,0,1,0,0,0,1,0,0,0
+715,E251,EB,2,Engineer,いや、USB要らないですよね。,"No, we don't need USB.",1,0,0,1,1,0,0,0,1,0,0,0
+716,E252,EC,2,Engineer,USBがどういうふうに付ける、あれなんですか。,"How does the USB attach, is that it?",1,0,0,0,1,0,0,0,1,0,0,1
+717,E253,EB,2,Engineer,結構僕いろいろとUSBいつも持ち歩いているんで。,I always carry around a variety of USB devices.,1,0,0,1,1,0,0,0,1,0,0,0
+718,E254,EC,2,Engineer,ああ。,Oh.,1,0,0,0,1,0,0,0,1,0,0,0
+719,E255,EB,2,Engineer,USB入ったほうが。,USB should go in.,1,0,0,1,1,0,0,0,1,0,0,0
+720,E256,EC,2,Engineer,USBメモリーで。,USB flash drive.,1,0,0,0,1,0,0,0,1,0,0,0
+721,E257,EB,2,Engineer,そうです。ポケットいるかな．．．と。,Yes. I guess the wallet needs a pocket…,1,0,0,1,1,0,0,0,1,0,0,0
+722,E258,EA,2,Engineer,ロゴとか付けます？,Will we add a logo or something?,0,1,0,1,1,0,0,0,1,0,0,1
+723,E259,EC,2,Engineer,ああ、いいんじゃないでしょうか。,"Oh, that's fine.",0,1,0,1,1,0,0,0,1,0,0,0
+724,E260,EA,2,Engineer,ロゴ付けます？,Will we add a logo?,0,1,0,1,1,0,0,0,1,0,0,1
+725,E261,EB,2,Engineer,あ、いいですよ。やってください。,"Oh, sure. Please, do it.",0,1,0,1,1,0,0,0,1,0,0,1
+726,E262,EC,2,Engineer,ここに、小銭ね。透明にしたんだけど。,Here's coin (purse). I made it transparent.,1,1,0,1,1,0,0,0,1,0,1,0
+727,E263,EB,2,Engineer,いいですよ．別になんか，分かればいいから．あと．．．。,Good. It is OK for something to understand...,1,1,0,1,1,0,0,0,1,0,1,0
+728,E264,EC,2,Engineer,あとは。,The rest.,0,0,0,0,1,0,0,0,1,0,0,0
+729,E265,EB,2,Engineer,これ，良かったら，付けます？,"If you like it, will we put it on?",0,0,0,0,1,0,0,0,1,0,0,1
+730,E266,EC,2,Engineer,それを付けるのはどこ。,Where to put it on?,0,1,0,0,1,0,0,0,1,0,0,1
+731,E267,EB,2,Engineer,どこでもいいです。,Anywhere is fine.,0,1,0,0,1,0,0,0,1,0,0,0
+732,E268,EC,2,Engineer,穴を開けますか。,Do you want to drill a hole?,0,1,0,0,1,0,0,0,1,0,0,1
+733,E269,EB,2,Engineer,いや、あの、ホッチキスでいい。,"No, um, just a stapler.",0,1,0,1,1,0,0,0,1,0,0,0
+734,E270,EC,2,Engineer,ホッチキス、はい。,"Stapler, yes.",0,1,0,0,1,0,0,0,1,0,0,1
+735,E271,EB,2,Engineer,どこに付けますか。,Where would you like to put it?,0,1,0,0,1,0,0,0,1,0,0,1
+736,E272,EC,2,Engineer,ここかな。,Maybe here.,0,1,0,1,1,0,0,0,1,0,0,0
+737,E273,EB,2,Engineer,ここかな。この辺に付けます？ じゃ、ぐるぐると巻いて。ぐるぐると巻いて。じゃあ。,"Maybe here. Do you want to put it around here? Then wrap it around. Wrap it around. Okay, then.",0,1,0,1,1,0,0,0,1,0,0,1
+738,E274,EC,2,Engineer,向こうか。,Over there.,0,1,0,0,1,0,0,0,1,0,0,0
+739,E275,EB,2,Engineer,先っちょはもっと格好いいやつがいいんですけどね。おしゃれなやつ。このチェーンも。チェーンじゃなくて、何かすごいおしゃれにするんですけど。,"I'd like a better looking tip, though. Something stylish. And this chain. Not a chain, but something very stylish.",0,1,0,1,1,0,0,0,1,0,1,0
+740,E276,EC,2,Engineer,これははい。,This is yes.,0,1,0,0,1,0,0,0,1,0,0,0
+741,E277,EB,2,Engineer,折り曲げて。,Fold.,0,1,0,0,1,0,0,0,1,0,0,0
+742,E278,EC,2,Engineer,折り曲げて、はい。,"Folded, yes.",0,1,0,0,1,0,0,0,1,0,0,0
+743,E279,EB,2,Engineer,こうやって．．．あ，逆からやった方が良かったか。,"Let… Oh, it might be better to do from another side.",0,1,0,1,1,0,0,0,1,0,1,0
+744,E280,EC,2,Engineer,これはもう縫いこんであるわけですよね。,"This is already sewn in, right?",0,1,0,0,1,0,0,0,1,0,1,1
+745,E281,EB,2,Engineer,そうですね。,"Yes, it is.",0,1,0,0,1,0,0,0,1,0,1,0
+746,E282,EC,2,Engineer,生地にね。,In the fabric.,0,1,0,0,1,0,0,0,1,0,1,0
+747,E283,EB,2,Engineer,あと。,Also.,0,0,0,0,1,0,0,0,1,0,1,0
+748,E284,EC,2,Engineer,あと、10分ぐらいあるのか。,We have about 10 minutes left.,0,0,0,0,0,0,0,0,1,0,1,0
+749,E285,EB,2,Engineer,今、立てかけて思い出したんですけどね、携帯とかこれで立てかけられたらいいかなと思って、今。,"I just remembered it when standing it up. I am thinking that it would be nice to be able to stand up with this, like a cell phone or something, now.",1,0,0,1,0,0,0,0,1,0,0,0
+750,E286,EC,2,Engineer,どういう意味ですか。,What do you mean?,1,0,0,0,0,0,0,0,1,0,0,1
+751,E287,EB,2,Engineer,いいです。大丈夫です。この辺に何か、無理か。ちょっとここに何かこう、輪ゴムじゃなくて、少し伸びるやつかそういうのあって、ここで、携帯ぽこっと挟んで、ここで立てかけて、テレビ見たり、機能があったらいいかなと思ったりして。,"It's okay. It's okay. Is there something around here? Impossible? I was thinking it would be nice if there was something here, not a rubber band, but something stretchy, something like that, so I think it would be good to be able to put my cell phone here, and stand it up here, and watch TV.",1,0,0,1,1,0,0,0,1,0,0,0
+752,E288,EC,2,Engineer,ああ、なるほど。,"Oh, I see.",1,0,0,0,1,0,0,0,1,0,0,0
+753,E289,EB,2,Engineer,それは、ちょっとじゃあ、文章で説明するときに、何か書くか。スキミングシート、携帯を実際に立てかけられるか。,"It's a bit like, well, when you explain something in writing, do you write something down? A skimming sheet. Can you actually stand up a cell phone?",1,0,0,1,0,0,0,0,1,0,0,0
+754,E290,EB,2,Engineer,ここに、何か。,Here's something.,1,0,0,0,1,0,0,0,1,0,0,0
+755,E291,EC,2,Engineer,こんな感じ。,Like this.,1,0,0,0,1,0,0,0,1,0,0,0
+756,E292,EB,2,Engineer,そんな、そうですね。そこで、こう、立てて。入ったら、結構テレビ楽しむ人、いるじゃないですか、携帯で。これあるとうれしいかなと思って。,"Oh, no, yes. So, set that it stand up like this and put (cell phone) on it. Many people enjoy watching TV program on cell phone. I thought it would be nice to have this.",1,0,0,1,1,0,0,0,1,0,0,0
+757,E293,EC,2,Engineer,ふーん。,Hmmm.,1,0,0,0,1,0,0,0,1,0,0,0
+758,E294,EB,2,Engineer,それ1つの。そういう案もありますよ。プレゼンで。,That's one. That's one idea. With a presentation.,1,0,0,1,1,0,0,0,1,0,0,1
+759,E295,EC,2,Engineer,はい。,Yes.,1,0,0,0,1,0,0,0,1,0,0,0
+760,E296,EB,2,Engineer,こういうのどうですかみたいな。,"Like, how about this kind of thing?",1,0,0,1,1,0,0,0,1,0,0,1
+761,E297,EC,2,Engineer,あと、機能拡張できるのは、携帯と小銭入れは一応付いているでしょ。これを付けた、ここに付けようと思って付けたんだけど、使わなくなっちゃったな。,"Additionally, to extend the functionality of this wallet is…, a cell phone and coin purse have been already attached to it, once. I would attach it to, attached it to here but it became no need to use.",1,0,0,1,1,0,0,0,1,0,0,0
+762,E298,EB,2,Engineer,携帯で、電池は無理なんですかね。バッテリーは無理か。,"With a cell phone, is it battery impossible? Batteris are impossible.",1,0,0,1,0,0,0,0,1,0,0,0
+763,E299,EC,2,Engineer,あとは、財布を分けて、札を分けて入れられるようにするか。,Now we can separate the wallets so that we can put the bills in separate wallets.,1,0,0,1,0,0,0,0,1,0,0,0
+764,E300,EB,2,Engineer,そうですね。札分けたほうがいいな。確かに。海外だったらどうなんだろう。,I agree. We'd better separate to put the bills. Indeed. I wonder how it would be if it were overseas.,1,0,0,1,0,0,0,0,1,0,0,0
+765,E301,EB,2,Engineer,そんなもんですか。,Is that OK?,0,0,0,0,0,0,0,0,1,0,0,1
+766,E302,EC,2,Engineer,一応、●としては、こっちかな。,"Once..., ● I guess it's this way.",0,0,0,1,1,0,0,0,1,0,0,0
+767,E303,EA,2,Engineer,よし，出来た。,"OK, I done.",0,0,0,0,1,0,0,0,1,0,1,0
+768,E304,EB,2,Engineer,お、できた？ いいじゃん。,"Oh, it's done? That's good.",0,0,0,0,1,0,0,0,1,0,1,1
+769,E305,EA,2,Engineer,これ、何か上にかぶせます？,Do you want to put something over this?,0,1,0,0,1,0,0,0,1,0,1,1
+770,E306,EC,3,Engineer,いや、中に入れる、これは。なので、OKです。,"No, I'm going to put it inside, this is. So it is OK.",0,1,0,0,1,0,0,0,1,0,1,0
+771,E307,EB,3,Engineer,おお、EAさん●？,"Oh, is EA-san ●?",0,1,0,0,1,0,0,0,1,0,0,1
+772,E308,EA,3,Engineer,アンパンマンです。,Ampanman.,0,1,0,0,0,0,0,0,1,0,0,0
+773,E309,EB,3,Engineer,アンパンマンですか。,Is it Ampanman?,0,1,0,0,0,0,0,0,1,0,0,0
+774,E310,EC,3,Engineer,ああ、それは商標上のあれだから。,"Oh, because it's that thing on the trademark.",0,1,0,0,0,0,0,1,0,0,0,0
+775,E311,EB,3,Engineer,とりあえず。,For now.,0,1,0,0,0,0,0,1,0,0,0,0
+776,E312,EC,3,Engineer,オリジナルキャラクターですよ。,It's an original character.,0,1,0,0,0,0,0,1,0,0,0,0
+777,E313,EB,3,Engineer,アンパンマンって言っちゃいけないですね。,"We cannot say Ampan-man, right?",0,1,0,0,0,0,0,1,0,0,0,0
+778,E314,EC,3,Engineer,アンパンをテーマにしたオリジナルキャラクターで。,With original characters based on the theme of Ampan.,0,1,0,0,0,0,0,1,0,0,0,0
+779,E315,EA,3,Engineer,ミッキーマウスにしたほうが良かったですか？,It was better to make it Mickey Mouse?,0,1,0,0,0,0,0,1,0,0,0,0
+780,E316,EB,3,Engineer,いや、それはまずいです。なおさら。,"No, that's not good. Even more so.",0,1,0,0,0,0,0,1,0,0,0,0
+781,E317,EC,3,Engineer,なおさらまずい。,It is even worse.,0,1,0,0,0,0,0,1,0,0,0,0
+782,E318,EB,3,Engineer,やばいですよ。結構うるさいですよ。,It's not good. It's so strict.,0,1,0,0,0,0,0,1,0,0,0,0
+783,E319,EA,3,Engineer,祭りとかでもアンパンマンの仮面とかならありますけど、ディズニーの仮面って見たことないですから。,"There are Ampanman masks at festivals and such, but I've never seen Disney masks.",0,1,0,0,0,0,0,1,0,0,0,0
+784,E320,EB,3,Engineer,チェック厳しいんじゃないですか。,"Their check is strict, isn't it?",0,1,0,0,0,0,0,1,0,0,0,0
+785,E321,EC,3,Engineer,その指摘はすごい。気が付かなかった。,That's a great point. I hadn't noticed that.,0,1,0,0,0,0,0,1,0,0,0,0
+786,E322,EA,3,Engineer,そろそろですか．．．。33分．35分でしたっけ。,"Is it time to go? 33 min, (the time ends at) 35 min, right?",0,0,0,0,1,0,0,0,1,0,1,0
+787,E323,EB,3,Engineer,財布に見えますね。,It looks like a wallet.,0,1,0,1,1,0,0,0,1,0,1,0
+788,E324,EA,3,Engineer,はい。,Yes.,0,1,0,0,1,0,0,0,1,0,1,0
+789,E325,EB,3,Engineer,いいじゃないですか。ロゴも入ったし。,"It's nice, isn't it? It's got the logo on it.",0,1,0,1,1,0,0,0,1,0,1,0
+790,E326,EA,3,Engineer,そうですね。,"Yes, it is.",0,1,0,0,1,0,0,0,1,0,1,0
+791,E327,EC,3,Engineer,ロゴがあるのいいですね。,I like having the logo.,0,1,0,1,1,0,0,0,1,0,1,0
+792,E328,EA,3,Engineer,中が結構、裏地がおしゃれっていう。,"The inside is quite stylish, and the lining is fashionable.",0,1,0,0,1,0,0,0,1,0,1,0
+793,E329,EB,3,Engineer,いいね、なんか。色合いがなんかとってもいいんじゃない。EAちゃんセンスあるよ。,"I like it. The colors are very nice. EA-chan, you have nice taste.",0,1,0,1,1,0,0,0,1,0,1,1
+794,E330,EA,3,Engineer,僕ですか。みんなで．．．。,Is it me? We...,0,0,0,0,1,0,0,0,1,0,1,1
+795,E331,EB,3,Engineer,うん．だって選んだの，これ．．．じゃ，こんな感じですかね。Userさんが気に入って頂けるか．．．。,"Yes, you picked that. So, I guess it's done. I wonder if the user will like it...",0,0,1,1,1,0,0,0,1,0,1,0
+797,S2,SB,1,ServiceDesigner,もう。,Well..,0,0,1,0,0,0,1,0,0,1,0,0
+798,S3,SB,1,ServiceDesigner,わかりました。,I understand.,0,0,1,0,0,0,1,0,0,1,0,0
+799,S4,SC,1,ServiceDesigner,やっちゃい……。,Shall we ......,0,0,1,0,0,0,1,0,0,1,0,0
+800,S5,SB,1,ServiceDesigner,やっちゃいましょうか。,Shall we do it?,0,0,1,0,0,0,1,0,0,1,0,0
+801,S6,SC,1,ServiceDesigner,ましょう。,Let's do it.,0,0,1,0,0,0,1,0,0,1,0,0
+802,S7,SB,1,ServiceDesigner,はい。大丈夫です。,"Yes, I am ready.",0,0,1,0,0,0,1,0,0,1,0,0
+803,S8,SC,1,ServiceDesigner,〓##User##〓さん、こちらに。あ？どこに座っていただきましょうか。,"User-san, over here. Ah? Where shall we have you sit?",0,0,1,0,0,0,1,0,0,0,0,0
+804,S9,User,1,ServiceDesigner,ああ、ああ、ああ。どの辺いきましょうか。,"Oh, oh, oh. Which part shall we go?",0,0,1,0,0,0,1,0,0,0,0,0
+805,S10,SC,1,ServiceDesigner,あのですね、ここに座っていただいて。,"Well, you know, please sit down here.",0,0,1,0,0,0,1,0,0,0,0,0
+806,S11,User,1,ServiceDesigner,はい。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+807,S12,SC,1,ServiceDesigner,何か、カメラ的に大丈夫ですか。,Well..Is it OK for video recording ?,0,0,1,0,0,0,1,0,0,0,0,0
+808,S13,User,1,ServiceDesigner,ああ、もう、あの、私はどうでも。,"Oh, I.., well..., so I don't mind it.",0,0,1,0,0,0,1,0,0,0,0,0
+809,S14,SA,1,ServiceDesigner,あの、紙をもらって、いただいてもいいですか。なくなっちゃった。,"Um, can I get a piece of paper and have it?I used all of them.",0,0,1,0,0,0,1,0,0,0,0,1
+810,S15,SC,1,ServiceDesigner,ああ、どうぞ。あ、ここにみんなでメモしていただいても。,"Oh, go ahead. Oh, you may all make a note here.",0,0,1,0,0,0,1,0,0,0,0,1
+811,S16,SA,1,ServiceDesigner,ありがとうございます。はい。,"Thank you very much. Yes, I am interested in the newest version of the product.",0,0,1,0,0,0,1,0,0,0,0,0
+812,S17,SC,1,ServiceDesigner,はい。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+813,S18,User,1,ServiceDesigner,はい。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+814,S19,SC,1,ServiceDesigner,じゃあ、始めてってよろしいでしょうか。,"Well, may I begin?",0,0,1,0,0,0,1,0,0,0,0,0
+815,S20,User,1,ServiceDesigner,あ、もう、どうぞどうぞ。,"Oh, Well, please go ahead.",0,0,1,0,0,0,1,0,0,0,0,0
+816,S21,SC,1,ServiceDesigner,はい。じゃあ、財布に関するインタビューをさしていただきます。よろしくお願いします。,Yes. Then I will give an interview about wallets. Thank you very much for your time.,0,0,1,0,0,0,1,0,0,0,0,0
+817,S22,User,1,ServiceDesigner,よろしくお願いします。,Nice to see you.,0,0,1,0,0,0,1,0,0,0,0,0
+818,S23,SB,1,ServiceDesigner,よろしくお願いします。,"Nice to see you, too.",0,0,1,0,0,0,1,0,0,0,0,0
+819,S24,SC,1,ServiceDesigner,えっと、まず、あの、現在、あの、財布をどういう形で利用しているかっていう、利用シーンからお聞きしたいと思ってまして。あの、できれば、今お使いの財布を目の前に出していただきながら聞きたいなと思っておりますが。,"Well, first of all, I would like to ask you how you are currently using your wallet. If possible, I would like to ask you while holding out the wallet you are currently using in front of you.",0,0,1,0,0,0,1,0,0,0,0,0
+820,S25,User,1,ServiceDesigner,わかりました。じゃあ、取ってくればいいですか。,"Okay. So, should I just get it?",0,0,1,0,0,0,1,0,0,0,0,0
+821,S26,SC,1,ServiceDesigner,はい。はい。,Yes. Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+822,S27,User,1,ServiceDesigner,はい。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+823,S28,SB,1,ServiceDesigner,ああ、すごい。,"Oh, great.",0,1,1,0,0,0,1,0,0,0,0,0
+824,S29,SC,1,ServiceDesigner,結構小さな感じですね。,It looks pretty small.,0,1,1,0,0,0,1,0,0,0,0,0
+825,S30,SA,1,ServiceDesigner,この写真とかは。あ、そか。30分のやつだからいらないですね。,"I'm going to take a picture... Oh, I see...it's a 30 minute (protiotyping), so I don't need it.",0,0,1,0,0,0,1,0,0,0,0,0
+826,S31,User,1,ServiceDesigner,あ、はい。あ、もし撮りたかったらどうぞ。,"Uh, yes. Oh, if you want to take a picture, go ahead.",0,0,1,0,0,0,1,0,0,0,0,0
+827,S32,SA,1,ServiceDesigner,いえ、いえ、いえ。30分のだから。,"No, no, no. 30 minutes.",0,0,1,0,0,0,1,0,0,0,0,0
+828,S33,SC,1,ServiceDesigner,はい。ではちょっと、いくつか、あの、聞かせていただきます。,"OK. Now, let me ask you a few, um, questions.",0,0,1,0,0,0,1,0,0,0,0,0
+829,S34,User,1,ServiceDesigner,はい。,Yeah.,0,0,1,0,0,0,1,0,0,0,0,0
+830,S35,SC,1,ServiceDesigner,あ、ちょっと、目の前に置いていただいて。えっとまず、利用シーンからお聞きしたいんですけど。1日、まあ、1週間サイクルとかでもいいんですけど、この財布を出して使うときって、例えばどんなときがありますか。,"Oh, let me ask you to put it in front of you. First of all, I would like to ask you about your usage scenarios...for example, when do you take out this wallet and use it for a day, or even a weekly cycle?",0,0,1,0,0,0,1,0,0,0,0,0
+831,S36,User,1,ServiceDesigner,買い物するとき。,When shopping.,0,0,1,0,0,0,1,0,0,0,0,0
+832,S37,SC,1,ServiceDesigner,買い物は、例えばどういうところでお買い物されますか。,"What kind of places do you shop, for example?",0,0,1,0,0,0,1,0,0,0,0,0
+833,S38,User,1,ServiceDesigner,スーパーマーケット。,Supermarkets.,0,0,1,0,0,0,1,0,0,0,0,0
+834,S39,SC,1,ServiceDesigner,スーパーマーケットのお会計のときってことですかね。,Do you mean at the supermarket checkout?,0,0,1,0,0,0,1,0,0,0,0,0
+835,S40,User,1,ServiceDesigner,はい。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+836,S41,SC,1,ServiceDesigner,スーパーマーケットはどれぐらいの頻度で行かれますか。,How often do you go to the supermarket?,0,0,1,0,0,0,1,0,0,0,0,0
+837,S42,User,1,ServiceDesigner,週に……。,Weekly ......,0,0,1,0,0,0,1,0,0,0,0,0
+838,S43,SC,1,ServiceDesigner,はい。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+839,S44,User,1,ServiceDesigner,2～3回>>。,2 or 3 times.,0,0,1,0,0,0,1,0,0,0,0,0
+840,S45,SC,1,ServiceDesigner,週2～3回>>。これは週末、平日だと？,2-3 times a week. This is on weekends and weekdays?,0,0,1,0,0,0,1,0,0,0,0,0
+841,S46,User,1,ServiceDesigner,平日のほうが多いかなあ。,I wonder if it is more common on weekdays.,0,0,1,0,0,0,1,0,0,0,0,0
+842,S47,SC,1,ServiceDesigner,ああ、はい。お仕事帰りに寄って帰るって感じですかね。,"Oh, yes. I guess it's like stopping by on your way home from work and going home.",0,0,1,0,0,0,1,0,0,0,0,0
+843,S48,User,1,ServiceDesigner,ああ、そんな感じですか。,"Oh, so that's how it is.",0,0,1,0,0,0,1,0,0,0,0,0
+844,S49,SC,1,ServiceDesigner,それ以外のお財布を出して使うシーンっていうといかがでしょうか。,How about other situations where you take out your wallet and use it?,0,0,1,0,0,0,1,0,0,0,0,0
+845,S50,User,1,ServiceDesigner,財布を出すシーン。,The scene where the wallet is taken out.,0,0,1,0,0,0,1,0,0,0,0,0
+846,S51,SB,1,ServiceDesigner,スーパーマーケット以外ですね。,Except for supermarkets.,0,0,1,0,0,0,1,0,0,0,0,0
+847,S52,User,1,ServiceDesigner,あ、何か、ネットで買い物をするとき。,"Oh, something, when shopping online.",0,0,1,0,0,0,1,0,0,0,0,0
+848,S53,SB,1,ServiceDesigner,ああ。,Oh.,0,0,1,0,0,0,1,0,0,0,0,0
+849,S54,SC,1,ServiceDesigner,それは財布から何を取り出しますか。,What does it take out of the wallet?,0,0,1,0,0,0,1,0,0,0,0,0
+850,S55,User,1,ServiceDesigner,クレジットカードを取り出します。,Take the credit card.,0,0,1,0,0,0,1,0,0,0,0,0
+851,S56,SB,1,ServiceDesigner,あ、クレジットカード。登録してなくて毎回>>出すという形ですか。,"Ah, credit cards. You don't register it, and you have to pay it every time?",0,0,1,0,0,0,1,0,0,0,0,0
+852,S57,User,1,ServiceDesigner,はい。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+853,S58,SB,1,ServiceDesigner,はあ。,Huh.,0,0,1,0,0,0,1,0,0,0,0,0
+854,S59,SC,1,ServiceDesigner,なるほど。あれですか。クレジットカード情報は保存させたくない派ですか。,I see. Is that it? You don't want your credit card information to be stored?,0,0,1,0,0,0,1,0,0,0,0,0
+855,S60,User,1,ServiceDesigner,ああ、まあ、何か、保存させてるところもあるんですけど。してないところで買うときに財布出すみたいな。,"Yeah, well, there are some places that make you save something. Like when you buy something where you don't, you take out your wallet.",0,0,1,0,0,0,1,0,0,0,0,0
+856,S61,SC,1,ServiceDesigner,ああ、そういうことですね。一定確率で出さなきゃいけないってことですね。,"Oh, that's what I mean. It means you have to produce at a certain rate.",0,0,1,0,0,0,1,0,0,0,0,0
+857,S62,User,1,ServiceDesigner,うん。まあ。,Yeah. Well.,0,0,1,0,0,0,1,0,0,0,0,0
+858,S63,SB,1,ServiceDesigner,じゃあ頻度はそんなに高くないでしょうか。,Then the frequency would not be so high?,0,0,1,0,0,0,1,0,0,0,0,0
+859,S64,User,1,ServiceDesigner,そんなに多くないです。,Not that many.,0,0,1,0,0,0,1,0,0,0,0,0
+860,S65,SB,1,ServiceDesigner,どれぐらいですか。,About houw many times is it?,0,0,1,0,0,0,1,0,0,0,0,0
+861,S66,User,1,ServiceDesigner,うーん。新しいものを買う。1カ月に2回>>とか3回>>とか。,Hmmm. Buy something new. maybe twice or three times in a month.,0,0,1,0,0,0,1,0,0,0,0,0
+862,S67,SB,1,ServiceDesigner,うんうん。なるほど。,Mm-hmm. I see.,0,0,1,0,0,0,1,0,0,0,0,0
+863,S68,SC,1,ServiceDesigner,それ以外、いかがでしょう。,"Other than that, how about.",0,0,1,0,0,0,1,0,0,0,0,0
+864,S69,User,1,ServiceDesigner,財布を……。,Wallet at ......,0,0,1,0,0,0,1,0,0,0,0,0
+865,S70,SC,1,ServiceDesigner,財布を出すシーン。あ、ちなみに、いつもどこに入れられてますか。,"The scene where you take out your wallet. Oh, by the way, where is it always put?",0,0,1,0,0,0,1,0,0,0,0,0
+866,S71,User,1,ServiceDesigner,ハンドバッグの中です。,It is in a handbag.,0,0,1,0,0,0,1,0,0,0,0,0
+867,S72,SC,1,ServiceDesigner,ハンドバッグ。,Handbags.,0,0,1,0,0,0,1,0,0,0,0,0
+868,S73,SB,1,ServiceDesigner,先ほどのあの、青い肩から下げる感じの。,"That blue, shoulder-lifting look I mentioned earlier.",0,0,1,0,0,0,1,0,0,0,0,0
+869,S74,User,1,ServiceDesigner,はい。ショルダーの中に。,Yes. In the shoulder.,0,0,1,0,0,0,1,0,0,0,0,0
+870,S75,SB,1,ServiceDesigner,あれ、通勤通学のときには、あの、どうやって入ってらっしゃるんですか。,"That, when you commute to and from work, how do you, uh, how do you get in (buses or trains)?",0,0,1,0,0,0,1,0,0,0,0,0
+871,S76,User,1,ServiceDesigner,どうやって。,How?,0,0,1,0,0,0,1,0,0,0,0,0
+872,S77,SB,1,ServiceDesigner,Suica、Suicaとか。,"Suica, Suica, and so on.",0,0,1,0,0,0,1,0,0,0,0,0
+873,S78,User,1,ServiceDesigner,はい。,Yeah.,0,0,1,0,0,0,1,0,0,0,0,0
+874,S79,SB,1,ServiceDesigner,あの、すいません、改札を通るときには。,"Um, excuse me, when you go through the turnstiles.",0,0,1,0,0,0,1,0,0,0,0,0
+875,S80,User,1,ServiceDesigner,あ、Suicaです。,"Oh, I use Suica.",0,0,1,0,0,0,1,0,0,0,0,0
+876,S81,SC,1,ServiceDesigner,うん。,Yeah.,0,0,1,0,0,0,1,0,0,0,0,0
+877,S82,SB,1,ServiceDesigner,Suica。Suicaはどこに入ってますか。,Suica. How do you have Suica?,0,0,1,0,0,0,1,0,0,0,0,0
+878,S83,User,1,ServiceDesigner,Suicaはポケットに。今も入ってるけど。,Suica is in my pocket. It's still in there.,0,0,1,0,0,0,1,0,0,0,0,0
+879,S84,SB,1,ServiceDesigner,財布じゃなくてポケットに入ってる。,"It's in my pocket, not my wallet.",0,0,1,0,0,0,1,0,0,0,0,0
+880,S85,User,1,ServiceDesigner,はい。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+881,S86,SB,1,ServiceDesigner,はあ、はあ、はあ。なるほど。,"Ha, ha, ha. I see.",0,0,1,0,0,0,1,0,0,0,0,0
+882,S87,SC,1,ServiceDesigner,そういう意味ではあれなんですかね。スーパーマーケットのときは、決済としては現金ですか。カードですか。,"Is that what it is in that sense? When you are in a supermarket, do you use cash as payment? Is it by card?",0,0,1,0,0,0,1,0,0,0,0,0
+883,S88,User,1,ServiceDesigner,カードです。,Card.,0,0,1,0,0,0,1,0,0,0,0,0
+884,S89,SC,1,ServiceDesigner,あ、スーパーマーケットもカードですね。ちなみに現金、入れられてますか。,"Oh, supermarkets are also carded. By the way, do you carry cash?",0,0,1,0,0,0,1,0,0,0,0,0
+885,S90,User,1,ServiceDesigner,ちょっと入ってます。,It's a little bit in there.,0,0,1,0,0,0,1,0,0,0,0,0
+886,S91,SC,1,ServiceDesigner,じゃあほんとに、えっと、現金しか使えないところで使うためのもの。,"Then it's really, um, for use in places where only cash is accepted.",0,0,1,0,0,0,1,0,0,0,0,0
+887,S92,User,1,ServiceDesigner,そんな感じですね。,That's how I feel.,0,0,1,0,0,0,1,0,0,0,0,0
+888,S93,SC,1,ServiceDesigner,うーん。,Hmmm.,0,0,1,0,0,0,1,0,0,0,0,0
+889,S94,SB,1,ServiceDesigner,現金を使うシーンって、最近1カ月ぐらいでありました？,Have you had a cash scene in the last month or so?,0,0,1,0,0,0,1,0,0,0,0,0
+890,S95,User,1,ServiceDesigner,ありました。,There were.,0,0,1,0,0,0,1,0,0,0,0,0
+891,S96,SB,1,ServiceDesigner,どういうときでしたか。,What was the occasion?,0,0,1,0,0,0,1,0,0,0,0,0
+892,S97,User,1,ServiceDesigner,割り勘。,Split the bill.,0,0,1,0,0,0,1,0,0,0,0,0
+893,S98,SC,1,ServiceDesigner,割り勘。,Split the bill.,0,0,1,0,0,0,1,0,0,0,0,0
+894,S99,SB,1,ServiceDesigner,あ、飲み会の割り勘。飲み会。,"Ah, Split the bill in the party. Drinking.",0,0,1,0,0,0,1,0,0,0,0,0
+895,S100,User,1,ServiceDesigner,飲み会です。とか、あの、何かちょっと、イベントのときにまとめて買ってきたとか。,"It's a drinking party. Or, um, something a little bit, you know, bought in bulk at an event.",0,0,1,0,0,0,1,0,0,0,0,0
+896,S101,SB,1,ServiceDesigner,うん。ああ。,Yeah. Yeah.,0,0,1,0,0,0,1,0,0,0,0,0
+897,S102,SC,1,ServiceDesigner,じゃあ、それこそ頻度は相当少ない感じですか。,So it seems like that is something that is quite infrequent?,0,0,1,0,0,0,1,0,0,0,0,0
+898,S103,User,1,ServiceDesigner,そうですね。,"Yes, it is.",0,0,1,0,0,0,1,0,0,0,0,0
+899,S104,SC,1,ServiceDesigner,月1～2ないイメージですか。,Do you imagine that there is no more than one or two per month?,0,0,1,0,0,0,1,0,0,0,0,0
+900,S105,User,1,ServiceDesigner,ない。今は特にないイメージですね。,None. I don't have a particular image right now.,0,0,1,0,0,0,1,0,0,0,0,0
+901,S106,SC,1,ServiceDesigner,そうですね。ほんとに、じゃあ、使われない感じですね。,"Yes, it is. Really, then, it's like it's not being used.",0,0,1,0,0,0,1,0,0,0,0,0
+902,S107,User,1,ServiceDesigner,あ、あとコピーするとき現金です。,"Oh, and cash for copying.",0,0,1,0,0,0,1,0,0,0,0,0
+903,S108,SB,1,ServiceDesigner,ああ。,Oh.,0,0,1,0,0,0,1,0,0,0,0,0
+904,S109,SC,1,ServiceDesigner,ああ。コピーをするっていうのは大学の中で、何か。,"Oh. Making copies is something in college, you know.",0,0,1,0,0,0,1,0,0,0,0,0
+905,S110,User,1,ServiceDesigner,いえいえ。あの、コンビニで印刷したりとか、そういう。,"No, no. Um, printing at a convenience store or something like that.",0,0,1,0,0,0,1,0,0,0,0,0
+906,S111,SB,1,ServiceDesigner,個人的な用事でっていうことですか。,You mean for personal business?,0,0,1,0,0,0,1,0,0,0,0,0
+907,S112,User,1,ServiceDesigner,えっと。いや、あの、仕事で。えっと、うちにプリンター置いてないので。,"Um. No, um, it's for work. Well, I don't have a printer at home.",0,0,1,0,0,0,1,0,0,0,0,0
+908,S113,SB,1,ServiceDesigner,ああ。,Oh.,0,0,1,0,0,0,1,0,0,0,0,0
+909,S114,User,1,ServiceDesigner,あの、印刷したいときにコンビニ行ったりします。,"Um, I go to convenience stores when I want to print.",0,0,1,0,0,0,1,0,0,0,0,0
+910,S115,SC,1,ServiceDesigner,なるほど。じゃあ、その頻度は結構まめにって感じですかね。,"I see. Then, I guess the frequency should be quite frequent.",0,0,1,0,0,0,1,0,0,0,0,0
+911,S116,User,1,ServiceDesigner,うーん。でも2週間に1回>>ぐらい。,Hmmm. But about once every two weeks.,0,0,1,0,0,0,1,0,0,0,0,0
+912,S117,SC,1,ServiceDesigner,2週間に1回>>ぐらい。,About once every two weeks.,0,0,1,0,0,0,1,0,0,0,0,0
+913,S118,SB,1,ServiceDesigner,うーん。,Hmmm.,0,0,1,0,0,0,1,0,0,0,0,0
+914,S119,SC,1,ServiceDesigner,多少、小銭がほしいときがあるってことですよね。,It means that sometimes you need some coins.,0,0,1,0,0,0,1,0,0,0,0,0
+915,S120,User,1,ServiceDesigner,そうですね。,"Yes, it is.",0,0,1,0,0,0,1,0,0,0,0,0
+916,S121,SB,1,ServiceDesigner,ちなみにスマホのPayPayみたいな、ああいうキャッシュレス手段とか使われてますか。,"By the way, do you use such cashless means like PayPay on your smartphone?",0,0,1,0,0,0,1,0,0,0,0,0
+917,S122,User,1,ServiceDesigner,使ってます。,I use it.,0,0,1,0,0,0,1,0,0,0,0,0
+918,S123,SB,1,ServiceDesigner,ほう。スーパーではクレジットカードなんだけれども、PayPayみたいな手段っていうのはどういうときに使うんですか。,"Well. You use a credit card at the supermarket, but when do you use a method like PayPay?",0,0,1,0,0,0,1,0,0,0,0,0
+919,S124,User,1,ServiceDesigner,割り勘。,Split the bill.,0,0,1,0,0,0,1,0,0,0,0,0
+920,S125,SB,1,ServiceDesigner,割り勘、先ほど現金って。そしたら、両方があるんですね。,"Split the bill., you said cash earlier. Then you have both.",0,0,1,0,0,0,1,0,0,0,0,0
+921,S126,User,1,ServiceDesigner,そうですね。,"Yes, it is.",0,0,1,0,0,0,1,0,0,0,0,0
+922,S127,SB,1,ServiceDesigner,おもしろい。うん。PayPay。,Interesting. PayPay.,0,0,1,0,0,0,1,0,0,0,0,0
+923,S128,SC,1,ServiceDesigner,そっか。じゃあ、「PayPayで集めるよ」って言われたときに対応できるようにみたいな。,"I see. Then you prepare (cashless way) to respond when someone says, ""I'll collect with PayPay.""",0,0,1,0,0,0,1,0,0,0,0,0
+924,S129,User,1,ServiceDesigner,あの、あの。,"Um, I …",0,0,1,0,0,0,1,0,0,0,0,0
+925,S130,SC,1,ServiceDesigner,消極的利用？,Passive use?,0,0,1,0,0,0,1,0,0,0,0,0
+926,S131,User,1,ServiceDesigner,いや、あの、むしろ、えっと、割り勘をPayPayで送りたい派なんですけど。,"No, I'm of the school that would rather send the, uh, split via PayPay.",0,0,1,0,0,0,1,0,0,0,0,0
+927,S132,SC,1,ServiceDesigner,ああ。,Oh.,0,0,1,0,0,0,1,0,0,0,0,0
+928,S133,SB,1,ServiceDesigner,ああ。,Oh.,0,0,1,0,0,0,1,0,0,0,0,0
+929,S134,User,1,ServiceDesigner,相手が使ってないと、現金じゃないと。,"If they don't use it, it has to be cash.",0,0,1,0,0,0,1,0,0,0,0,0
+930,S135,SB,1,ServiceDesigner,ああ。,Oh.,0,0,1,0,0,0,1,0,0,0,0,0
+931,S136,SC,1,ServiceDesigner,はい、はい、はい。,"Yes, yes, yes.",0,0,1,0,0,0,1,0,0,0,0,0
+932,S137,SB,1,ServiceDesigner,極力現金は減らしたい派なんですね。,So you are of the school that wants to reduce cash as much as possible.,0,0,1,0,0,0,1,0,0,0,0,0
+933,S138,User,1,ServiceDesigner,減らし、うん。あんまり使わないですね。,"Reduce..., yes. I don't use cssh much.",0,0,1,0,0,0,1,0,0,0,0,0
+934,S139,SC,1,ServiceDesigner,なるほど、なるほどですね。,"I see, I see.",0,0,1,0,0,0,1,0,0,0,0,0
+935,S140,SB,1,ServiceDesigner,うん。,Yeah.,0,0,1,0,0,0,1,0,0,0,0,0
+937,S142,SC,1,ServiceDesigner,はい、じゃあ、次の質問にいきましょうか。あ、ちなみに、今の財布のわずらわしさとかあればお願いします。,"Okay, well, let's move on to the next question. Oh, by the way, please tell us if you have any current wallet hassles.",1,1,1,0,0,0,1,0,0,1,0,0
+938,S143,User,1,ServiceDesigner,わずらわしさ。,Hassle.,1,1,1,0,0,0,1,0,0,0,0,0
+939,S144,SC,1,ServiceDesigner,えっと、使いづらいなとか、大きいな、重いな、みたいな。,"Let's see, it's hard to use, it's big, it's heavy, and so on.",1,1,1,0,0,0,1,0,0,0,0,0
+940,S145,SB,1,ServiceDesigner,あの、ちなみにこう、広げても大丈夫だったら広げていただいて。,"By the way, if it is okay to spread it out like this, please open it.",1,1,1,0,0,0,1,0,0,0,0,0
+941,S146,User,1,ServiceDesigner,ああ、はい。いいですよ。,"Oh, yes. All right.",1,1,1,0,0,0,1,0,0,0,0,0
+942,S147,SB,1,ServiceDesigner,何を入れてらっしゃるか。,What are you putting in it?,1,0,1,0,0,0,1,0,0,0,0,0
+943,S148,User,1,ServiceDesigner,カード。あと免許証。,Card. And a driver's license.,1,0,1,0,0,0,1,0,0,0,0,0
+944,S149,SB,1,ServiceDesigner,免許証。保険証。,Driver's license. Insurance card.,1,0,1,0,0,0,1,0,0,0,0,0
+945,S150,User,1,ServiceDesigner,はい。,Yes.,1,0,1,0,0,0,1,0,0,0,0,0
+946,S151,SB,1,ServiceDesigner,大事なものは基本的にここに全部そろってる感じですか。,So basically everything important is here?,0,0,1,0,0,0,1,0,0,0,0,0
+947,S152,User,1,ServiceDesigner,大事なもの。,Important.,0,0,1,0,0,0,1,0,0,0,0,0
+948,S153,SB,1,ServiceDesigner,大事。あの、じゃあ、具体的に言うと、身分証明書は全部ここ。,"Important. Um, well, to be more specific, here are all the IDs.",0,0,1,0,0,0,1,0,0,0,0,0
+949,S154,User,1,ServiceDesigner,そうですね。よく使う身分証明書とかは。,"Yes, I do. For commonly used identification cards and so on.",0,0,1,0,0,0,1,0,0,0,0,0
+950,S155,SB,1,ServiceDesigner,あと、病院の診察カードとかってあると思いますし。,"Also, I think there are things like hospital cards.",0,0,1,0,0,0,1,0,0,0,0,0
+951,S156,User,1,ServiceDesigner,そうですね。,"Yes, it is.",0,0,1,0,0,0,1,0,0,0,0,0
+952,S157,SB,1,ServiceDesigner,あと、ポイントカード入れてるか。どうです？,"Also, do you have a loyalty card in it? What do you think?",0,0,1,0,0,0,1,0,0,0,0,0
+953,S158,User,1,ServiceDesigner,えっと、よく使うものは入れてます。,"Well, I put in the ones I use most often.",0,0,1,0,0,0,1,0,0,0,0,0
+954,S159,SB,1,ServiceDesigner,ああ。よく使うものだけ。,Oh. Just the ones I use often.,0,0,1,0,0,0,1,0,0,0,0,0
+955,S160,User,1,ServiceDesigner,はい。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+956,S161,SB,1,ServiceDesigner,ですね。うん。なるほど、なるほど。,"Yes. Yes, I see. I see. I see.",0,0,1,0,0,0,1,0,0,0,0,0
+957,S162,SC,1,ServiceDesigner,基本的にカード系で、えっと、定期的に使うものは全てまとめて持っておきたい？,"Basically, do you want to keep all of your card-based, uh, regular use items together?",0,0,1,0,0,0,1,0,0,0,0,0
+958,S163,User,1,ServiceDesigner,そうですね。,"Yes, it is.",0,0,1,0,0,0,1,0,0,0,0,0
+959,S164,SB,1,ServiceDesigner,うん。,Yeah.,0,0,1,0,0,0,1,0,0,0,0,0
+960,S165,SC,1,ServiceDesigner,それ以外、カード入れとか持っていないってことですよね。カード系は……。,"Other than that, you mean you don't have a card holder or anything else. The cards are at ......",0,0,1,0,0,0,1,0,0,0,0,0
+961,S166,User,1,ServiceDesigner,あります。カード入れ、あります。,I have. I have a card holder.,0,0,1,0,0,0,1,0,0,0,0,0
+962,S167,SB,1,ServiceDesigner,あ、カード入れがあるんですね。,"Oh, you have a card holder.",0,0,1,0,0,0,1,0,0,0,0,0
+963,S168,SC,1,ServiceDesigner,それはあれですか。えっと、Suicaを入れるとかそういうことですか。,"Is that... Well, is it something like keeping Suica?",0,0,1,0,0,0,1,0,0,0,0,0
+964,S169,User,1,ServiceDesigner,あ、いえいえ。えっと、あれ。,"Oh, no, no. Um, that.",0,0,1,0,0,0,1,0,0,0,0,0
+965,S170,SB,1,ServiceDesigner,Suicaはポケット。,Suica is in a pocket.,0,0,1,0,0,0,1,0,0,0,0,0
+966,S171,User,1,ServiceDesigner,SuicaはSuica用の、何か、ちっちゃいの。ピッてやるカードです。カード入れですね。,Suica is in something for Suica….It's a card that you just touch. It's a card holder for Suica.,0,0,1,0,0,0,1,0,0,0,0,0
+967,S172,SB,1,ServiceDesigner,うん。はい。,Yes. Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+968,S173,User,1,ServiceDesigner,で、それ以外に、あの、何ていうんですか。ポイントカードとかメンバーズカードとかのカード入れを。,"And besides that, what can I call it? A card holder for loyalty cards, membership cards, and so on.",0,0,1,0,0,0,1,0,0,0,0,0
+969,S174,SB,1,ServiceDesigner,ああ、はい。,"Oh, yes.",0,0,1,0,0,0,1,0,0,0,0,0
+970,S175,SC,1,ServiceDesigner,カード入れを。あ、それも携帯されてるんですか。,"Card holder. Oh, you carry that too?",0,0,1,0,0,0,1,0,0,0,0,0
+971,S176,User,1,ServiceDesigner,えっと、時と場合によります。,"Well, it depends on time and situation.",0,0,1,0,0,0,1,0,0,0,0,0
+972,S177,SC,1,ServiceDesigner,ああ、なるほど。カードだけの収納を持ってるんですね。それはなぜ分けて持たれてるかというと、全部入りきらないから、あふれたものを。,"Oh, I see. So you have a case just for cards. That's why they are held separately, because you can't fit them all in, the overflow.",0,0,1,0,0,0,1,0,0,0,0,0
+973,S178,User,1,ServiceDesigner,何か、うーん。あんまり使わないものを財布に入れておくと……。,"Something..., hmmm. If I keep something in my wallet that I don't use much...",0,0,1,0,0,0,1,0,0,0,0,0
+974,S179,SC,1,ServiceDesigner,ああ、なるほど。,"Oh, I see.",0,0,1,0,0,0,1,0,0,0,0,0
+975,S180,User,1,ServiceDesigner,うーんっていう感じですね。,"It's like, ""Hmmm.""",0,0,1,0,0,0,1,0,0,0,0,0
+976,S181,SC,1,ServiceDesigner,じゃあ、その利用頻度によって財布に入れるのか、予備のカードに入れるのか。,"Then, depending on how often you use it, do you put it in your wallet or on the card holder?",0,0,1,0,0,0,1,0,0,0,0,0
+977,S182,User,1,ServiceDesigner,はい。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+978,S183,SC,1,ServiceDesigner,わかりました。じゃあ、次の質問にいって大丈夫ですかね。はい。今の財布を選んだ理由は。あ、ちなみにこれ、いつ買い換えられたものですかね。,"I understand. So, I guess it's okay to move on to the next question. OK. Why did you choose your current wallet? Oh, by the way, when did you replace this one?",0,0,1,0,0,0,1,0,0,0,0,0
+979,S184,User,1,ServiceDesigner,いつだっけ。えっと、コロナ禍前なので2019とかくらいだと思います。,"When was it? Let's see, I think it's before the Corona disaster, so it's like 2019 or something.",0,0,1,0,0,0,1,0,0,0,0,0
+980,S185,SC,1,ServiceDesigner,じゃあ、使って3年目みたいな。,Then like three years of using it.,0,0,1,0,0,0,1,0,0,0,0,0
+981,S186,User,1,ServiceDesigner,くらいだと思います。,I think it is about the same.,0,0,1,0,0,0,1,0,0,0,0,0
+982,S187,SC,1,ServiceDesigner,その財布を選ばれた理由は。,Why did you choose that wallet?,0,0,1,0,0,0,1,0,0,0,0,0
+983,S188,User,1,ServiceDesigner,えっと、何ていう。何だ。おしゃれ。,"Well, what can I say? What's that? Fashionable.",0,1,1,0,0,0,1,0,0,0,0,0
+984,S189,SC,1,ServiceDesigner,ああ。おしゃれ。それはブランドか何か、特定のブランドのものですか。,"Oh. Fashionable. Is that a brand or something, a specific brand?",0,1,1,0,0,0,1,0,0,0,0,0
+985,S190,User,1,ServiceDesigner,えっと、ブランドは何か、〓マイウォレット〓ってイタリアのブランドらしいですけど。,"Let's see, the brand…well... ""My Wallet"", which seems to be an Italian brand.",0,0,1,0,0,0,1,0,0,0,0,0
+986,S191,SC,1,ServiceDesigner,はい。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+987,S192,User,1,ServiceDesigner,らしいです、はい。,"It seems, yes.",0,0,1,0,0,0,1,0,0,0,0,0
+988,S193,SC,1,ServiceDesigner,じゃあ、こだわりがあって、そのブランドにこだわりがあって買ったというよりは、デザインが気に入って。,"Then, rather than being particular about it and buying it because of the brand, you liked the design.",0,1,1,0,0,0,1,0,0,0,0,0
+989,S194,User,1,ServiceDesigner,あ、そうですね。,"Ah, yes.",0,1,1,0,0,0,1,0,0,0,0,0
+990,S195,SB,1,ServiceDesigner,その、色合いなんでしょうか。,"Well, (did you like) the coloring?",0,1,1,0,0,0,1,0,0,0,0,0
+991,S196,User,1,ServiceDesigner,はい。,Yes.,0,1,1,0,0,0,1,0,0,0,0,0
+992,S197,SB,1,ServiceDesigner,気に入った、おしゃれって言われてるポイントは。,"You like it… which point about do you call ""fashionable""?",0,1,1,0,0,0,1,0,0,0,0,0
+993,S198,User,1,ServiceDesigner,何かカラフルな感じが。,Something colorful.,0,1,1,0,0,0,1,0,0,0,0,0
+994,S199,SB,1,ServiceDesigner,ああ、はいはい。,"Oh, yes, yes.",0,1,1,0,0,0,1,0,0,0,0,0
+995,S200,SC,1,ServiceDesigner,何か、前の使ってた財布とこの財布で、何か、何だろう、こういう財布の形に変えたいみたいな動機があってそれにしていますか。もう、デザイン性だけって感じですか。,Do you have some kind of motivation to change the shape of your wallet from the one you used before to this one? Did you feel that you just want to change the wallet because of the appearance design?,0,1,1,0,0,0,1,0,0,0,0,0
+996,S201,User,1,ServiceDesigner,いや、えっと。前が、長財布だったんです。,"No, let's see. The previous one was a long wallet.",0,1,1,0,0,0,1,0,0,0,0,0
+997,S202,SB,1,ServiceDesigner,うん。,Yeah.,0,1,1,0,0,0,1,0,0,0,0,0
+998,S203,SC,1,ServiceDesigner,はい、はい、はい。,"Yes, yes, yes.",0,1,1,0,0,0,1,0,0,0,0,0
+999,S204,User,1,ServiceDesigner,で、ちょっと、長財布おっきいなあっていうのがあって、これに変えたっていうのは1つあります。あとは、前の財布がもう古くなったんで。,"One of the reasons I changed to this one is because I thought the long wallet was too big. Also, my old wallet was getting old.",0,1,1,0,0,0,1,0,0,0,0,0
+1000,S205,SC,1,ServiceDesigner,うん。,Yeah.,0,1,1,0,0,0,1,0,0,0,0,0
+1001,S206,SB,1,ServiceDesigner,何か、バッグに入れておくっていう意味では、長財布でも折りたたみ式でもいいように感じるんですけど、どの辺が長財布は不便なんですか。,"In terms of keeping it in the bag, I feel that either a long wallet or a folding one would be fine, but in what areas are long wallets inconvenient?",0,1,1,0,0,0,1,0,0,0,0,0
+1002,S207,User,1,ServiceDesigner,うーん。あの、まあやっぱり、えっと、バッグの中に入れるんでも、多分、容積的には変わらないんだけけれど。でも何か、長財布持つとおっきいって感じがあって。,"Hmmm... Well, I guess, well, I put my wallet in my bag, but it probably won't make any difference in terms of volume. But when I carry a long wallet, I feel like it's big.",0,1,1,0,0,0,1,0,0,0,0,0
+1003,S208,SB,1,ServiceDesigner,感覚的におっきい。,Sensationally big.,0,1,1,0,0,0,1,0,0,0,0,0
+1004,S209,User,1,ServiceDesigner,そうなんです、はい。,"Yes, that's right.",0,1,1,0,0,0,1,0,0,0,0,0
+1005,S210,SB,1,ServiceDesigner,多分、具体的に取り出しにくいとかではなくてですか。,Maybe it's not that it's hard to take out specifically.,1,0,1,0,0,0,1,0,0,0,0,0
+1006,S211,User,1,ServiceDesigner,ではなくてですね。,Not.,1,0,1,0,0,0,1,0,0,0,0,0
+1007,S212,SB,1,ServiceDesigner,ああ。,Oh.,1,0,1,0,0,0,1,0,0,0,0,0
+1008,S213,User,1,ServiceDesigner,うん。あの、前の財布は長財布、初めて使ったんですよ。,"Yup. Um, my previous wallet was a long wallet, the first time I used it.",0,1,1,0,0,0,1,0,0,0,0,0
+1009,S214,SB,1,ServiceDesigner,うん。,Yeah.,0,1,1,0,0,0,1,0,0,0,0,0
+1010,S215,User,1,ServiceDesigner,で、合わなかったなっていう感じですね。,"So, I felt like it wasn't a good fit.",0,1,1,0,0,0,1,0,0,0,0,0
+1011,S216,SB,1,ServiceDesigner,うーん。,Hmmm.,0,1,1,0,0,0,1,0,0,0,0,0
+1012,S217,SC,1,ServiceDesigner,ああ。で、その前は同じようなサイズ感のもので。,"Oh. And before that, it was a similar size.",0,1,1,0,0,0,1,0,0,0,0,0
+1013,S218,User,1,ServiceDesigner,はい。,Yes.,0,1,1,0,0,0,1,0,0,0,0,0
+1014,S219,SC,2,ServiceDesigner,そっから長財布、一回行って、また戻ったみたいな。,"From there, a long wallet, like you went once and back again.",0,1,1,0,0,0,1,0,0,0,0,0
+1015,S220,User,2,ServiceDesigner,はい。,Yes.,0,1,1,0,0,0,1,0,0,0,0,0
+1016,S221,SC,2,ServiceDesigner,じゃあ、素材は。これは。,Then the material. This is.,0,1,1,0,0,0,1,0,0,0,0,0
+1017,S222,User,2,ServiceDesigner,これは、えっと、カーフっていう素材です。,"This is a material called, let's see, calf.",0,1,1,0,0,0,1,0,0,0,0,0
+1018,S223,SC,2,ServiceDesigner,素材も気に入ってるポイントですか。,Is the material one of your favorite points?,0,1,1,0,0,0,1,0,0,0,0,0
+1019,S224,User,2,ServiceDesigner,はい。,Yes.,0,1,1,0,0,0,1,0,0,0,0,0
+1020,S225,SA,2,ServiceDesigner,ふーん。すごい。すらすらとカーフって出てくるんですね。,Hmmm. That's amazing. Calf comes out so easily.,0,1,1,0,0,0,1,0,0,0,0,0
+1021,S226,SB,2,ServiceDesigner,カーフ。うん。,Calf. Yup.,0,1,1,0,0,0,1,0,0,0,0,0
+1022,S227,SA,2,ServiceDesigner,でもカーフ以外はちょっと買わないとか、そういう。そこまでは？,"But you don't buy anything but calfs for a bit, or something like that. Is that as far as you're going to go?",0,1,1,0,0,0,1,0,0,0,0,0
+1023,S228,User,2,ServiceDesigner,そこまでじゃないですけど。何か触った感じがいいなっていうか。,"Not to that extent, though. I just like the way it feels to touch it.",0,1,1,0,0,0,1,0,0,0,0,0
+1024,S229,SA,2,ServiceDesigner,うーん。,Hmmm.,0,1,1,0,0,0,1,0,0,0,0,0
+1025,S230,SC,2,ServiceDesigner,はい、はい、はい。あ、手触りがいい。,"Yes, yes, yes. Oh, it's so tactile.",0,1,1,0,0,0,1,0,0,0,0,0
+1026,S231,SA,2,ServiceDesigner,手触りが。,Texture.,0,1,1,0,0,0,1,0,0,0,0,0
+1027,S232,User,2,ServiceDesigner,うん。,Yeah.,0,1,1,0,0,0,1,0,0,0,0,0
+1028,S233,SC,2,ServiceDesigner,なるほど。,I see.,0,1,1,0,0,0,1,0,0,0,0,0
+1029,S234,SA,2,ServiceDesigner,つるっとした感じがいいんですかね。どう？,Do you like the smoothness of it? How is it?,0,1,1,0,0,0,1,0,0,0,0,1
+1030,S235,User,2,ServiceDesigner,柔らかいんですね。子牛の。,So tender. Of the small cow.,0,1,1,0,0,0,1,0,0,0,0,0
+1031,S236,SA,2,ServiceDesigner,ふーん。はあ、はあ、はあ。,"Hmmm. Ha, ha, ha.",0,1,1,0,0,0,1,0,0,0,0,0
+1032,S237,User,2,ServiceDesigner,らしくて。,I heared (it).,0,1,1,0,0,0,1,0,0,0,0,0
+1033,S238,SA,2,ServiceDesigner,うーん。柔らかいんですね。,"Hmmm. It's soft, isn't it?",0,1,1,0,0,0,1,0,0,0,0,0
+1034,S239,SC,2,ServiceDesigner,ちゃんと小銭入れも付いてるんですか。,Does it have a proper coin purse?,1,0,1,0,0,0,1,0,0,0,0,0
+1035,S240,User,2,ServiceDesigner,付いてますよ。,"Yes, it is.",1,0,1,0,0,0,1,0,0,0,0,0
+1036,S241,SC,2,ServiceDesigner,はあ。で、そこにコピー代とかも。,Ha. And then there's the copying fee and so on.,1,0,1,0,0,0,1,0,0,0,0,0
+1037,S242,User,2,ServiceDesigner,コピー用の小銭が。はい。,A few coins for copying. Yes.,1,0,1,0,0,0,1,0,0,0,0,0
+1038,S243,SC,2,ServiceDesigner,入れて。お札は、そうか。●。,"Put in. Bills, I see. ●",1,0,1,0,0,0,1,0,0,0,0,0
+1039,S244,User,2,ServiceDesigner,お札はここですね。,Your bill is here.,1,0,1,0,0,0,1,0,0,0,0,0
+1040,S245,SC,2,ServiceDesigner,はい。,Yes.,1,0,1,0,0,0,1,0,0,0,0,0
+1041,S246,SB,2,ServiceDesigner,コンビニ行かれるときも、クレジットをそっから出されるんですか。,"When you go to a convenience store, do you take out your credit card from there?",1,0,1,0,0,0,1,0,0,0,0,0
+1042,S247,User,2,ServiceDesigner,買い物するときですか、コンビニで。,"Is it when shopping, or at a convenience store?",1,0,1,0,0,0,1,0,0,0,0,0
+1043,S248,SB,2,ServiceDesigner,はい。,Yes.,1,0,1,0,0,0,1,0,0,0,0,0
+1044,S249,User,2,ServiceDesigner,はい、そうです。,"Yes, it is.",1,0,1,0,0,0,1,0,0,0,0,0
+1045,S250,SC,2,ServiceDesigner,決済はカード中心ですね。次の質問にいきましょうかね。あとはですね、ちょっと、今の財布で、ちょっとここ、こう変えたいな、こういうものが付いてたらいいなみたいな、何か求めてるものってありますか。,"The payment is card-centered, isn't it? Let's move on to the next question. Is there anything else you are looking for in your current wallet that you would like to change, or that you would like to have in your wallet?",0,0,1,0,0,0,1,0,0,1,0,0
+1046,S251,User,2,ServiceDesigner,はあ。特には。,Ha. Not particularly.,0,0,1,0,0,0,1,0,0,0,0,0
+1047,S252,SC,2,ServiceDesigner,特に不満もなく。,No particular complaints.,0,0,1,0,0,0,1,0,0,0,0,0
+1048,S253,User,2,ServiceDesigner,はあ。,Huh.,0,0,1,0,0,0,1,0,0,0,0,0
+1049,S254,SC,2,ServiceDesigner,日常使いでは特段、財布に対して思っていることはない？,Do you have any particular thoughts about wallets in daily use?,0,0,1,0,0,0,1,0,0,0,0,0
+1050,S255,User,2,ServiceDesigner,財布に対して思うこと。あの、何だろう、ものがたまっていくの、やだなっていうのはあります。,"""Particular thoughts about wallets""... I don't like the way things accumulate.",0,0,1,0,0,0,1,0,0,0,0,0
+1051,S256,SB,2,ServiceDesigner,ああ、そうですよね。,"Oh, yes.",0,0,1,0,0,0,1,0,0,0,0,0
+1052,S257,SC,2,ServiceDesigner,整理整頓はしたいっていう。,You want to be organized.,0,0,1,0,0,0,1,0,0,0,0,0
+1053,S258,User,2,ServiceDesigner,そうです。何か、今見せてるの、すごい、ちょっと、恥ずかしくなって。,"That's right. I'm kind of, I'm showing you now, I'm really, I'm a little embarrassed.",0,0,1,0,0,0,1,0,0,0,0,0
+1054,S259,SA,2,ServiceDesigner,わかります。,I understand.,0,0,1,0,0,0,1,0,0,0,0,0
+1055,S260,SB,2,ServiceDesigner,クレジットカードって、決済するとこう、明細が出てくるじゃないですか。紙の。あれはとっておくタイプなのか、捨てるのかっていうと？,"When you pay with a credit card, you get a statement, don't you? The paper one. Do you keep it or throw it away?",0,0,1,0,0,0,1,0,0,0,0,0
+1056,S261,User,2,ServiceDesigner,えっと、定期的に家で、何か、保存用のところに移動して。で、一定期間たったら捨てるみたいな感じですね。,"Well, periodically, at home, I move them to some place for storage. Then, after a certain period of time, I would throw them away.",0,0,1,0,0,0,1,0,0,0,0,0
+1057,S262,SB,2,ServiceDesigner,じゃあ、もらったときは財布に収めるんですね。,Then you fit it in your wallet when you receive it.,0,0,1,0,0,0,1,0,0,0,0,0
+1058,S263,User,2,ServiceDesigner,はい。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+1059,S264,SB,2,ServiceDesigner,いや、思うのは、その、ほとんどは同じクレジットカードしか使わないのに、それ以外に身分証明書とか診断書とか、なんか、いろんなポイントカードが入ってるっていうのは、何か、そこにわずらわしさは感じませんか。何か。,"Well, I think that, you know, you only use the same credit card in the most of cases, but you keep other cards such as ID cards, medical certificates, and various loyalty cards (in your wallet). Don't you feel that there is some kind of hassle there? Something.",0,0,1,1,0,0,1,0,0,0,0,0
+1060,S265,User,2,ServiceDesigner,うーんと。うん。あの、ものが多いというか、何か、厚いの嫌だなとは思うんですけど、何か、使うときにないと困る。,"Hmmm. Mhm. Um, I don't want to have a lot of stuff, or something, I don't want it to be thick, but I don't want to have to have something when I use it.",0,1,1,0,0,0,1,0,0,0,0,0
+1061,S266,SB,2,ServiceDesigner,いざっていうときっていうことですか。使うときにないっていうのは。たまにしか使わないわけじゃないですか。,"Do you mean when it comes time to use it? I mean when you don't have the time to use it. It is used only occasionally, isn't it?",0,0,1,0,0,0,1,0,0,0,0,0
+1062,S267,User,2,ServiceDesigner,あ、でも、たまにしか使わないものはもう、ここには入れてないので。,"Oh, but I don't put anything in here that I use only occasionally anymore.",0,0,1,0,0,0,1,0,0,0,0,0
+1063,S268,SB,2,ServiceDesigner,ああ。じゃあ、ポイントカードとか診察カードみたいなものとかは、結構な頻度で使われてるんですね、じゃあ。,"Oh. So things like loyalty cards and medical cards are used quite often, then.",0,0,1,0,0,0,1,0,0,0,0,0
+1064,S269,User,2,ServiceDesigner,ですね。診察券とかも、定期的に行くようなのしか入れてないですし。そうですね。,Yes. I only put in medical cards that I go to on a regular basis. That's right.,0,0,1,0,0,0,1,0,0,0,0,0
+1065,S270,SC,2,ServiceDesigner,じゃあ、整理整頓しておきたいっておっしゃっていたのは、どちらかというと、その、一時的に入れたレシートであるとか、しばらく通ってないなっていう、その、引退するようなポイントカードとか、そういうものを整理整頓しておきたいっていう意味ですか。,"So, when you said you wanted to keep things organized, did you mean you wanted to keep receipts that you put in temporarily, or point cards that you haven't used in a while, that you are retiring, or something like that?",0,0,1,0,0,0,1,0,0,0,0,0
+1066,S271,User,2,ServiceDesigner,そうですね。ポイントカードはもう、どんどん別のに入れ替えてくんですけど、やっぱりレシートが。例えば、ちょっと今週忙しくって、あの、取り除けてなくてすごい恥ずかしいとか。ああ、そうですね。あと何か、渡されたポイントカードも使わなかったらどんどん追い出すんだけど。今週忙しくて追い出せてないみたいなのが。,"That's right. I've been moving my loyalty cards to the another card holder but I still have receipts. For example, I was so busy this week so that I didn't remove the receipts, and it's embarrassing. Well, oh. Also, if I don't use the loyalty cards shops give me, I have to keep getting rid of them. However, I've been busy this week, so I haven't been able to get rid of it.",0,0,1,0,0,0,1,0,0,0,0,0
+1067,S272,SC,2,ServiceDesigner,ああ。じゃあ、定期的になんか、洗い替えというか。,"Oh. Well, I guess you wash up periodically.",0,0,1,0,0,0,1,0,0,0,0,0
+1068,S273,User,2,ServiceDesigner,そうですね。,"Yes, it is.",0,0,1,0,0,0,1,0,0,0,0,0
+1069,S274,SA,2,ServiceDesigner,うーん。,Hmmm.,0,0,1,0,0,0,1,0,0,0,0,0
+1070,S275,SB,2,ServiceDesigner,じゃあ、Userさんにとっては、それが今、ミニマムな状態なんですかね。,"So, for you, User-san, that is the minimal state of affairs right now?",0,0,1,0,0,0,1,0,0,0,0,0
+1071,S276,User,2,ServiceDesigner,今日、ミニマムじゃないんですけど。何か、ミニマムにしたい。,"Today, my wallet is not minimum. So, I want the wallet to be a minimum.",0,0,1,0,0,0,1,0,0,0,0,0
+1072,S277,SA,2,ServiceDesigner,うん、うん。,"Yeah, yeah.",0,0,1,0,0,0,1,0,0,0,0,0
+1073,S278,SB,2,ServiceDesigner,ぱっと、カード類、何枚ある感じですか。全部で。,"Quickly, cards, how many cards do you have? All of them.",1,0,1,0,0,0,1,0,0,0,0,0
+1074,S279,User,2,ServiceDesigner,えっと。,Let's see.,1,0,1,0,0,0,1,0,0,0,0,0
+1075,S280,SB,2,ServiceDesigner,だいたいで大丈夫です。,It's okay to be approximate.,1,0,1,0,0,0,1,0,0,0,0,0
+1076,S281,User,2,ServiceDesigner,1、2、3、4、5、6、7、8、9、10。でも15枚ぐらい入ってそう。,"1, 2, 3, 4, 5, 6, 7, 8, 9, 10. but it looks like there are about 15 in there.",1,0,1,0,0,0,1,0,0,0,0,0
+1077,S282,SB,2,ServiceDesigner,と、小銭と、あの、お札ですよね。,"and coins and, uh, bills, right?",1,0,1,0,0,0,1,0,0,0,0,0
+1078,S283,User,2,ServiceDesigner,はい。,Yes.,1,0,1,0,0,0,1,0,0,0,0,0
+1079,S284,SB,2,ServiceDesigner,分かりました。,I understand.,1,0,1,0,0,0,1,0,0,0,0,0
+1080,S285,SC,2,ServiceDesigner,他に何か入れてるもの、ありますか。,Is there anything else you are putting in?,1,0,1,0,0,0,1,0,0,0,0,0
+1081,S286,SB,2,ServiceDesigner,もう時間。,Time to go.,0,0,0,0,0,0,1,0,0,0,1,0
+1082,S287,User,2,ServiceDesigner,あ、USBメモリ。,"Ah, USB memory stick.",1,0,1,0,0,0,1,0,0,0,0,0
+1083,S288,SA,2,ServiceDesigner,もう15分前だって。だったら……。,"He said it was already 15 minutes ago. If that's the case, you can go to ......",0,0,0,0,0,0,1,0,0,1,1,0
+1084,S289,SC,2,ServiceDesigner,USBメモリ。,USB memory stick.,1,0,1,0,0,0,1,0,0,0,0,0
+1085,S290,SB,2,ServiceDesigner,わ、すごい。,"Wow, great.",0,0,1,0,0,0,1,0,0,0,0,0
+1086,S291,SC,2,ServiceDesigner,それは仕事で使うからですか。,Is that because you use it for work?,0,0,1,0,0,0,1,0,0,0,0,0
+1087,S292,User,2,ServiceDesigner,そうですね。何か、印刷したいときとかに。,"Yes, I do. Something, like when I want to print something.",0,0,1,0,0,0,1,0,0,0,0,0
+1088,S293,SC,2,ServiceDesigner,ああ、データを。,"Ah, data.",0,0,1,0,0,0,1,0,0,0,0,0
+1089,S294,User,2,ServiceDesigner,はい。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+1090,S295,SC,2,ServiceDesigner,あ、そっかそっか。コンビニで刺して使う。,"Oh, I see. Stick it in a convenience store and use it.",0,0,1,0,0,0,1,0,0,0,0,0
+1091,S296,User,2,ServiceDesigner,そうです。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+1092,S297,SC,2,ServiceDesigner,うーん。,Hmmm.,0,0,1,0,0,0,1,0,0,0,0,0
+1093,S298,User,2,ServiceDesigner,あとは、エア、何、エアタグ。,"Then there's the air, what, air tag.",1,0,1,0,0,0,1,0,0,0,0,0
+1094,S299,SB,2,ServiceDesigner,うーん。,Hmmm.,1,0,1,0,0,0,1,0,0,0,0,0
+1095,S300,SC,2,ServiceDesigner,エアタグ。ああ、なくしたときの。,"Air Tags. Oh, when you lose it.",1,0,1,0,0,0,1,0,0,0,0,0
+1096,S301,User,2,ServiceDesigner,はい。,Yes.,1,0,1,0,0,0,1,0,0,0,0,0
+1097,S302,SC,2,ServiceDesigner,現金、カードか。はい。ぐらいですかね。,"Cash or card? Yes, I have a credit card. I guess it's about the same.",1,0,1,0,0,0,1,0,0,0,0,0
+1098,S303,SA,2,ServiceDesigner,ですね。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+1099,S304,SB,2,ServiceDesigner,あと、さっき人に見せるの、ちょっと恥ずかしいっておっしゃられたんですけど。何かその、おしゃれで、割とカーフでいいもの使われてるってのは、何か、その辺はどういう心理的なあれなんですかね。,"Also, you said earlier that you are a little embarrassed to show it to others. I was wondering what your psychological response is to the fact that you are using something fashionable, calf-like, and good quality.",0,0,1,0,0,0,1,0,0,0,0,0
+1100,S305,User,2,ServiceDesigner,うーんと。もうちょっと薄かったらと思って。それだけです、今。今、何か。,"Hmmm. I just thought if it was a little thinner. That's all, now. Now, something.",0,1,1,0,0,0,1,0,0,0,0,0
+1101,S306,SC,2,ServiceDesigner,薄かったら。,If it was thin.,0,1,1,0,0,0,1,0,0,0,0,0
+1102,S307,SB,2,ServiceDesigner,挟まっちゃってるから、今は嫌だと。,You said you don't want to do that now because (many things are ) attached to (the inside).,0,1,1,0,0,0,1,0,0,0,0,0
+1103,S308,User,2,ServiceDesigner,そうですね。はい。小銭も今、すごい多いんですよ。,"Yes. Yes, I have a lot of coins now, too.",0,1,1,0,0,0,1,0,0,0,0,0
+1104,S309,SB,2,ServiceDesigner,うん。,Yeah.,0,1,1,0,0,0,1,0,0,0,0,0
+1105,S310,User,2,ServiceDesigner,なので、ちょっと恥ずかしいっていう感じです。,So I feel a little embarrassed.,0,1,1,0,0,0,1,0,0,0,0,0
+1106,S311,SC,2,ServiceDesigner,パンパンになってる感じがするんですね。,So you feel like you're panhandling.,0,1,1,0,0,0,1,0,0,0,0,0
+1107,S312,User,2,ServiceDesigner,そう、この感じが。,"Yes, this is the feeling.",0,1,1,0,0,0,1,0,0,0,0,0
+1108,S313,SB,2,ServiceDesigner,ああ。じゃ、シュッとしてたら、ちゃんと、私、こういうおしゃれでいいもの持ってるっていうのは、こう、見せたいっていうか。,"Oh, I see. So, if your wallet looks smart, you want to show that I have something fashionable and nice.",0,1,1,0,0,0,1,0,0,0,0,0
+1109,S314,User,2,ServiceDesigner,見せたい。何か、あんまりそんな自慢したい感じじゃないですけど。あの、「見せて」って言われたときに、別にそんな恥ずかしさもなく「どうぞ」って。,"""I want to show it."" I don't feel like I want to boast about it. When someone says, ""Let me see,"" I say, ""Go ahead,"" without any embarrassment.",0,1,1,0,0,0,1,0,0,0,0,0
+1110,S315,SB,2,ServiceDesigner,ああ、分かりました。はい。,"Oh, I understand. Yes.",0,1,1,0,0,0,1,0,0,0,0,0
+1111,S316,SA,2,ServiceDesigner,うーん。,Hmmm.,0,0,1,0,0,0,1,0,0,0,0,0
+1112,S317,SC,2,ServiceDesigner,じゃあ、最後の質問なんですけど。,"Okay, I have one last question.",0,0,1,0,0,0,1,0,0,1,0,0
+1113,S318,User,2,ServiceDesigner,はい。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+1114,S319,SC,2,ServiceDesigner,普段、携帯する、それは、あの、かばんに入れられてるんですよね。,"You usually carry it in your bag, right?",0,0,1,0,0,0,1,0,0,0,0,0
+1115,S320,User,2,ServiceDesigner,はい。,Yes.,0,0,1,0,0,0,1,0,0,0,0,0
+1116,S321,SC,2,ServiceDesigner,それ以外に、あの、必ず、あの、常備している道具って。,"Other than that, what are the tools that you, uh, you know, always have on hand?",0,0,1,0,0,0,1,0,0,0,0,0
+1117,S322,User,2,ServiceDesigner,常備している道具。,"""Tools that always have on hand"".",0,0,1,0,0,0,1,0,0,0,0,0
+1118,S323,SC,2,ServiceDesigner,必ずかばんに入れてますみたいな。,"Like, you always have it in your bag.",0,0,1,0,0,0,1,0,0,0,0,0
+1119,S324,User,2,ServiceDesigner,必ずかばんに入れてます。それは何のときにですか。,"""You always carry it in your bag."" What is it for?",0,0,1,0,0,0,1,0,0,0,0,0
+1120,S325,SC,2,ServiceDesigner,あの、日常出歩くときとかでもいいんですけど。例えば、先ほどの「別にカード入れあります」みたいな話とか。必ず、あの、持ち歩いてるものって。,"Um, it could be when you go out on a daily basis. For example, you mentioned earlier that you have a separate card holder. What do you always carry with you?",0,0,1,0,0,0,1,0,0,0,0,0
+1121,S326,User,2,ServiceDesigner,携帯電話。,Cell phone.,0,0,1,0,0,0,1,0,0,0,0,0
+1122,S327,SC,2,ServiceDesigner,携帯電話。それ以外に何か、小物入れとか。小銭入れはもう、それですよね。,"Cell phone. Something else, like a glove compartment. A coin purse is already that.",0,0,1,0,0,0,1,0,0,0,0,0
+1123,S328,User,2,ServiceDesigner,そうですね。出掛ける先とかによってもちょっと違いそうな気が。,Well. I think it might be a little different depending on where I go out and such.,0,0,1,0,0,0,1,0,0,0,0,0
+1124,S329,SC,2,ServiceDesigner,ああ。,Oh.,0,0,1,0,0,0,1,0,0,0,0,0
+1125,S330,User,2,ServiceDesigner,ちょっと今、何を答えたらいいかよく分からないので。,I'm not quite sure what to answer right now.,0,0,1,0,0,0,1,0,0,0,0,0
+1126,S331,SC,2,ServiceDesigner,そうですよね。,I understand.,0,0,1,0,0,0,1,0,0,0,0,0
+1127,S332,SB,2,ServiceDesigner,あの、その、腕につけられてるものは何ですか。,"Um, well, what is that thing on your arm?",0,0,1,0,0,0,1,0,0,0,0,0
+1128,S333,User,2,ServiceDesigner,これは、えっと、Fitbitです。,"This is, um, Fitbit.",0,0,1,0,0,0,1,0,0,0,0,0
+1129,S334,SB,2,ServiceDesigner,Fitbit。,Fitbit.,0,0,1,0,0,0,1,0,0,0,0,0
+1130,S335,SC,2,ServiceDesigner,かばんはいつも同じかばんを携帯されてます？,Do you always carry the same bag?,0,0,1,0,0,0,1,0,0,0,0,0
+1131,S336,User,2,ServiceDesigner,えっと、時と場合によります。,"Well, it depends on time and situation.",0,0,1,0,0,0,1,0,0,0,0,0
+1132,S337,SC,2,ServiceDesigner,ああ。結構変えるんですね、かばんは。,"Oh. You change your bag quite a bit, don't you?",0,0,1,0,0,0,1,0,0,0,0,0
+1133,S338,User,2,ServiceDesigner,そうですね。結構じゃないけれど、何か、ここ行くときはこう、こっち、こういう活動するときはこう、みたいな感じなんですけど。,"Yes, that's right. Not quite, but something like, when I go here, I use this bag, when I do another tthing, I use another bag.",0,0,1,0,0,0,1,0,0,0,0,0
+1134,S339,SC,2,ServiceDesigner,ああ、なるほど。,"Oh, I see.",0,0,1,0,0,0,1,0,0,0,0,0
+1135,S340,SB,2,ServiceDesigner,時間ですかね。,Is it time?,0,0,1,0,0,0,1,0,0,0,1,0
+1136,S341,SC,2,ServiceDesigner,はい。じゃあ、この辺ですかね。はい、ありがとうございました。,"Yes, I am. Okay, I guess this is it then. Yes, thank you very much.",0,0,1,0,0,0,1,0,0,1,0,0
+1137,S342,User,2,ServiceDesigner,ありがとうございました。,Thank you very much.,0,0,1,0,0,0,1,0,0,0,0,0
+1138,S343,SA,2,ServiceDesigner,ありがとうございました。,Thank you very much.,0,0,1,0,0,0,1,0,0,0,0,0
+1139,S344,SB,2,ServiceDesigner,ありがとうございました。えっと、携帯の電源ケーブル、タイムマネージメント●。,"Thank you very much. Let's see, cell phone power cable, time management ●",0,0,1,0,0,0,1,0,0,1,0,0
+1140,S345,SA,2,ServiceDesigner,ああ、はい。じゃあ、えっと。,"Oh, yes. Okay, let's see.",0,0,0,0,0,0,0,1,0,1,0,0
+1141,S346,SB,2,ServiceDesigner,あと何分、残時間が。,"How many minutes left, remaining time.",0,0,0,0,0,1,0,1,0,1,1,0
+1142,S347,SA,2,ServiceDesigner,34分からですよね。,"It's from 34 minutes, right?",0,0,0,0,0,0,0,1,0,1,1,0
+1143,S348,SC,2,ServiceDesigner,そうですね。残り15分ぐらい。,"Yes, I do. About 15 minutes left.",0,0,0,0,0,0,0,1,0,1,1,0
+1144,S349,SA,2,ServiceDesigner,15分ぐらいですね。そうですね。あと10分。,About 15 minutes. That's right. Ten more minutes.,0,0,0,0,0,0,0,1,0,1,1,0
+1145,S350,SB,2,ServiceDesigner,5分でコンセプト考えて、10分で作るぐらいかな。,It takes me about 5 minutes to come up with a concept and 10 minutes to make it.,0,0,0,1,0,0,0,1,0,1,0,0
+1146,S351,SA,2,ServiceDesigner,そうですね、はい。ポイントはいくつかあったかなというふうに思うんですけど。,"Yes, yes. I think there were several points.",0,0,1,1,0,0,0,1,0,1,1,0
+1147,S352,SB,2,ServiceDesigner,うん。,Yeah.,0,0,0,1,0,0,0,1,0,1,1,0
+1148,S353,SA,2,ServiceDesigner,えっと。何か3つぐらい、方向性出せそうかなって、ちょっと思いましたと。,Let's see. I was wondering if I could give you three directions.,0,0,0,1,0,0,0,1,0,1,0,0
+1149,S354,SB,2,ServiceDesigner,うん、うん、うん。,"Yeah, yeah, yeah.",0,0,0,1,0,0,0,1,0,0,0,0
+1150,S355,SA,2,ServiceDesigner,で、えっと、やっぱ、見せるのが恥ずかしいっていうルールがあるので、その方向。見せるの恥ずかしいっていう理由、やっぱ薄いっていうところ。薄さみたいな。あと2つ目だと、私が思ったのが、えっと、やっぱこう、何でしょう、明細とか、そのへんのたまったものをこう、ミニマムにしたいっていうニーズ。ここが、ちょっとあったかなあなんていうふうに思いましたと。で、あとやっぱり、カードをよく利用している。で、えっと、カードが基本で、で、小銭は、えっと、たまにっていうところで。ここら辺の利用のこう、比重が、比重とお財布の比重が合ってないような気がするっていう。ここが何か、解けると、何かいいのかななんて、ちょっとこう。●。カードですね。割り勘ぐらいでしか現金は使わないっていうのが。,"And, well, there is a rule that she is embarrassed to show it, so that is the direction to go. The reason why the user is embarrassed to show it is because her wallet was not thin. Like thinness. Secondly, I thought that… so… She has a need to minimize that have accumulated, such as reciepts and the like. I guess there is (needs). Also, she often uses her credit cards. And, well, she uses credit cards basically, and coins are, well, occasional. I feel that the balance of these two types of usage is not in proportion to the balance of their wallets. I think it would be good if something could be done to solve this problem. I think it would be good if something could be done here. Cards. I only use cash to split a bill.",1,1,1,1,0,0,0,1,0,0,0,0
+1151,S356,SB,2,ServiceDesigner,割り勘とコピー機。コピー機、結構これ、ポイントかもしれないですね。,"Split a bill and copy machine. Copy machine, pretty much this may be the point.",0,0,1,1,0,0,0,1,0,0,0,0
+1152,S357,SC,2,ServiceDesigner,うん、ですね。,"Year, I agree.",0,0,1,1,0,0,0,1,0,0,0,0
+1153,S358,SA,2,ServiceDesigner,比重が違うっていうところ。何か、私が気になったのはその3つかなっていう感じですかね。,The balance is different. I guess I was wondering about those three things.,0,0,1,1,0,0,0,1,0,0,0,0
+1154,S359,SB,2,ServiceDesigner,何か、USBメモリを持ち歩いてらっしゃったのが、やっぱりあの、コンビニのコピー機を利用するっていうのは、必須なアクテビティなのかなっていう気がしましたね。,"Well, the fact that the user was carrying around a USB memory stick made me think that using a copy machine at a convenience store is an essential activity.",0,0,1,1,0,0,0,1,0,0,0,0
+1155,S360,SA,2,ServiceDesigner,何かね、思ったのが、こう、何か、最低限のものに対して、こう、何だろう、付けれるようなのがいいのかなって、ちょっと思った。,"I kind of wondered if it would be good to be able to attach something like this, I don't know, to something minimal.",1,0,1,1,0,0,0,1,0,0,0,0
+1156,S361,SC,2,ServiceDesigner,うーん。はいはい、はいはい。,"Hmmm. Yes, yes, yes.",1,0,1,1,0,0,0,1,0,0,0,0
+1157,S362,SA,2,ServiceDesigner,何かこう、最低限のカードっていうものに対して、えっと、コピーを作るって言ったときの、コピー用には多分、USBメモリと小銭とって。コピーで最低限使うものみたいなのと、何かその、何ていうんでしょう、そういう、まあこれ、一案ですけど、カード、あの、ほんとにスーパーとかカード使うっていうときのシーンと、コピーを使うっていうときのシーンと、あと何か、この、明細とかのゴミ箱っていうか、何かそういう感じなのかなみたいな。,"Well...versus minimum cards, when the user talked about copy... It probably the user keeps a USB stick and some coins for the photocopy. Those are the minimum stuff for copy. I'm not sure what to call it. I don't know... So, this is a just idea. Card. I'm thinking of a scene when a card is used at a supermarket, a scene when coins is used for a photocopy, and a scene where a photocopy is used, and also a trash can for the receipts like that. I wonder if it's like that.",1,0,1,1,0,0,0,1,0,0,0,0
+1158,S363,SC,2,ServiceDesigner,そうなんですよね。,That's right.,1,0,0,1,0,0,0,1,0,0,0,0
+1159,S364,SB,2,ServiceDesigner,それは……。,It can be found at ......,1,0,0,0,0,0,0,1,0,0,0,0
+1160,S365,SA,2,ServiceDesigner,3つぐらい。,About three.,1,0,0,1,0,0,0,1,0,0,0,0
+1161,S366,SB,2,ServiceDesigner,それは、あ、それ、最低限で1個の財布を作る〓やつ〓。なんかそれとも……。,"That's, ah, that's the 〓things〓 we will make a minimum of one wallet. Something or other or ......",0,0,0,1,0,0,0,1,0,0,0,0
+1162,S367,SC,2,ServiceDesigner,3つの領域に分かれてるっていう意味ですか。,Do you mean that it is divided into three areas?,1,0,0,0,0,0,0,1,0,0,0,1
+1163,S368,SA,2,ServiceDesigner,ん？中も、これが付け替えたり。,"Hmm? Inside, too, this can be replaced.",1,1,0,1,1,0,0,1,0,0,0,0
+1164,S369,SC,2,ServiceDesigner,ああ。,Oh.,1,1,0,0,1,0,0,1,0,0,0,0
+1165,S370,SB,2,ServiceDesigner,あ、そうそう、そうそう。だから好みに合わせてカスタマイズできるっていう財布がいいんじゃないかっていう。,"Oh, yes, yes, yes. So I thought it would be nice to have a wallet that can be customized to your liking.",1,0,0,1,0,0,0,1,0,0,0,0
+1166,S371,SA,2,ServiceDesigner,ええ。そのときによって、付けたり貼ったりが簡単なの。,"Yes. It's easy to put on and off, depending on the occasion.",1,0,0,1,0,0,0,1,0,0,0,0
+1167,S372,SB,2,ServiceDesigner,うーん。はい、はい、はい。,"Hmmm... Yes, yes, yes.",1,0,0,0,0,0,0,1,0,0,0,0
+1168,S373,SA,2,ServiceDesigner,で、何かこう、明細を捨てるときは、もう、常に明細とかはここだけで、ここをぴっぴっぴって捨てるとかなんとかして。もう、ここに、要るときは付ける。で、コンビニ行くときは、もうこれだけ。どうかしたらもう、コンビニセットみたいな。,"And, when users throws out receipts... always put receipts only here, and throw this away. The user attaches when she/he needs it. And when the user goes to the convenience store, she/he just takes it. it's like a ""convenience store set.""",1,0,0,1,1,0,0,1,0,0,0,0
+1169,S374,SC,2,ServiceDesigner,うんうん。ああ、なるほど。はい。,"Mm-hmm. Oh, I see. Yes, I see.",1,0,0,0,1,0,0,1,0,0,0,0
+1170,S375,SA,2,ServiceDesigner,コンビニセット、もう、最低限カード。で、明細とかの捨てるセットみたいな。この2つはオプションで。何か、これだけでも持ってれば、何か。,"Convenience store set.. uh.. it may be only cards. And like a set to throw away receipts. These two are optional. Something, if the user has just these.",1,0,0,1,1,0,0,1,0,0,0,0
+1171,S376,SB,2,ServiceDesigner,アイディアはとってもいいですね。あとはそれをこう、おしゃれな形に。,The idea is very good. Now we just need to give it a stylish form.,1,1,0,1,1,0,0,1,1,0,1,0
+1172,S377,SC,2,ServiceDesigner,そうですね。,"Yes, it is.",0,1,0,1,0,0,0,1,1,0,1,0
+1173,S378,SB,2,ServiceDesigner,できればっていう。,If possible.,0,1,0,1,0,0,0,0,1,0,1,0
+1174,S379,SA,2,ServiceDesigner,ちょっとこういう感じの、もう何案か出してみます？,Let's see if we can come up with a few more ideas like this.,0,0,0,1,0,0,0,0,1,1,0,1
+1175,S380,SC,2,ServiceDesigner,そうですね。あの、はい。付け替えられるっていうのは一オプションかなって思って。,"Yes. Well, yes. I thought that being able to replace it would be an option.",1,0,0,1,0,0,0,0,1,1,0,0
+1176,S381,SA,2,ServiceDesigner,付け替える系。,Replaceable system.,1,0,0,1,0,0,0,0,1,0,0,0
+1177,S382,SC,2,ServiceDesigner,思ったのは、その、コンパクトさ。その、大事にしてるところのコンパクトさっていうところと、あとその、収納力のバランスなのかなって、ちょっと話してて思ってまして。で、あと、その、利用シーンが結構、その……。,"I was thinking about the compactness... I was thinking that the balance of compactness and its storage capacity are important. Also, the usage scenarios are ......",1,1,0,1,0,0,0,0,1,0,0,0
+1178,S383,SB,2,ServiceDesigner,限られてる。,Limited.,1,0,0,1,0,0,0,0,1,0,0,0
+1179,S384,SC,2,ServiceDesigner,限られている。そうなんですよね。限られてて、ちょっと特殊性もある。その、USBを、多分財布に入れてる方って、あんまりいないと思うので。利用シーンに応じて、その、多分、領域がちゃんと分かれていて、収納性が高い。で、全体的には、その、それができるだけコンパクトにまとまってるっていうのが、機能面ではいいんだろうなっていう。,"Limited. That's right. It's limited, and it's also a little peculiar. I don't think there are many people who carry a USB in their wallets. Depending on the usage scenario, the, you know, maybe the area is properly divided, and it's very easy to store. And, overall, I think it's good that it's as compact as possible, in terms of functionality.",1,0,0,1,0,0,0,0,1,0,0,0
+1180,S385,SA,2,ServiceDesigner,うーん。利用シーンで、こう、何かこう、領域が。つながってる感じなんですかね。ちょっと図が下手ですけど。,"Hmmm. In the usage scene, something like this, something like this, an area. I guess it's like they are connected. I'm not very good at drawing this.",1,0,0,1,1,0,0,0,1,0,0,1
+1181,S386,SC,2,ServiceDesigner,はい、はい、はい。ブロックが分かれてるようなイメージになる。,"Yes, yes, yes. It's like an image of a block being divided.",1,0,0,1,1,0,0,0,1,0,0,0
+1182,S387,SA,2,ServiceDesigner,ブロックが。,The block.,1,0,0,1,1,0,0,0,1,0,0,0
+1183,S388,SB,2,ServiceDesigner,うん。,Yeah.,1,0,0,0,0,0,0,0,1,0,0,0
+1184,S389,SC,2,ServiceDesigner,その、利用シーン、特化させると、それが部品で外れると。,"That, the usage scene, if you specialize it, it will come off in parts.",1,0,0,1,0,0,0,0,1,0,0,0
+1185,S390,SA,2,ServiceDesigner,うーん。,Hmmm.,1,0,0,0,0,0,0,0,1,0,0,0
+1186,S391,SC,2,ServiceDesigner,コピーしに行くときだけは部品1だけでいいとか、そういうことかもしれない。,"Maybe users only needs part 1 when she/he goes to make copies, or something like that.",1,0,0,1,0,0,0,0,1,0,0,0
+1187,S392,SA,2,ServiceDesigner,ああ、付け替える系。利用シーンで大きく分かれる系。,"Oh, replaceable system. A system that is largely divided by the scene of use.",1,0,0,1,0,0,0,0,1,0,0,0
+1188,S393,SB,2,ServiceDesigner,うん。そうですね。それがいい意味で、あの、カラフルなカラーで分かれてると。,"Yes. That's right. That's a good point, that, you know, it's divided by colorful colors.",1,1,0,1,0,0,0,0,1,0,0,0
+1189,S394,SA,2,ServiceDesigner,ええ。,Yes.,0,1,0,1,0,0,0,0,1,0,0,0
+1190,S395,SC,2,ServiceDesigner,うん、うん、うん。,"Yeah, yeah, yeah.",0,1,0,1,0,0,0,0,1,0,0,0
+1191,S396,SB,2,ServiceDesigner,いいのかもしれないですね。,Maybe it is a good idea.,0,1,0,1,0,0,0,0,1,0,0,0
+1192,S397,SA,2,ServiceDesigner,カラフルで。で、わかりやすくとか。あと何かありますかね。もう少し薄かったらっていうのがほしい。,Colorful. And easy to understand. Is there anything else? The user would like it to be a little thinner.,1,1,0,1,0,0,0,0,1,0,0,1
+1193,S398,SC,2,ServiceDesigner,整理整頓を促すってことなんですよね。何か財布の機能で、常に薄く保つことはできないから。,"It's about encouraging organization, isn't it? Because something about the function of a wallet doesn't always keep it thin.",1,1,0,1,0,0,0,0,1,0,0,0
+1194,S399,SB,2,ServiceDesigner,行動〓変容〓をっていうか、行動を促すために、ここに、あの、いらないレシートを入れる専用の。この仕切りというか。,"I'd like to make action changing, or rather, in order to encourage action, I'd like to put here, you know, a special compartment for putting unwanted receipts. It's like this divider or something.",1,0,0,1,1,0,0,0,1,0,0,0
+1195,S400,SA,2,ServiceDesigner,うん。,Yeah.,1,0,0,0,1,0,0,0,1,0,0,0
+1196,S401,SB,2,ServiceDesigner,機能があって、それはもう、こやって、あの、何だろう、すぐに片付けないといけないっていうか、意識させるっていうのが●ですよね。,"There are functions, and that is to make people aware of the fact that they have to, you know, clean up immediately.",1,0,0,1,0,0,0,0,1,0,0,0
+1197,S402,SC,2,ServiceDesigner,うん、うん、うん。,"Yeah, yeah, yeah.",1,0,0,1,0,0,0,0,1,0,0,0
+1198,S403,SA,2,ServiceDesigner,どうかしたら、もう捨てるものがもう、この時点で仕分けちゃえばいいぐらいに。捨てるものは全部入れて、ゴミ箱に、後は。最後確認だけでいける。,"If the wallet can help it... The user can sort it out at this point. Put everything in it, and through out it in the trash later. Just a final check is all that's needed.",1,0,0,1,0,0,0,0,1,0,0,0
+1199,S404,SC,2,ServiceDesigner,そうですね。,"Yes, it is.",1,0,0,1,0,0,0,0,1,0,0,0
+1200,S405,SA,2,ServiceDesigner,あと何か、もう1個ぐらい、案、出したいですよね。出したいですっていうか。,"Would you like to propose at least one more idea? I mean, I want to...",0,0,0,1,0,0,0,0,1,0,0,1
+1201,S406,SC,2,ServiceDesigner,大事にしたいのはやっぱり、何ですかね、デザイン性も。,"What is important is, after all, also the appearance design.",1,1,0,1,0,0,0,0,1,0,0,0
+1202,S407,SA,2,ServiceDesigner,デザイン性。そうですね、柔らかい素材。カーフ。,"Appearance design. Yes, soft material. Calf.",0,1,0,0,0,0,0,0,1,0,0,0
+1203,S408,SB,2,ServiceDesigner,そう。機能性とデザイン性と両方要るんだなっていうのがわかったんで。,Yes. I realized that we needed both functionality and design.,1,1,0,0,0,0,0,0,1,0,0,0
+1204,S409,SA,2,ServiceDesigner,柔らかい。何かこう、思いっきり触りやすさだけ追求したような、何か、財布とかもいいのかな。,"Soft. Something like this, something that only pursues touchability to the fullest, something like, maybe a wallet would be nice.",1,1,0,1,0,0,0,0,1,0,0,0
+1205,S410,SB,2,ServiceDesigner,ああ。,Oh.,1,1,0,1,0,0,0,0,1,0,0,0
+1206,S411,SA,2,ServiceDesigner,こう、ずっと持っておきたい。,"Like this, I want to keep it forever.",1,1,0,0,0,0,0,0,1,0,0,0
+1207,S412,SB,2,ServiceDesigner,ちなみにカーフって何ですか。,"By the way, what is a calf?",0,1,0,0,0,1,0,0,0,0,0,1
+1208,S413,SA,2,ServiceDesigner,何か多分、柔らかい子牛の、あの。,"Something maybe of a soft small cow, you know.",0,1,0,0,0,0,0,1,0,0,0,0
+1209,S414,SC,2,ServiceDesigner,はいはい、はいはい。,"Yes, yes, yes.",0,1,0,0,0,0,0,1,0,0,0,0
+1210,S415,SB,2,ServiceDesigner,合皮じゃなくて本革なんだ。,"It's real leather, not synthetic.",0,1,0,0,0,0,0,1,0,0,0,0
+1211,S416,SA,2,ServiceDesigner,ああ、だと思います。だと思います。,"Oh, I think. I think it is.",0,1,0,1,0,0,0,1,0,0,0,0
+1212,S417,SB,2,ServiceDesigner,ふーん、そっか、そっか。,"Hmmm, I see.",0,1,0,0,0,0,0,1,0,0,0,0
+1213,S418,SA,2,ServiceDesigner,何か、すごい、そこもこう。柔らかい、持って、ずっと持っておきたいみたいな。,"Something like, wow, it's like this there too. It's soft, like you want to hold it and keep it.",0,1,0,1,0,0,0,1,0,0,0,0
+1214,S419,SB,2,ServiceDesigner,うーん。,Hmmm.,0,1,0,1,0,0,0,1,0,0,0,0
+1215,S420,SC,2,ServiceDesigner,触ってみてもいいですか。,Can I touch it?,0,1,1,0,0,0,1,0,0,0,0,0
+1216,S421,User,2,ServiceDesigner,ああ、はいはい。,"Oh, yes, yes.",0,1,1,0,0,0,1,0,0,0,0,0
+1217,S422,SC,2,ServiceDesigner,すいません。手触り感がいいんですね。,Excuse me. I like the feel of the texture.,0,1,1,1,0,0,1,0,0,0,0,0
+1218,S423,SA,2,ServiceDesigner,ずっと持っておきたい。,I want to keep it forever.,0,1,1,1,0,0,1,0,0,0,0,0
+1219,S424,SC,2,ServiceDesigner,カーフっていうのは。なるほど。,Calf is .... I see.,0,1,1,0,0,0,1,0,0,0,0,0
+1220,S425,SB,2,ServiceDesigner,何かやっぱりね、おしゃれを気にされていて。それが色とカーフに表れてるなと思ったので。,I knew that the user cared about fashion. I thought this was reflected in the color and the calf.,0,1,1,1,0,0,1,0,0,0,0,0
+1221,S426,SC,2,ServiceDesigner,すいません、ありがとうございます。,"Excuse me, thank you.",0,1,1,0,0,0,1,0,0,0,0,0
+1222,S427,SA,2,ServiceDesigner,何か、持ち心地追求。,"Something, the pursuit of comfort to hold.",0,1,0,0,0,0,1,0,0,0,0,0
+1223,S428,SB,2,ServiceDesigner,機能性だけ追求しちゃうと、絶対選ばれないっていう気がしますね。うん。,"I feel that if we pursue only functionality, we will never be chosen. I think so.",1,1,1,1,0,0,0,1,0,0,0,0
+1224,S429,SA,2,ServiceDesigner,追求。すてき。,Pursuit. Lovely.,0,0,0,1,0,0,0,1,0,0,0,0
+1225,S430,SB,2,ServiceDesigner,このカラーが確かにきれいなんだよ。すごく。,These colors are indeed beautiful. Very much so.,0,1,1,1,0,0,1,0,0,0,0,0
+1226,S431,SA,2,ServiceDesigner,ね。いいですね。かっこいい。,It's good. It's nice. Cool.,0,1,1,1,0,0,1,0,0,0,0,0
+1227,S432,SB,2,ServiceDesigner,小銭入れはやっぱりこう、チャックっていう。,"The coin purse uses a zipper, after all.",1,1,1,0,0,0,1,0,0,0,0,0
+1228,S433,SA,2,ServiceDesigner,うん。,Yeah.,1,1,1,0,0,0,1,0,0,0,0,0
+1229,S434,SB,2,ServiceDesigner,すいません、触って。,I'm sorry for touching it.,0,0,1,0,0,0,1,0,0,0,0,0
+1230,S435,User,2,ServiceDesigner,ああ、いえ。ちょっと、中見られると恥ずかしいですけど。,Well... no. It's a little embarrassing to be seen inside.,0,0,1,0,0,0,1,0,0,0,0,0
+1231,S436,SA,2,ServiceDesigner,何か、どうやって持ってるんですかね。こう。,"What…, how do you have it? Like this.",1,1,1,0,0,1,0,0,0,0,0,0
+1232,S437,SB,2,ServiceDesigner,つかむんじゃないですか。やっぱりこう、片手で。,"The user may grab it, may not she? By one hand, like this.",1,1,1,1,0,1,0,0,0,0,0,0
+1233,S438,User,2,ServiceDesigner,左手でこう持つことが多いですね。,I often hold it like this with my left hand.,1,1,1,0,0,0,1,0,0,0,0,0
+1234,S439,SB,2,ServiceDesigner,さっき、そやって持ってた。うん。,You had it like that earlier. Yeah.,1,1,1,0,0,0,1,0,0,0,0,0
+1235,S440,SB,2,ServiceDesigner,確かに。はいはい。,"Certainly. Yes, yes, yes.",1,1,1,0,0,0,1,0,0,0,0,0
+1236,S441,SA,2,ServiceDesigner,はい。なるほど。,"Yes, I see. I see.",1,1,1,0,0,0,1,0,0,0,0,0
+1237,S442,SB,2,ServiceDesigner,まあ、片手に収まる範囲ですね。,"Well, it can fit in one hand.",1,1,0,1,0,0,1,0,0,0,0,0
+1238,S443,SA,2,ServiceDesigner,うん。,Yeah.,1,1,0,1,0,0,1,0,0,0,0,0
+1239,S444,SA,2,ServiceDesigner,こやって持ったときに、何か、ここ、すごく。,"When I hold it like this, it's like, here, very much.",0,1,0,1,0,0,1,0,0,0,0,0
+1240,S445,SC,2,ServiceDesigner,ああ、その、何かU字の丸みが。,"Oh, you know, something with a rounded U-shape.",0,1,0,1,0,0,1,0,0,0,0,0
+1241,S446,SA,2,ServiceDesigner,もうちょっとこう、もうちょっとコンパクトになるようにとか。もしくはもう、こんだけ、私もそうなんですけど、減らそうとしても限界があって。これぐらいになってしまうってのがあるので、これぐらいの大きさはもう、しょうがない。でも、持ったときにもフィットするみたいな。こう、大きくてもフィットさえすればいいぐらいの。,"Or, I could try to make it a little more compact. Or, as is the case with me, there is a limit to how much I can reduce the size. So, this size can't be helped. But it should fit well when I hold it. Even if it is large, as long as it fits, that's all that matters.",1,1,0,1,0,0,0,1,0,0,0,0
+1242,S447,SC,2,ServiceDesigner,そうですよね。そういう意味で、丸みも大事なんですよね。,"That's right. In that sense, roundness is also important.",1,1,0,1,0,0,1,0,0,0,0,0
+1243,S448,SA,2,ServiceDesigner,うん、うん。,"Yeah, yeah.",0,1,0,1,0,0,1,0,0,0,0,0
+1244,S449,SC,2,ServiceDesigner,持ったときの手触り感って。何か、イメージ、あの、着脱式だとすると、芯となる円状の筒がここでぶつかってて。で、何かそのブロックがこう、くっつくような。,"The feel of the texture when I hold it. If it were detachable, the circular cylinder that serves as the core would collide here. And then, the blocks are attached to each other like this.",1,1,0,1,1,0,0,1,1,0,0,0
+1245,S450,SA,2,ServiceDesigner,ね。確かに。,Hey. Indeed.,1,1,0,1,1,0,0,0,1,0,0,0
+1246,S451,SC,2,ServiceDesigner,で、ここの形状がこう、持てるっていう。で、これが何か、付け外しできるポイントみたいな。,And the shape here is such that I can hold it. And this is something like a point that can be attached or detached.,1,1,0,1,1,0,0,0,1,0,0,0
+1247,S452,SA,2,ServiceDesigner,うーん。,Uhm,1,1,0,0,1,0,0,0,1,0,0,0
+1248,S453,SB,2,ServiceDesigner,ああ、すみません。ちょっと不安ですよね。だから、この、着脱式のアイディアを具現化するとこういうことですよね。このパーツで。,"Oh, sorry. It's a bit unsettling, isn't it? (* SB talked to the user, and return the wallet.) So, this is what I mean when I materialize this idea of a detachable part. With this part.",1,0,1,0,1,0,0,0,1,0,0,1
+1249,S454,SC,2,ServiceDesigner,はい。●。,Yes. ●,1,0,0,0,1,0,0,0,1,0,0,0
+1250,S455,SB,2,ServiceDesigner,こやって。,Do it this way.,1,0,0,0,1,0,0,0,1,0,0,0
+1251,S456,SA,2,ServiceDesigner,あと3分なので。あれですかね。ちょっと作っちゃいましょうか。,I have three minutes left. Is that it? Shall we make some?,0,0,0,1,1,0,0,0,1,1,1,0
+1252,S457,SB,2,ServiceDesigner,だからね、小銭がほんとにあの形でいいのかっていうのは。,"So, you know, I'm not sure if coin (purse) is really that good in that form.",1,1,0,1,1,0,0,0,1,0,0,0
+1253,S458,SC,2,ServiceDesigner,手触り感の●があれば。,If there is a ● sense of touch.,0,1,0,0,1,0,0,0,1,0,0,0
+1254,S459,SB,2,ServiceDesigner,少し考えたいです。,I would like to think about it a little.,0,1,0,0,1,0,0,0,1,0,0,0
+1256,S461,SB,2,ServiceDesigner,えっと。,Let's see.,0,1,0,0,1,0,0,0,1,0,0,0
+1257,S462,SA,2,ServiceDesigner,いやでも、ちょっとこう。,"No, but it's a little like this.",0,1,0,0,1,0,0,0,1,0,0,0
+1258,S463,SC,2,ServiceDesigner,そうですね。,"Yes, it is.",0,1,0,0,1,0,0,0,1,0,0,0
+1259,S464,SB,2,ServiceDesigner,えっと、芯になるとことが1つあるといいんで。,"Let's see, there should be one core thing.",1,1,0,1,1,0,0,0,1,0,0,0
+1260,S465,SA,3,ServiceDesigner,これ、もう1個のプロトタイプで、もう、イメージ作ったら、これはいいですね。,"This is another prototype, and I've already made an image of it, and it's good.",0,0,0,1,1,0,0,0,1,1,1,1
+1261,S466,SB,3,ServiceDesigner,はい。,Yes.,0,0,0,1,1,0,0,0,1,1,1,0
+1262,S467,SA,3,ServiceDesigner,この大きくブロックするタイプもちょっと作ってみますかね。そこの着け心地追求型。,"I think I'll make this large blocking type a little too. There, a type that pursues touching comfort.",1,0,0,1,1,0,0,0,1,1,0,0
+1263,S468,SB,3,ServiceDesigner,イメージとしてはこういうところに芯があって、ここにこう着脱していく。,"The image is that there is a core in such and such a place, and it is put on and taken off here like this.",1,0,0,1,1,0,0,0,1,0,0,0
+1264,S469,SC,3,ServiceDesigner,うん、そうですね、そうですね、はい。,"Yes, yes, yes, yes.",1,0,0,1,1,0,0,0,1,0,0,0
+1265,S470,SB,3,ServiceDesigner,それを表現するっていうのは。,Expressing it is…,1,0,0,1,1,0,0,0,1,0,0,0
+1266,S471,SA,3,ServiceDesigner,あ、わかった。そしたらあれじゃないですか。##User##の手>>の形状とかを、そういう、そういうカスタマイズサイズをっていうのがコンセプト。,"Oh, I get it. Then that's it, isn't it? The concept is to customize the size of User's hand shape and so on.",1,1,0,1,0,0,0,0,1,0,0,1
+1267,S472,SC,3,ServiceDesigner,うん、うん。そうですね。,"Yeah, yeah. Yes, I do.",1,1,0,1,0,0,0,0,1,0,0,0
+1268,S473,SA,3,ServiceDesigner,この手>>の形状を、皆さん一人一人測るんですよ。こうしたときに。,I measure the shape of this hand for each and every one of the user. When the user does this.,1,1,0,1,1,0,0,0,1,0,0,0
+1269,S474,SC,3,ServiceDesigner,うんうん、うんうん。,"Mm-hmm, mm-hmm.",1,1,0,1,1,0,0,0,1,0,0,0
+1270,S475,SA,3,ServiceDesigner,で、ここに沿って、何かこう、型作って「あなたの左手>>にフィットする」みたいな。,"So, something along the lines of here, something like this, like, ""It fits your left hand"" by making a mold.",1,1,0,1,1,0,0,0,1,0,0,0
+1271,S476,SC,3,ServiceDesigner,私、これ、折り紙で合った形状の筒を作ります。,"I, this, make a tube of the shape, which fit to( a hand), with origami.",1,1,0,1,1,0,0,0,1,0,0,1
+1272,S477,SB,3,ServiceDesigner,うん。,Yeah.,0,1,0,1,1,0,0,0,1,0,0,1
+1273,S478,SA,3,ServiceDesigner,何か、その、何でしょう。足のサイズをこう、測って。えっと、よくアディダスとかであるじゃないですか。あなたの、こう、足に合わせてみたいな。こう。計測も含めたサービスとかにするとどうでしょう。,"Something like, well, what... Measuring the user's foot size like this. Well, you know, like the Adidas brand. Fitting the user's feet like this. Like this. How about a service that includes measurement?",1,1,0,1,1,0,0,1,1,0,0,1
+1274,S479,SC,3,ServiceDesigner,いいですね、いいですね。「あなたの手>>に必ずフィットしますよ」っていう。,"That's good, that's good. They say, ""It will definitely fit your hand.""",1,1,0,1,1,0,0,0,1,0,0,0
+1275,S480,SA,3,ServiceDesigner,あなたの手>>にフィットするとか。,I hear it fits your hand.,1,1,0,1,1,0,0,0,1,0,0,0
+1276,S481,SB,3,ServiceDesigner,手触り感とか。,Like the feel of the texture.,1,1,0,1,1,0,0,0,1,0,0,0
+1277,S482,SA,3,ServiceDesigner,手>>にフィットする。フィットするお財布。,Fits in your hand. A wallet that fits.,1,1,0,1,1,0,0,0,1,0,0,0
+1278,S483,SB,3,ServiceDesigner,手触り感は、これやっぱもう。ちょっと芯になるところが，手分けしましょうか。芯になるところが要ると思ってて。,The feel to the touch is cared in the core. Why don’t we share the tasks? I think it needs a core.,0,1,0,1,1,0,0,0,1,0,0,1
+1279,S484,SA,3,ServiceDesigner,うん。,Yeah.,0,1,0,1,1,0,0,0,1,0,0,0
+1280,S485,SB,3,ServiceDesigner,芯、少し時間に追われてますが。そんなでかいの、あったんだ。,"Core, I'm a little pressed for time. It's such a big one, there it is.",0,1,0,0,1,0,1,0,1,0,1,0
+1281,S486,SA,3,ServiceDesigner,これで、でも何か、3つのプロトタイプの方向性が出て。,"With this, but something in the direction of three prototypes.",0,0,0,1,1,0,0,0,1,1,0,0
+1282,S487,SC,3,ServiceDesigner,多分、手>>で持ったときのサイズ感だけなら、いったん折り紙で大きさを表現するっていう。,"Maybe, if it's just the size when the user holds it in her hand. Once we have it, we can use origami to express the size of it.",1,1,0,1,1,0,0,0,1,0,0,0
+1283,S488,SB,3,ServiceDesigner,ああ、そうですね。,"Oh, yes.",1,1,0,1,1,0,0,0,1,0,0,0
+1284,S489,SC,3,ServiceDesigner,すいません。,Excuse me.,1,1,1,0,1,0,1,0,0,0,0,0
+1285,S490,User,3,ServiceDesigner,はい。,Yes.,1,1,1,0,1,0,1,0,0,0,0,0
+1286,S491,SC,3,ServiceDesigner,あの、実際に財布を持つときの手>>で。あ、ありがとうございます。,"Um, with the hand that actually holds the wallet. Oh, thank you very much.",0,1,1,0,1,0,1,0,0,0,0,0
+1287,S492,SB,3,ServiceDesigner,時間配分を少し間違えた。,I made a slight mistake in time management.,0,0,0,1,0,0,0,0,1,0,1,0
+1288,S493,SC,3,ServiceDesigner,そうですね。テープを少しだけ切っていただいていいですか。はい。,"Yes, that's right. May I ask you to cut the tape a little bit? Yes, I will.",0,0,0,0,1,0,0,0,1,0,0,1
+1289,S494,SA,3,ServiceDesigner,はい。少しですか。,"Yes, a little. A little bit?",0,0,0,0,1,0,0,0,1,0,0,1
+1290,S495,SC,3,ServiceDesigner,はい。これぐらい。,Yes. That's about it.,0,0,0,1,1,0,0,0,1,0,0,1
+1291,S496,SA,3,ServiceDesigner,これぐらい。,About this much.,0,0,0,0,1,0,0,0,1,0,0,0
+1292,S497,SB,3,ServiceDesigner,役割分担、もう一度決めますか。今、これで全体図をつくられてます。,Shall we decide on the division of roles again? This is the overall diagram that is now being created.,0,0,0,1,1,0,0,0,1,1,0,1
+1293,S498,SC,3,ServiceDesigner,はい。これで、あの、手>>に持つところの筒の大きさの感じを。,"Yes. Now, this is, you know, the size of the tube where the user hold it in her hand.",0,1,1,0,1,0,0,0,1,0,0,1
+1294,S499,SA,3,ServiceDesigner,あ、でも、その、あれ、えっと、3時4分までですよね。あれ？ですよね。,"Oh, but, you know, that, uh, that is until 3:04, right? Huh? That's right, isn't it?",0,0,0,0,0,1,0,0,0,1,0,0
+1296,S501,SA,3,ServiceDesigner,はい。3時5分までなので。ではこれで。,"Yes, we have to do until 3:05. Well, we'll leave with this.",0,0,0,0,0,0,0,0,1,1,0,0
+1298,S503,SA,3,ServiceDesigner,3時5分ですよね。はい。,"It is 3:05, right? Yes, I am.",0,0,0,0,0,0,0,0,1,1,0,0
+1299,S504,SC,3,ServiceDesigner,3時5分ですね。もう、もう終わるってことですよね。はい。これで、手>>の筒の感覚です。,"It's 3:05. That means it's already over, right? Yes. Now this is the feeling of the hand tube.",0,1,0,1,1,0,0,0,1,1,0,0
+1300,S505,SA,3,ServiceDesigner,あ、で、こっちですか。2案目。,"Ah, so this is the second idea.",0,0,0,0,0,0,0,0,1,1,0,1
+1301,S506,SC,3,ServiceDesigner,2案目の、何か、定期的に着脱するとしたら、まあ、こういう筒の形状のところに、何かもっと、何でしょう、こう、ここにこう、ブロックがついてくようなイメージだとは思うんですけど。,"The second idea, something, if it were to be attached and detached on a regular basis, well, I think it would be something more in the shape of a tube like this, something like, I don't know, a block here, like this, but I think it would be something more like this.",1,1,0,1,1,0,0,0,1,0,0,1
+1302,S507,SA,3,ServiceDesigner,1番、2番、3番だとすると、これどこの……。,"If they are #1, #2, and #3 (of blocks), where is this ......",1,1,0,1,1,0,0,0,1,0,0,1
+1303,S508,SC,3,ServiceDesigner,あ、3番のおうちに。,"Oh, to house number 3.",1,1,0,0,1,0,0,0,1,0,0,0
+1304,S509,SA,3,ServiceDesigner,あ、はあ、はあ。これですね。,"Oh, ha, ha. This is it.",1,1,0,0,1,0,0,0,1,0,0,0
+1305,S510,SC,3,ServiceDesigner,はい。,Yes.,1,1,0,0,1,0,0,0,1,0,0,0
+1306,S511,SA,3,ServiceDesigner,これは計測含めてってことですね。,This means including measurement.,1,1,0,0,1,0,0,0,1,0,0,1
+1307,S512,SB,3,ServiceDesigner,この形が、実は〓##SC##〓さんと私の中の。,This form is actually SC-san's and my (ideas).,0,1,0,1,1,0,0,0,1,0,0,0
+1308,S513,SC,3,ServiceDesigner,あ、そうです、そうです。はい。,"Oh, yes, yes. Yes, I am.",1,1,0,1,1,0,0,0,1,0,0,0
+1309,S514,SA,3,ServiceDesigner,はあ、はあ、はあ。,"Ha, ha, ha.",1,1,0,0,1,0,0,0,1,0,0,0
+1310,S515,SC,3,ServiceDesigner,で、ここの、やっぱり丸みが、その、その人特有の手>>のサイズに合うっていう。,And the roundness of the hand fits the size of the person's unique hand.,1,1,0,1,1,0,0,0,1,0,0,0
+1311,S516,SA,3,ServiceDesigner,じゃあ、ブロックなんだけど、この、あなたの手>>の計測も含めてこういうふうにしますよっていうことですね。,"So, it's a block, but this, this is how we will do it, including the measurement of your hand.",1,1,0,0,1,0,0,0,1,0,0,1
+1312,S517,SC,3,ServiceDesigner,そうですね、はい。,"Yes, yes.",1,1,0,1,1,0,0,0,1,0,0,0
+1313,S518,SA,3,ServiceDesigner,分かりました。,I understand.,1,1,0,0,1,0,0,0,1,0,0,0
+1315,S520,SB,3,ServiceDesigner,はい。はい。,Yes. Yes.,0,0,0,0,0,0,0,0,1,1,0,0
+1317,S522,SB,3,ServiceDesigner,作っちゃいましょう。,Let's make it.,0,0,0,0,1,0,0,0,1,1,0,1
+1318,S523,SA,3,ServiceDesigner,はい。,Yes.,0,0,0,0,1,0,0,0,1,1,0,0
+1319,S524,SB,3,ServiceDesigner,わかりました。これが中心になっていて、そこに着脱ができるようにだと思っているので。,"I understand. I'm thinking that this is the core of it, so that it can be attached to and detached from it.",1,1,0,1,1,0,0,0,1,1,0,0
+1320,S525,SC,3,ServiceDesigner,そうですね。,"Yes, it is.",1,1,0,1,1,0,0,0,1,0,0,0
+1321,S526,SA,3,ServiceDesigner,うん、うん。,"Yeah, yeah.",1,1,0,1,1,0,0,0,1,0,0,0
+1322,S527,SB,3,ServiceDesigner,それでちょっと、実は、えっと、硬い、それなりの硬い金具なのかなって、私思ってるんですよね。,"So I'm wondering if it's a little bit, actually, uh, hard, I'm wondering if it's a reasonably hard piece of hardware.",0,1,0,1,1,0,0,0,1,0,0,0
+1323,S528,SC,3,ServiceDesigner,あ、はい、そのイメージですね。,"Ah, yes, that's the image.",0,1,0,1,1,0,0,0,1,0,0,0
+1324,S529,SB,3,ServiceDesigner,あ、それで合ってるんですか。であれば、何か、こういうところにもこう、芯が通っていて。で、ここにこう、間に入っていくんですね。で、この着脱で、さっき〓##SA##〓さんが言っていた、いろんな機能のものを付けたり外したりできる。選択制にできるわけですね。,"Oh, is that correct? If so, then, something like this, there is also a core in this kind of place. And here, like this, it goes in between, doesn't it? And with this attachment and detachment, the user can attach or remove various functions, as SA-san mentioned earlier. So it can be selective.",1,0,0,1,1,0,0,0,1,0,0,1
+1325,S530,SA,3,ServiceDesigner,うん、うん、うん。なるほど。うん。じゃあここ、磁石でもいいのかもしれないですね。磁石でぽんてくっつく感じ？,"Yeah, yeah, yeah. I see. Mm-hmm. Then maybe a magnet would be good here. Like a magnet that sticks together?",1,0,0,1,1,0,0,0,1,0,0,1
+1326,S531,SB,3,ServiceDesigner,そこの構造は後で考えるとして。まあ、そこにカラフルな。,"I'll think about the mechanism of that later. Well, colorful there.",1,1,0,1,1,0,0,0,1,0,0,0
+1327,S532,SA,3,ServiceDesigner,うん、うん。,"Yeah, yeah.",1,1,0,1,1,0,0,0,1,0,0,0
+1328,S533,SB,3,ServiceDesigner,インナーポケットがたくさんつけられるっていうイメージに、はい。ですね。,"I was thinking of the image of having a lot of inner pockets, yes. Yes.",1,1,0,1,1,0,0,0,1,0,0,0
+1329,S534,SC,3,ServiceDesigner,うん、うん、うん。そんなイメージ、はい。,"Yeah, yeah, yeah. That kind of image, yes.",1,1,0,1,1,0,0,0,1,0,0,0
+1330,S535,SB,3,ServiceDesigner,こういう感じなんですかね。,Is it like this?,1,1,0,0,1,0,0,0,1,0,0,1
+1331,S536,SC,3,ServiceDesigner,ここがやっぱり、あの、持ちやすさの形状があり。で、ここに芯の入ったものがあり。で、着脱できるような、芯が入ってるみたいな。,"This is, after all, the shape that makes it easy to hold. And here is something with a core. And there is a core that can be detached.",1,1,0,1,1,0,0,0,1,0,1,0
+1332,S537,SB,3,ServiceDesigner,そんときは外側のカバーはあるんですよね。,"In that case, there is an outer cover, isn't there?",1,1,0,0,1,0,0,0,1,0,0,1
+1333,S538,SC,3,ServiceDesigner,あ、そうですね。はい。,"Oh, yes. Yes, I am.",1,1,0,1,1,0,0,0,1,0,0,0
+1334,S539,SB,3,ServiceDesigner,この、このカバーっていうのは。,"This, this cover.",1,1,0,0,1,0,0,0,1,0,0,1
+1335,S540,SC,3,ServiceDesigner,あ、そうです、そうです。はい。,"Oh, yes, yes. Yes, I am.",1,1,0,1,1,0,0,0,1,0,0,0
+1336,S541,SB,3,ServiceDesigner,じゃあ。,Then.,1,1,0,0,1,0,0,0,1,0,0,0
+1337,S542,SA,3,ServiceDesigner,外がじゃあ、ちょっと、あの。,"The outside is, then, a little bit, you know.",1,1,0,1,1,0,0,0,1,0,0,0
+1338,S543,SB,3,ServiceDesigner,おっきめにつくっちゃったほうがいいでしょう。手触り感っていう意味で、外側のカバー大事だなあと思うんです。,It would be better to make it bigger. I think it is important to cover the outside of the product to give it a tactile feel.,0,1,0,1,1,0,0,0,1,0,0,0
+1339,S544,SC,3,ServiceDesigner,そうですね。,"Yes, it is.",0,1,0,1,1,0,0,0,1,0,0,0
+1340,S545,SB,3,ServiceDesigner,これがね、手触り感よかったんですけど。大きさ的にちょっと切っちゃったほうがいいんじゃないかな。,"This, you know, had a nice feel to it. I think it would be better to cut it down a bit in terms of size.",0,1,0,1,1,0,0,0,1,0,0,0
+1341,S546,SA,3,ServiceDesigner,これ、これどうですか。これ、ちょうどよくないですか。,How about this? Isn't this just right?,0,1,0,1,1,0,0,0,1,0,0,1
+1342,S547,SB,3,ServiceDesigner,ああ、いいですね。これが長財布型になってるから、そうじゃないように。,"Oh, that's nice. Like this is a long wallet type of thing, so it's not.",0,1,0,1,1,0,0,0,1,0,1,0
+1343,S548,SA,3,ServiceDesigner,どれぐらい、この、切開。,"How much, this, incision.",0,1,0,1,1,0,0,0,1,0,0,0
+1344,S549,SB,3,ServiceDesigner,●挟みこんだやつを使う。,● Use the one that is sandwiched between the two.,0,1,0,1,1,0,0,0,1,0,0,0
+1345,S550,SC,3,ServiceDesigner,まあ、ちょっと、ダーティだからダーティでいいんだと思うんです。,"Well, I think it's okay to be dirty because, hey, it's dirty.",0,0,0,1,1,0,0,0,1,1,0,0
+1346,S551,SB,3,ServiceDesigner,どれぐらいのサイズに。サイズに合わせようと思うんです。とりあえず長財布っぽいんで。,"To what size. I'm trying to match the size. For now, it looks like a long wallet.",0,1,0,0,1,0,0,0,1,0,0,1
+1347,S552,SA,3,ServiceDesigner,うん、うん。じゃあ、一回、この中に入れ込んでサイズ決めましょうか。,"Yeah, yeah. Well, let's put them in here once and decide on the size, shall we?",0,1,0,1,1,0,0,0,1,1,0,1
+1348,S553,SC,3,ServiceDesigner,そうですね。1個、型が決まれば、それによって。,"Yes, one, once the mold is set, by that.",0,1,0,1,1,0,0,0,1,1,0,0
+1349,S554,SB,3,ServiceDesigner,そうそう。一番外が決まったら、中がサイズ決まるから。,"Yes, yes. Once the outermost part is decided, the size of the inside will be decided.",0,1,0,1,1,0,0,0,1,1,0,0
+1350,S555,SA,3,ServiceDesigner,じゃあ取りあえず、どれぐらいなんでしょう。あとは財布のあれなんでしょうけど。,So how much is it for now? I guess it's all in the wallet.,0,1,0,0,1,0,0,0,1,0,0,1
+1351,S556,SB,3,ServiceDesigner,うん。,Yeah.,0,1,0,0,1,0,0,0,1,0,0,0
+1352,S557,SA,3,ServiceDesigner,まあ、じゃあこれぐらいで。,"Well, that's about it then.",0,1,0,1,1,0,0,0,1,0,1,0
+1353,S558,SB,3,ServiceDesigner,いいですね。,Nice.,0,1,0,1,1,0,0,0,1,0,1,0
+1354,S559,SA,3,ServiceDesigner,これくらいですか。はい。ちょっと中に赤い革、入れてみましょうか。,Is this about right? Yes. Let's put some red leather inside.,0,1,0,1,1,0,0,0,1,0,1,1
+1355,S560,SB,3,ServiceDesigner,うん。,Yeah.,0,1,0,1,1,0,0,0,1,0,1,0
+1356,S561,SC,3,ServiceDesigner,同じサイズ感で切っていけばいいですかね。,Should I cut it in the same size?,0,1,0,1,1,0,0,0,1,1,0,1
+1358,S563,SA,3,ServiceDesigner,はい。,Yes.,0,0,0,0,0,0,0,0,1,1,0,0
+1359,S564,SC,3,ServiceDesigner,あ、はい。,"Ah, yes.",0,0,0,0,0,0,0,0,1,1,0,0
+1362,S567,SA,3,ServiceDesigner,あ、ここへ入れちゃった。,"Oh, I put it in here.",0,1,0,0,1,0,0,0,1,0,0,0
+1363,S568,SB,3,ServiceDesigner,ああ、いいですよ。,"Oh, it's fine.",0,1,0,0,1,0,0,0,1,0,0,0
+1364,S569,SC,3,ServiceDesigner,何で止めましょうか。仮止めは。テープにしますか。テープぐらいしかない。,How should we fix it? Temporary fixings? Should we use tape? There is nothing but tape.,0,0,0,0,1,0,0,0,1,0,0,1
+1365,S570,SB,3,ServiceDesigner,あ、こういうテープでいいと思いますね。,"Oh, I think this kind of tape is fine.",0,0,0,1,1,0,0,0,1,0,0,0
+1366,S571,SC,3,ServiceDesigner,あ、そうですね。,"Ah, yes.",0,0,0,0,1,0,0,0,1,0,0,0
+1367,S572,SA,3,ServiceDesigner,これ、もうちょっと長めかな。これでもいいか。これでいいですか。こんな感じ。,"This one is a little longer, I think. Is this okay? Is this okay? Like this.",0,1,0,0,1,0,0,0,1,0,0,1
+1368,S573,SC,3,ServiceDesigner,うんうん、うんうん。,"Mm-hmm, mm-hmm.",0,1,0,1,1,0,0,0,1,0,0,0
+1369,S574,SB,3,ServiceDesigner,うん。,Yeah.,0,1,0,1,1,0,0,0,1,0,0,0
+1370,S575,SC,3,ServiceDesigner,芯があるのでね。,It has a core.,0,1,0,0,1,0,0,0,1,0,0,0
+1371,S576,SB,3,ServiceDesigner,どうやって止めるか。芯がね。あ、こういうの芯にしちゃおか。,"How to fix it. The core. Oh, why don't you use this one for the core?",0,1,0,0,1,0,0,0,1,0,0,0
+1372,S577,SA,3,ServiceDesigner,これはどうです？,How about this?,0,1,0,0,1,0,0,0,1,0,0,1
+1373,S578,SC,3,ServiceDesigner,短いっていう感じ。,I feel like it's short.,0,1,0,1,1,0,0,0,1,0,0,0
+1374,S579,SC,3,ServiceDesigner,この長さだからもう、こっちにしましょう。この長さ、うん。,"This length, so let's just go this way already. This length, yeah.",0,1,0,1,1,0,0,0,1,0,0,0
+1375,S580,SA,3,ServiceDesigner,これ、こっちですか。,Is this this way?,0,1,0,0,1,0,0,0,1,0,0,0
+1376,S581,SB,3,ServiceDesigner,何か●。,something●,0,1,0,0,1,0,0,0,1,0,0,0
+1377,S582,SA,3,ServiceDesigner,ホッチキス。ホッチキスとかないですか。,Stapler. Do you have a stapler or something?,0,0,0,0,1,1,0,0,0,0,0,0
+1379,S584,SC,3,ServiceDesigner,いったんテープで仮止めしましょう。,"Once, temporarily fix it in place by tape.",0,0,0,1,1,0,0,0,1,0,0,1
+1380,S585,SB,3,ServiceDesigner,これ、仮止めしましょう。,Let's temporarily fix this.,0,0,0,1,1,0,0,0,1,0,0,1
+1381,S586,SA,3,ServiceDesigner,あ、いえいえ。はい、止めます。,"Oh, no, no. Yes, I will fix.",0,0,0,1,1,0,0,0,1,0,0,0
+1382,S587,SB,3,ServiceDesigner,あとはこの、小銭とUSB。,"Then there's this, coins and USB.",1,0,0,0,1,0,0,0,1,0,0,0
+1383,S588,SA,3,ServiceDesigner,これが付け替えれる〓用意〓ですってことですね。,This is a preparation for replacing. Right?,1,0,0,1,1,0,0,0,1,0,0,1
+1384,S589,SC,3,ServiceDesigner,芯がほしいところですが。いいのがないですね。,We need a core but we don't have a good one.,0,1,0,1,1,0,0,0,1,0,0,0
+1386,S591,SB,3,ServiceDesigner,いいんじゃないですかね。,It seems fine.,0,0,0,1,1,0,0,0,1,0,1,0
+1387,S592,SA,3,ServiceDesigner,取れちゃった。,I's broken…,0,0,0,0,1,0,0,0,1,0,0,0
+1388,S593,SB,3,ServiceDesigner,渡しましょうか。,Why don't you pass it?,0,0,0,0,1,0,0,0,1,0,0,1
+1389,S594,SA,3,ServiceDesigner,はい、止めます。よいしょ。間も、この。,"Yeah, I'm fixing it. Uh,",0,0,0,0,1,0,0,0,1,0,0,0
+1390,S595,SA,3,ServiceDesigner,はい、できました。,it done.,0,0,0,0,1,0,0,0,1,0,0,0
+1391,S596,SC,3,ServiceDesigner,はい、ありがとうございます。,"Yeah, Thank you.",0,0,0,0,1,0,0,0,1,0,0,0
+1392,S597,SB,3,ServiceDesigner,ありがとうございました。,Thank you.,0,0,0,0,0,0,0,0,1,0,0,0

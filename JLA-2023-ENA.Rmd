@@ -1,0 +1,293 @@
+---
+title: "JLA0-2023-ENA"
+author: "Zach & Yuanru"
+date: "2023-05-23"
+output:
+  html_document:
+    toc: yes
+    df_print: paged
+  html_notebook:
+    toc: yes
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+rm(list = ls())
+```
+
+
+```{r include=FALSE}
+library(rENA)
+library(magrittr)
+library(tidyverse)
+```
+
+most recent data Ayano shared
+```{r}
+data <- read.csv("~/Rprojects/ayano/PES_010v6(selected).csv")
+#colnames(data)
+#time phase is tSSNA
+```
+
+```{r}
+units <- c("Speaker", "Role", "Phase")
+
+codes_1 <- c("Functions", "Aesthetics", "User", "Vision", "Prototyping") # design actions codes
+codes_2 <- c("CA", "ALoK", "CSU", "GCA", "Projective","Regulative","Relational") # shared epistemic agency codes
+
+conversations = c("Role","Phase")
+
+# hoo_rules <- conversation_rules(
+#   (TimePhase %in% UNIT$TimePhase & Role %in% UNIT$Role)
+# )
+```
+
+notes: accum_1 and set_1 are for design action codes; accum_2 and set_2 are for shared epistemic agency codes
+
+```{r}
+accum_1 = ena.accumulate.data(units = data[,units],
+                              conversation = data[,conversations],
+                              codes = data[,codes_1],
+                              window.size.back = 4)
+```
+
+
+Note: Not doing means rotation so I can compare everything in the same space
+
+```{r}
+set_1 = ena.make.set(accum_1)
+```
+
+
+```{r}
+accum_2 = ena.accumulate.data(units = data[,units],
+                              conversation = data[,conversations],
+                              codes = data[,codes_2],
+                              window.size.back = 4)
+```
+
+```{r}
+set_2 = ena.make.set(accum_2)
+```
+
+
+Model 1: design action codes
+
+Plot 1: Mean Network
+
+```{r}
+
+plot = ena.plot(set_1, scale.to = "points", title = "Groups and Means")  %>%
+       ena.plot.points(points = as.matrix(set_1$points)) %>% 
+       ena.plot.group(point = as.matrix(set_1$points),
+                      colors = c("black"), confidence.interval = "box") %>% 
+      ena.plot.network(network = colMeans(as.matrix(set_1$line.weights)),colors = "black")
+plot$plot
+
+```
+
+Plot 2: All Means
+```{r}
+
+#get list of time phases and groups loop over or use map function
+
+phases = unique(set_1$points$Phase)
+
+groups = unique(set_1$points$Role)
+
+# col_list = list(pd = list("darkolivegreen2","darkolivegreen3","darkolivegreen4"),
+#                 en = list("darkorange2","darkorange3","darkorange4"),
+#                 sd = list("darkorchid1","darkorchid2","darkorchid3"))
+
+col_list_2 = c("red",
+              "blue",
+              "green")
+
+
+x = ena.plot(set_1, title = "Group Means by Phase")
+
+for (i in 1:length(phases)){
+  for (j in 1:length(groups)){
+    points = set_1$points %>% filter(Phase == phases[i], Role == groups[j]) %>% as.matrix()
+    x = x %>% 
+      ena.plot.group(points = points,
+                     colors = col_list_2[i],
+                     confidence.interval = "none",
+                     labels = paste(phases[i],groups[j]))
+  }
+}
+
+x = x %>% ena.plot.network(network = colMeans(as.matrix(set_1$line.weights))*0,colors = "black")
+x
+
+```
+
+
+Stats:
+
+```{r}
+reg_dat_design = set_1$points
+
+mod_x_design = lm(SVD1 ~ as.factor(Phase) + Role, data = reg_dat_design)
+mod_y_design = lm(SVD2 ~ as.factor(Phase) + Role, data = reg_dat_design)
+
+
+summary(mod_x_design)
+summary(mod_y_design)
+
+```
+
+Marginal means - x
+
+```{r}
+library(emmeans)
+
+emm_x_design = emmeans(mod_x_design, specs = pairwise ~ Role|Phase, weights = "proportional")
+emm_x_design = emmeans(mod_x_design, specs = pairwise ~ Phase|Role, weights = "proportional")
+emm_x_design$contrasts
+
+```
+
+Marginal means - y
+```{r}
+emm_y_design1 = emmeans(mod_y_design, specs = pairwise ~ Role|Phase, weights = "proportional")
+emm_y_design2 = emmeans(mod_y_design, specs = pairwise ~ Phase|Role, weights = "proportional")
+emm_y_design1$contrasts
+emm_y_design2$contrasts
+```
+
+Calculate eff sizes
+```{r}
+
+```
+
+Plot network subtractions for moderate to high eff sizes
+```{r}
+mean1 = set_1$points %>% dplyr::filter(Phase == 1, Role == "Engineer")
+mean2 = set_1$points %>% dplyr::filter(Phase == 1, Role == "ProductDesigner")
+
+lw_1 = set_1$line.weights %>% dplyr::filter(Phase == 1, Role == "Engineer") %>% as.matrix() %>% colMeans()
+lw_2 = set_1$line.weights %>% dplyr::filter(Phase == 1, Role == "ProductDesigner") %>% as.matrix() %>% colMeans()
+
+
+plot = ena.plot(set_1, title = "Network Subtractions") %>% 
+          ena.plot.points(points = mean1, colors = c("blue")) %>% 
+          ena.plot.points(points = mean2, colors = c("red")) %>% 
+          ena.plot.group(point = mean1, colors =c("blue"), 
+                         confidence.interval = "box") %>% 
+          ena.plot.group(point = mean2, colors =c("red"), 
+                         confidence.interval = "box") %>%
+          ena.plot.network(network = lw_1 - lw_2, colors = c("blue","red"))
+
+plot$plot
+
+```
+
+Model 2: Epistemic Agency Codes
+
+Plot 1: Mean Network
+
+```{r}
+plot = ena.plot(set_2, scale.to = "points", title = "Groups and Means")  %>%
+       ena.plot.points(points = as.matrix(set_2$points)) %>% 
+       ena.plot.group(point = as.matrix(set_2$points),
+                      colors = c("black"), confidence.interval = "box") %>% 
+      ena.plot.network(network = colMeans(as.matrix(set_2$line.weights)),colors = "black")
+plot$plot
+
+```
+
+Plot 2: All Means
+```{r}
+
+phases = unique(set_2$points$Phase)
+
+groups = unique(set_2$points$Role)
+
+# col_list = list(pd = list("darkolivegreen2","darkolivegreen3","darkolivegreen4"),
+#                 en = list("darkorange2","darkorange3","darkorange4"),
+#                 sd = list("darkorchid1","darkorchid2","darkorchid3"))
+
+col_list_2 = c("red",
+              "blue",
+              "green")
+
+
+x = ena.plot(set_2, title = "Group Means by Phase")
+
+for (i in 1:length(phases)){
+  for (j in 1:length(groups)){
+    points = set_2$points %>% filter(Phase == phases[i], Role == groups[j]) %>% as.matrix()
+    x = x %>% 
+      ena.plot.group(points = points,
+                     colors = col_list_2[i],
+                     confidence.interval = "none",
+                     labels = paste(phases[i],groups[j]))
+  }
+}
+
+x = x %>% ena.plot.network(network = colMeans(as.matrix(set_2$line.weights))*0,colors = "black")
+x
+```
+
+```{r}
+reg_dat_agency = set_2$points
+
+mod_x_agency = lm(SVD1 ~ as.factor(Phase) + Role, data = reg_dat_agency)
+mod_y_agency = lm(SVD2 ~ as.factor(Phase) + Role, data = reg_dat_agency)
+
+
+summary(mod_x_agency)
+summary(mod_y_agency)
+```
+Marginal means - x
+
+```{r}
+emm_x_agency1 = emmeans(mod_x_agency, specs = pairwise ~ Role|Phase, weights = "proportional")
+emm_x_agency2 = emmeans(mod_x_agency, specs = pairwise ~ Phase|Role, weights = "proportional")
+emm_x_agency1$contrasts
+emm_x_agency2$contrasts
+
+```
+
+Marginal means - y
+```{r}
+emm_y_agency1 = emmeans(mod_y_agency, specs = pairwise ~ Role|Phase, weights = "proportional")
+emm_y_agency2 = emmeans(mod_y_agency, specs = pairwise ~ Phase|Role, weights = "proportional")
+emm_y_agency1$contrasts
+emm_y_agency2$contrasts
+```
+
+Calculate eff sizes
+```{r}
+
+```
+
+Plot network subtractions for moderate to high eff sizes
+```{r}
+mean1 = set_1$points %>% dplyr::filter(Phase == 1, Role == "Engineer")
+mean2 = set_1$points %>% dplyr::filter(Phase == 1, Role == "ProductDesigner")
+
+lw_1 = set_1$line.weights %>% dplyr::filter(Phase == 1, Role == "Engineer") %>% as.matrix() %>% colMeans()
+lw_2 = set_1$line.weights %>% dplyr::filter(Phase == 1, Role == "ProductDesigner") %>% as.matrix() %>% colMeans()
+
+
+plot = ena.plot(set_1, title = "Network Subtractions") %>% 
+          ena.plot.points(points = mean1, colors = c("blue")) %>% 
+          ena.plot.points(points = mean2, colors = c("red")) %>% 
+          ena.plot.group(point = mean1, colors =c("blue"), 
+                         confidence.interval = "box") %>% 
+          ena.plot.group(point = mean2, colors =c("red"), 
+                         confidence.interval = "box") %>%
+          ena.plot.network(network = lw_1 - lw_2, colors = c("blue","red"))
+
+plot$plot
+```
+
+

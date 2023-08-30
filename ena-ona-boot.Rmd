@@ -1,0 +1,174 @@
+---
+title: "bootstrap-comp"
+author: "Zachari Swiecki"
+date: '2023-05-28'
+output: html_document
+---
+
+
+TODO: PROJECT INTO ORIGINAL SPACE WHEN MAKING MODELS!
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+rm(list = ls())
+library(rENA)
+library(magrittr)
+library(tidyverse)
+source("~/Desktop/Downloads-2020-2023/gerald_sens/LAK_functions.R")
+```
+
+Load data
+```{r}
+data <- read.csv("~/Rprojects/ayano/PES_010v6(selected).csv")
+```
+Add convo column
+```{r}
+data$convo = paste(data$Phase,data$Role)
+data$ona_convo = paste(data$TimePhase,data$Role)
+#colnames(data)
+```
+Create bootstrap samples
+
+```{r}
+samps = gen.resamples(data,"convo",500,1234)
+```
+
+Create ENA models for each sample (actions)
+```{r}
+units <- c("Speaker", "Role", "Phase")
+codes_1 <- c("Functions", "Aesthetics", "User", "Vision", "Prototyping") # design actions codes
+codes_2 <- c("CA", "ALoK", "CSU", "GCA", "Projective","Regulative","Relational") # shared epistemic agency codes
+
+conversations = c("Role","Phase")
+
+sets_actions = map(samps,ena.set,units = units, convo = conversations, window.size = 4,codes = codes_1)
+
+```
+
+Set up regression function
+
+```{r}
+reg = function(data){
+  x = lm(SVD1 ~ Role + Phase,data)
+  return(summary(x)$r.squared)
+}
+
+```
+
+```{r}
+points_actions = map(sets_actions,pluck,"points")
+reg_results_actions = map(points_actions,reg)
+
+#save(list = "reg_results_actions",file = "reg_results_actions_ena.Rdata")
+load("~/Rprojects/ayano/reg_results_actions_ena.Rdata")
+```
+
+```{r}
+quant_agency = quantile(x = unlist(reg_results_actions),probs = c(0.05,0.95))
+quant_agency
+```
+
+Agency
+```{r}
+sets_agency = map(samps,ena.set,units = units, convo = conversations, window.size = 4,codes = codes_2)
+```
+
+```{r}
+points_agency = map(sets_agency,pluck,"points")
+reg_results_agency = map(points_agency,reg)
+
+quant_agency = quantile(x = unlist(reg_results_agency),probs = c(0.05,0.95))
+quant_agency
+
+save(list = "reg_results_agency",file = "reg_results_agency_ena.Rdata")
+#load("~/Rprojects/ayano/reg_results_actions_ena.Rdata")
+
+```
+
+
+Set up ONA Models
+
+ONA Function
+
+```{r}
+ona.set = function(data,units_by,hoo_rules, codes, window_size){
+  accum_1 <-
+  contexts(data, 
+           units_by = units_by, 
+           hoo_rules = hoo_rules) %>%
+  accumulate_contexts(codes = codes, 
+                      decay.function = decay(simple_window, window_size = window_size),
+                      return.ena.set = FALSE, norm.by = NULL)
+
+set_1 <-
+  # model(accum_1,
+  #       rotate.using = "mean",
+  #       rotation.params = 
+  #         list(engineers=accum_1$meta.data$Role=="Engineer",
+  #              servicedesigners=accum_1$meta.data$Role=="ServiceDesigner"))
+  
+  model(accum_1)
+
+return(set_1)
+}
+
+#reg ona
+
+reg_ona = function(data){
+  x = lm(SVD1 ~ Role + TimePhase,data)
+  return(summary(x)$r.squared)
+}
+```
+
+
+Get Samples
+
+```{r}
+samps_ona = gen.resamples(data,"ona_convo",500,1234)
+```
+
+
+```{r}
+library(ona)
+library(tma)
+
+units_y <- c("Speaker", "Role", "TimePhase")
+
+hoo_rules <- conversation_rules(
+  (TimePhase %in% UNIT$TimePhase & Role %in% UNIT$Role)
+)
+
+#test = ona.set(data = samps[[1]],units_by = units,hoo_rules = hoo_rules,codes = codes_1,window_size = 4)
+
+sets_ona_actions = map(samps_ona,ona.set,units_by = units_y, hoo_rules = hoo_rules, window_size = 4,codes = codes_1)
+
+```
+
+```{r}
+points_ona_actions = map(sets_ona_actions,pluck,"points")
+reg_results_ona = map(points_ona_actions,reg_ona)
+quantile(x = unlist(reg_results_ona),probs = c(0.05,0.95))
+
+save(list = "reg_results_ona",file = "reg_results_actions_ona.Rdata")
+#load("~/Rprojects/ayano/reg_results_actions_ena.Rdata")
+
+```
+
+Agency
+```{r}
+sets_ona_agency = map(samps_ona,ona.set,units_by = units_y, hoo_rules = hoo_rules, window_size = 4,codes = codes_2)
+```
+
+```{r}
+points_ona_agency = map(sets_ona_agency,pluck,"points")
+reg_results_ona_agency = map(points_ona_agency,reg_ona)
+quantile(x = unlist(reg_results_ona_agency),probs = c(0.05,0.95))
+save(list = "reg_results_ona_agency",file = "reg_results_agency_ona.Rdata")
+#load("~/Rprojects/ayano/reg_results_actions_ena.Rdata")
+
+```
+
