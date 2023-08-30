@@ -348,10 +348,10 @@ Here we use marginal means to test for differences between timephases within gro
 ```{r}
 library(emmeans)
 
-emm_x1a = emmeans(mod_x_2, specs = pairwise ~ TimePhase|Role, weights = "proportional") #timephases w/ groups
+emm_x1a = emmeans(mod_x_2, specs = pairwise ~ TimePhase|Role, weights = "proportional") #timephases w/n groups
 emm_x1a = as_tibble(emm_x1a$contrasts)
 
-emm_x2 = emmeans(mod_x_2, specs = pairwise ~ Role|TimePhase, weights = "proportional") #groups within timephases
+emm_x2 = emmeans(mod_x_2, specs = pairwise ~ Role|TimePhase, weights = "proportional") #groups w/n timephases
 emm_x2 = as_tibble(emm_x2$contrasts)
 
 #see here: https://cran.r-project.org/web/packages/emmeans/vignettes/interactions.html
@@ -362,19 +362,26 @@ emm_x2 %>% filter(p.value < 0.05)
 ```
 Several contrasts are significant. Let's calculate the effect sizes
 ```{r}
-cohensd_2 = function(diff_,g1,g2,dat,svd){
-   g1 = dat %>% filter(Role == .data[[g1]]) %>% select(.data[[svd]])
-  #g2 = dat %>% filter(Role == .data[[g2]]) %>% select(.data[[svd]])
-  
-  #d = diff_/(sqrt((sd(g1)^2 + sd(g2)^2)/2))
-  #return(d)
-   return(g1)
+cohensd_2 = function(diff_, sd1, sd2){
+  cd = diff_/(sqrt((sd1^2 + sd2^2)/2))
+  return(cd)
 }
+
+
+sds.x = reg_dat %>% group_by(Role, as.factor(TimePhase)) %>% summarise(stdev = sd(SVD1))
+
+#timephases w/n groups
+eng_t1t2 = cohensd_2(emm_x1a$estimate[1],sd1 = sds.x$stdev[1], sd2 = sds.x$stdev[2]). ###FIX
+eng_t1t3 = cohensd_2(emm_x1a$estimate[2],sd1 = sds.x$stdev[1], sd2 = sds.x$stdev[3])
+sd_t1t2 = cohensd_2(emm_x1a$estimate[3],sd1 = sds.x$stdev[4], sd2 = sds.x$stdev[5])
+sd_t1t3 = cohensd_2(emm_x1a$estimate[4],sd1 = sds.x$stdev[4], sd2 = sds.x$stdev[6])
+pd_t1t3 = cohensd_2(emm_x1a$estimate[5],sd1 = sds.x$stdev[7], sd2 = sds.x$stdev[9])
+pd_t2t3 = cohensd_2(emm_x1a$estimate[6],sd1 = sds.x$stdev[8], sd2 = sds.x$stdev[9])
+
+print(list(eng_t1t2,eng_t1t3,sd_t1t3,sd_t1t3,pd_t1t3,pd_t2t3))
+
+
 ```
-
-
-
-
 
 Marginal means - y RQ1
 
